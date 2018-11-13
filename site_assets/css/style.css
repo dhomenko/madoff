@@ -1,0 +1,1461 @@
+/*
+tinc project builder
+styleFile create on 08.11.2018 16:50:47 ---
+*/
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+body {
+    margin: 0 auto;
+    max-width: 1920px;
+    min-width: 1200px;
+    font-family: "Roboto Slab";
+    line-height: 1;
+    color: #3f3f3f;
+}
+
+.bodyWrap {
+    overflow: hidden;
+    /* min-height: 100vh; */
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a,
+button {
+    cursor: pointer;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+a,
+button,
+select,
+input,
+textarea {
+    outline: none;
+    background: transparent;
+    text-decoration: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    border: none;
+    font-family: "Roboto Slab";
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+    font-family: "Roboto Slab";
+}
+
+a:hover,
+button:hover {
+    opacity: 0.7;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0px 50px;
+}
+
+.cfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.row {
+    margin: 0 -15px;
+}
+
+.row>.item,
+.row>.left {
+    float: left;
+    padding: 0 15px;
+}
+
+.row>.right {
+    float: right;
+    padding: 0 15px;
+}
+
+.grid {
+    margin: -30px -15px 0;
+}
+
+.grid>.item {
+    float: left;
+    padding: 30px 15px 0;
+}
+
+.row::after,
+.grid::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.leftFl {
+    float: left
+}
+
+.rightFl {
+    float: right
+}
+
+.col6 {
+    width: 50%;
+}
+
+.col4 {
+    width: 33.3333%;
+}
+
+.col3 {
+    width: 25%;
+}
+
+.table {
+    display: table;
+}
+
+.table.full {
+    width: 100%;
+}
+
+.tHead,
+.tBody {
+    display: table-row-group;
+}
+
+.tRow {
+    display: table-row;
+}
+
+.tCell {
+    display: table-cell;
+}
+
+.tCell.middle {
+    vertical-align: middle;
+}
+
+.tCell.center {
+    text-align: center;
+}
+
+.tCell.right {
+    text-align: right;
+}
+
+.invisLink {
+    position: relative;
+    z-index: 1
+}
+
+.invisLink>a {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 7;
+    overflow: hidden;
+    text-indent: 200%;
+    white-space: nowrap;
+}
+
+input:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input:focus:-moz-placeholder {
+    color: transparent;
+}
+
+input:focus::-moz-placeholder {
+    color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus::-moz-placeholder {
+    color: transparent;
+}
+
+textarea:focus:-ms-input-placeholder {
+    color: transparent;
+}
+
+.iconLeft {
+    position: relative;
+    display: inline-block;
+}
+
+.iconLeft>[class*='icon'] {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 0px;
+}
+
+.styleGuide .block {
+    display: table;
+    vertical-align: top;
+}
+
+.styleGuide .block+.block {
+    padding: 15px;
+}
+
+.inputBlock {
+    position: relative;
+    padding: 18px 20px 16px;
+    width: auto;
+}
+
+.inputBlock input,
+.inputBlock textarea {
+    position: relative;
+    z-index: 3;
+    background: none;
+    border: 0px;
+    box-shadow: none;
+    background-color: #e3d5ae;
+    display: block;
+    width: 100%;
+    min-height: 22px;
+    font-size: 18px;
+}
+
+.inputBlock textarea {
+    height: 115px !important;
+    max-height: 115px !important;
+    padding: 7.5px 5px;
+    box-sizing: border-box;
+    resize: none;
+    overflow: hidden;
+}
+
+.inputBlock .hStyles,
+.inputBlock .vStyles {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+}
+
+.inputBlock .hStyles:before,
+.inputBlock .hStyles:after,
+.inputBlock .vStyles:before,
+.inputBlock .vStyles:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background-repeat: no-repeat;
+    top: 0px;
+    left: 0px;
+}
+
+.inputBlock .hStyles {
+    width: calc(100% - 42px);
+    left: 22px;
+}
+
+.inputBlock {
+    background: url(../img/input-line_left.png) left top no-repeat, url(../img/input-line_right.png) right top no-repeat;
+}
+
+.inputBlock .selectric-wrapper {
+    position: relative;
+    z-index: 2;
+}
+
+.inputBlock .selectric-wrapper .selectric .label {
+    height: 22px;
+    line-height: 22px;
+    min-width: 200px;
+}
+
+.inputBlock:before,
+.inputBlock:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 22px;
+    right: 20px;
+    width: calc(100% - 42px);
+    height: 100%;
+    background-size: auto;
+    background-repeat: repeat-x;
+    top: 0px;
+}
+
+.inputBlock:before {
+    background-image: url(../img/input-line_top.png);
+    background-position: left calc(0% - 1px);
+}
+
+.inputBlock:after {
+    background-image: url(../img/input-line_bott.png);
+    background-position: left calc(100% + 6px);
+}
+
+.inputBlock.textarea .hStyles:before {
+    background-position: left calc(0% + 2px);
+}
+
+.inputBlock.textarea .hStyles:after {
+    background-position: left calc(100% + 0px);
+}
+
+.inputBlock .vStyles {
+    left: 0px;
+    right: 0px;
+}
+
+.inputBlock.textarea {
+    background: url(../img/textarea-line_left.png) left -2px no-repeat, url(../img/textarea-line_right.png) right -2px no-repeat;
+}
+
+.inputBlock.textarea:before,
+.inputBlock.textarea:after {
+    background-repeat: repeat-x;
+}
+
+.inputBlock.textarea:before {
+    background-image: url(../img/input-line_top.png);
+    background-position: left calc(0% - -1px);
+}
+
+.inputBlock.textarea:after {
+    background-image: url(../img/input-line_bott.png);
+    background-position: left calc(100% - 3px);
+
+}
+
+input,
+textarea {}
+
+.form {}
+
+.itemForm {
+    position: relative;
+}
+
+.itemForm label {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.itemForm .inputBlock {}
+
+.itemForm.topTitle {}
+
+.itemForm.topTitle label {
+    display: block;
+}
+
+.itemForm.topTitle .inputBlock {}
+
+.itemForm.leftTitle {
+    white-space: nowrap;
+    display: table;
+    width: 100%;
+}
+
+.itemForm.leftTitle label {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.itemForm.leftTitle .inputBlock {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+[class^='btn'] {
+    position: relative;
+    display: inline-block;
+    padding: 0px 50px;
+    height: 50px;
+    min-width: 175px;
+    font-family: "Pointy";
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    color: #3f3f3f;
+
+}
+
+[class^='btn']::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+}
+
+[class^='btn'][class^='Border'] {}
+
+[class^='btn'][class^='Border']:hover {}
+
+[class^='btn'][class^='Border'][class^='Back'] {}
+
+[class*='btn'][class*='Border'][class*='Back']::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    margin: auto;
+    width: calc(100% - 17px);
+    height: calc(100% - 17px);
+    background-image: url(../img/btn_back.png);
+}
+
+[class^='btn'][class^='Border'][class^='Back']:hover {}
+
+.scrollBlock {
+    padding: 20px 15px;
+}
+
+.scrollBlock .mCSB_scrollTools .mCSB_dragger {
+    height: 12px !important;
+    width: 27px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url(../img/scroll-control.png);
+    min-height: auto !important;
+    left: -6px;
+    background-size: auto;
+}
+
+.scrollBlock .mCSB_scrollTools .mCSB_draggerRail {
+    display: none;
+}
+
+.scrollBlock .mCSB_scrollTools {
+    right: 6px;
+}
+
+.scrollBlock .mCSB_scrollTools .mCSB_draggerContainer {
+    background-repeat: repeat-y;
+    background-position: top;
+    background-image: url(../img/scroll-line.png);
+    background-size: 6px auto;
+}
+
+.scrollBlock .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    display: none;
+}
+
+.testScroll {
+    height: 300px;
+    width: 700px;
+}
+
+.borderBlock,
+[class*="btnBorder"],
+[class^='btn']::before {
+    background: url(../img/block-line_left.png) left top repeat-y, url(../img/block-line_right.png) right top repeat-y, url(../img/block-line_top.png) left top repeat-x, url(../img/block-line_bott.png) left bottom repeat-x;
+}
+
+.testBorderBlock {
+    height: 300px;
+    width: 800px;
+    padding: 20px 15px;
+}
+
+[class*="Cap"] {
+    display: block;
+    font-family: "Pointy";
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    color: #3f3f3f;
+}
+
+.firstCap {
+    position: relative;
+    display: inline-block;
+    font-size: 48px;
+}
+
+.firstCap {
+    font-size: 42px;
+}
+
+.firstCap::before,
+.firstCap::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    width: 96px;
+    height: 7px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.firstCap.simple::before,
+.firstCap.simple::after {
+    display: none;
+}
+
+
+.firstCap::before {
+    right: calc(100% + 20px);
+    background-image: url(../img/title_left.png);
+}
+
+.firstCap::after {
+    left: calc(100% + 20px);
+    background-image: url(../img/title_right.png);
+}
+
+.secCap {
+    font-size: 30px;
+}
+
+.textBlock p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    color: #3f3f3f;
+}
+
+.textBlock p span {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.textBlock p+p,
+.textBlock img+p {
+    margin-top: 5px;
+}
+
+.simpleLink {
+    display: table;
+    font-size: 18px;
+    text-decoration: underline;
+    color: #3e8c99;
+}
+
+.simpleLink:hover {
+    opacity: 1;
+}
+
+.pageContent {
+    min-height: calc(100vh - 50px);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.homePage {
+    position: relative;
+    padding: 35px 0px 55px;
+}
+
+.homePage .left {
+    width: 465px;
+    float: left;
+}
+
+.homePage .right {
+    width: 545px;
+    float: right;
+}
+
+.homePage .logo {
+    margin-top: 15px;
+    margin-left: 80px;
+}
+
+.mainImg {
+    width: 664px;
+    height: 848px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.homePage .logReg {
+    position: absolute;
+    top: 135px;
+    left: -65px;
+}
+
+.logReg [class*="btn"] {
+    width: 175px;
+    padding: 0px;
+    display: block;
+}
+
+.logReg [class*="btn"]+[class*="btn"] {
+    margin-top: 5px;
+}
+
+.homePage .mainImg {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    right: 0px;
+    margin-left: -290px;
+}
+
+.logo {
+    position: relative;
+    padding-left: 132px;
+    width: 270px;
+    height: 95px;
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    -moz-transition: opacity 0.3s;
+    -ms-transition: opacity 0.3s;
+    -o-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+.logo:hover {
+    opacity: 0.7;
+}
+
+.logo img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logo .txt {
+    display: block;
+    padding-top: 65px;
+    font-size: 26px;
+    color: #946704;
+}
+
+.homePage .logo+.mainInfo {
+    margin-top: 50px;
+}
+
+.mainInfo [class*="Cap"]+.textBlock {
+    margin-top: 5px;
+}
+
+.mainInfo .textBlock {
+    height: 295px;
+    padding: 0px;
+}
+
+.mainInfo .textBlock p {
+    padding-right: 10px;
+}
+
+.homePage .mainInfo+.statistic {
+    margin-top: 40px;
+}
+
+.statistic [class*="Cap"]+ul {
+    margin-top: 5px;
+}
+
+.statistic ul {
+    font-size: 0px;
+    padding-bottom: 20px;
+}
+
+.statistic ul li {
+    display: inline-block;
+    padding-top: 12px;
+    width: 50%;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.statistic ul li:nth-child(odd) {
+    padding-left: 45px;
+}
+
+.statistic ul li:nth-child(even) {
+    padding-left: 5px;
+}
+
+.statistic ul li .num {
+    display: block;
+    font-family: "Pointy";
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.01em
+}
+
+.homePage .statistic+.mainMenu {
+    margin-top: 45px;
+}
+
+.mainMenu {
+    font-size: 0px;
+    text-align: center;
+}
+
+.mainMenu li {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+}
+
+.mainMenu li+li {
+    margin-left: 35px;
+}
+
+.mainMenu li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -10px;
+    left: -20px;
+    width: 119px;
+    height: 65px;
+    background-image: url(../img/menu_back.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.mainMenu li a {
+    font-family: "Pointy";
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.01em;
+    color: #3f3f3f;
+}
+
+.mainMenu li a:hover {
+    opacity: 1;
+}
+
+.planInfo .tariff .secCap {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.planInfo .tariff .pct {
+    position: relative;
+    display: inline-block;
+    font-family: "Pointy";
+    font-size: 111px;
+    vertical-align: middle;
+    margin-left: 30px;
+    z-index: 1;
+}
+
+.planInfo .tariff .pct::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -40px;
+    width: 214px;
+    height: 136px;
+    background-image: url(../img/num_back1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.planInfo ul li {
+    font-size: 18px;
+    line-height: 30px;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.planInfo ul li span {
+    font-family: "Pointy";
+    font-size: 24px;
+}
+
+.planInfo ul li:first-child span {
+    font-size: 30px;
+}
+
+.planInfo ul+[class*="btn"] {
+    margin-top: 15px;
+}
+
+.homePage .planInfo+.calculator {
+    margin-top: 35px;
+}
+
+.calculator .calc {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 40px;
+    padding-top: 25px;
+}
+
+.calculator .calc .range+.itemForm {
+    margin-top: 5px;
+}
+
+.calculator .calc .itemForm+.itemForm {
+    margin-top: 15px;
+}
+
+.calculator .itemForm+.profitBlock {
+    margin-top: 40px;
+}
+
+.range .irs-line {
+    background-image: url(../img/slider_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.range .irs-min,
+.range .irs-max {
+    background: none;
+    font-family: "Pointy";
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    color: #3f3f33;
+    opacity: 0.5;
+    top: -10px;
+}
+
+.range .irs-single {
+    display: none;
+}
+
+.range .irs-slider {
+    top: 15px;
+    width: 12px;
+    height: 26px;
+    background-image: url(../img/slider.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.profitBlock {
+    font-size: 0px;
+    padding-left: 50px;
+}
+
+.profitBlock li {
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+    z-index: 1;
+}
+
+.profitBlock li+li {
+    margin-left: 95px;
+}
+
+.profitBlock li::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: 182px;
+    height: 100px;
+    background-image: url(../img/num_back2.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.profitBlock li span {
+    display: block;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    margin-top: 8px;
+}
+
+.homePage .calculator+.programm {
+    margin-top: 30px;
+}
+
+.programm [class*="Cap"]+.ref {
+    margin-top: 5px;
+}
+
+.programm .ref span {
+    display: inline-block;
+    font-size: 24px;
+    line-height: 60px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.programm .ref .pct {
+    display: inline-block;
+    font-family: "Pointy";
+    font-size: 60px;
+    line-height: 1;
+    letter-spacing: 0.01em;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+footer {
+    position: relative;
+    padding-bottom: 10px;
+    z-index: 1;
+}
+
+footer::before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 1920px;
+    height: 100px;
+    left: 50%;
+    margin-left: -960px;
+    bottom: 0px;
+    background-image: url(../img/footer_back.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.logoSm {
+    position: relative;
+    width: 115px;
+    height: 40px;
+    padding-left: 56px;
+    padding-top: 21px;
+}
+
+.logoSm img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.logoSm .txt {
+    font-size: 11px;
+    color: #9f977c;
+}
+
+.copyright {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 23px;
+    color: #9f977c;
+}
+
+.copyright span {
+    text-transform: uppercase;
+}
+
+.menu {
+    font-size: 0px;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu li+li {
+    margin-left: 29px;
+}
+
+.menu li a {
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 0.01em;
+    color: #3f3f3f;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.menu li.active a,
+.menu li a:hover {
+    /*     font-weight: bold; */
+    text-decoration: underline !important;
+    color: #3e8c99;
+    opacity: 1;
+}
+
+.payments {
+    font-size: 0px;
+}
+
+.payments li {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.payments li+li {
+    margin-left: 25px;
+}
+
+/* ABOUT */
+
+.inPage {
+    position: relative;
+    padding: 50px 0px 65px;
+}
+
+.inPage .mainContent {
+    max-width: 1280px;
+}
+
+.inPage .mainImg {
+    position: absolute;
+    top: 30px;
+    right: -155px;
+}
+
+.inPage .mainImg .pageImg {
+    position: absolute;
+    width: 154px;
+    height: 182px;
+    top: 50px;
+    left: -40px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.pageHead .logoWrap {
+    width: 270px;
+}
+
+.pageHead .titleWrap {
+    padding-left: 80px;
+    text-align: center;
+}
+
+.inPage .pageHead+.aboutUs {
+    margin-top: 50px;
+}
+
+.aboutUs [class*="Cap"]+.textBlock {
+    margin-top: 5px;
+}
+
+.aboutUs .item:nth-child(2) {
+    padding-left: 30px;
+}
+
+.aboutUs .textBlock img {
+    float: right;
+    margin-right: 25px;
+    margin-left: 30px;
+}
+
+.inPage .aboutUs+.advantages {
+    margin-top: 35px;
+}
+
+.advantages .wrap {
+    padding-top: 40px;
+    padding-left: 105px;
+    padding-bottom: 10px;
+}
+
+.advantages .wrap>.item {
+    float: left;
+    padding-left: 40px;
+    width: 510px;
+    height: 120px;
+}
+
+.advantages .item .img {
+    width: 100px;
+    text-align: center;
+}
+
+.advantages .item .title {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+/* CONTACT */
+
+.contacts {
+    padding-bottom: 150px;
+}
+
+.contacts .pageHead+.contInfo {
+    margin-top: 20px;
+}
+
+.contInfo {
+    padding-left: 35px;
+    padding-top: 30px;
+    padding-bottom: 65px;
+    padding-right: 45px;
+}
+
+.contInfo .title {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+
+.contInfo .title+.textBlock {
+    margin-top: 10px;
+}
+
+.contInfo .textBlock+.contList {
+    margin-top: 25px;
+}
+
+.contList {
+    padding-left: 225px;
+}
+
+.contList li {}
+
+.contList li+li {
+    margin-left: 120px;
+}
+
+.contList .iconLeft {
+    padding-left: 80px;
+}
+
+.contList .iconLeft .icon {
+    margin-top: -23px;
+    z-index: 1;
+}
+
+.contList .iconLeft .icon::before {
+    content: '';
+    display: block;
+    position: absolute;
+    top: -5px;
+    left: -35px;
+    width: 119px;
+    height: 65px;
+    background-image: url(../img/menu_back.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+
+.contList .iconLeft .data {}
+
+.contList .iconLeft span {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.contList .iconLeft a {
+    margin-top: 5px;
+}
+
+.inPage .contInfo+.contForm {
+    margin-top: 50px;
+}
+
+.contForm {}
+
+.contForm [class*="Cap"] {}
+
+.contForm [class*="Cap"]+.textBlock {
+    margin-top: 5px;
+    padding-right: 30px;
+}
+
+.contForm .textBlock {}
+
+.contForm .textBlock+form {
+    margin-top: 30px;
+}
+
+.contForm .itemForm .captcha {
+    position: absolute;
+    top: -12px;
+    right: 7px;
+    width: 100px;
+    height: 30px;
+}
+
+.contForm .itemForm+.itemForm {
+    margin-top: 10px;
+}
+
+.contForm .itemForm+[class*="btn"] {
+    margin-top: 30px;
+}
+
+.contForm [class*="btn"] {
+    width: 100%;
+}
+
+/* FAQ */
+
+.inPage .pageHead+.faqList {
+    margin-top: 20px;
+}
+
+.faqList .scrollBlock {
+    height: 720px;
+    padding-top: 32px;
+    padding-left: 35px;
+    padding-bottom: 45px;
+}
+
+.faqList .faqItem+.faqItem {
+    margin-top: 20px;
+}
+
+.faqItem .head {
+    cursor: pointer;
+}
+
+.faqItem .head:hover {
+    color: #3e8c99
+}
+
+.faqItem .head .iconLeft {
+    padding-left: 50px;
+}
+
+.faqItem .head .iconLeft [class*="icon"] {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.faqItem .head .iconLeft .icon-plus {
+    font-size: 32px;
+    margin-top: -16px;
+}
+
+.faqItem .head .iconLeft .icon-minus {
+    opacity: 0;
+    margin-top: -8px;
+}
+
+.faqItem .head .iconLeft .data {
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.faqItem .head.active .iconLeft .icon-minus {
+    opacity: 1;
+}
+
+.faqItem .head.active .iconLeft .icon-plus {
+    opacity: 0;
+}
+
+.faqItem .head.active .iconLeft [class*="icon"],
+.faqItem .head.active .iconLeft .data {
+    color: #3e8c99;
+}
+
+.faqItem .content {
+    padding-top: 10px;
+    padding-left: 70px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+}
+
+.faqItem .head:not(.active)+.content {
+    display: none;
+}
+
+/* RULES */
+
+.inPage .pageHead+.ruleList {
+    margin-top: 20px;
+}
+
+.ruleList .scrollBlock {
+    height: 720px;
+    padding-left: 35px;
+    padding-top: 30px;
+}
+
+.ruleList .ruleItem + .ruleItem {
+    margin-top: 28px;
+}
+
+.ruleItem {
+    padding-right: 110px;
+}
+
+.ruleItem .num {
+    display: block;
+    font-family: "Pointy";
+    font-size: 48px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.ruleItem .num + .title {
+    margin-top: 3px;
+}
+
+.ruleItem .title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.01em;
+} 
+
+.ruleItem .title + .textBlock {
+    margin-top: 15px;
+}
+
+.ruleItem .textBlock span {
+    font-size: 18px;
+}
+
+/* INVESTORS */
+
+.inPage .pageHead + .investInfo {
+    margin-top: 35px;
+} 
+
+.investInfo .planInfo {
+    float: left;
+}
+
+.investInfo .planInfo .tariff .pct::before {
+    display: none;
+}
+
+.investInfo .planInfo + .calculator {
+    margin-left: 25px;
+}
+
+.investInfo .calculator {
+    padding-top: 5px;
+    width: 545px;
+    float: left;
+}
+
+.investInfo .calculator + .textBlock {
+    margin-left: 35px;
+}
+
+.investInfo .textBlock {
+    padding-top: 5px;
+    float: left;
+    width: 270px;
+}
+
+.investInfo + .affProgr {
+    margin-top: 30px;
+}
+
+.affProgr .wrap {
+    margin-top: 3px;
+    padding: 40px 0px 50px;
+}
+
+.affProgr .pct {
+    display: block;
+    font-family: "Pointy";
+    font-size: 100px;
+    letter-spacing: 0.01em;
+}
+
+.affProgr .pct + span {
+    display: block;
+    margin-top: 13px;
+    font-size: 24px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.affProgr .table .tCell:first-child {
+    width: 345px;
+}
+
+.affProgr .wrap .textBlock {
+    padding-right: 70px;
+}
+
+
