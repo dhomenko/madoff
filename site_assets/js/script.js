@@ -81,4 +81,24 @@ $(document).ready(function () {
             }
         })
     }
+
+    if ($(".copyLink").length > 0) {
+        new ClipboardJS(".copyLink");
+    }
+
+    if ($(".tabs").length > 0) {
+        $(".tabs").map(function () {
+            $(this).tabs({
+                active: 3,
+                show: {
+                    effect: "fadeIn",
+                    duration: 300
+                },
+                hide: {
+                    effect: "fadeOut",
+                    duration: 300
+                }
+            })
+        })
+    }
 })

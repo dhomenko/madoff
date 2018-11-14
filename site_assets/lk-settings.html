@@ -36,20 +36,255 @@ htmlFile create on 08.11.2018 16:50:47
 
 <body>
 
-    <h1>Настройка</h1>
+    <div class="bodyWrap">
+
+        <div class="cabPage pageContent" style="background-image: url(img/in_back.jpg)">
+
+            <div class="container">
+                <div class="cfix">
+                    <div class="leftSide">
+
+                        <div class="logoWrap">
+                            <div class="logo invisLink">
+                                <img src="img/logo.png" alt="logo">
+                                <span class="txt">Madoff.pro</span>
+                                <a href="#">main</a>
+                            </div>
+                        </div>
+
+                        <div class="userBl">
+                            <div class="pic" style="background-image: url(img/user.jpg)">
+                                <input type="file" name="userpic" id="userpic">
+                                <label for="userpic"></label>
+                            </div>
+
+                            <a href="#" class="name">Alex_095311135</a>
+
+                            <ul class="info">
+                                <li>Last seen: 23.06.2018</li>
+                                <li>With IP adress: 192.190.111.222</li>
+                            </ul>
+
+                        </div>
+
+                        <ul class="cabMenu">
+                            <li>
+                                <a href="#" class="iconLeft">
+                                    <span class="icon-acc"></span>
+                                    <span class="data">Account</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="iconLeft">
+                                    <span class="icon-dep"></span>
+                                    <span class="data">Deposit list</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="iconLeft">
+                                    <span class="icon-history"></span>
+                                    <span class="data">Earning history</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="iconLeft">
+                                    <span class="icon-refs"></span>
+                                    <span class="data">Referrals</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="#" class="iconLeft">
+                                    <span class="icon-sett"></span>
+                                    <span class="data">Edit account</span>
+                                </a>
+                            </li>
+                        </ul>
+
+                        <div class="cabBtns">
+                            <a href="#" class="btnBorderBack">Deposit</a>
+                            <a href="#" class="btnBorder">Withdraw</a>
+                        </div>
+
+                    </div>
+
+                    <div class="rightSide">
+                        <div class="cabHead">
+
+                            <ul class="balList">
+                                <li>
+                                    <div class="iconLeft">
+                                        <img src="img/bal1.png" alt="balance" class="icon">
+                                        <div class="data">
+                                            <span class="title">Your balance:</span>
+                                            <span class="num">$5620.00</span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="iconLeft">
+                                        <img src="img/bal2.png" alt="balance" class="icon">
+                                        <div class="data">
+                                            <span class="title">On the depost: <span>$568.00</span></span>
+                                            <span class="title">Deduced: <span>$260.00</span></span>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="iconLeft">
+                                        <img src="img/bal3.png" alt="balance" class="icon">
+                                        <div class="data">
+                                            <span class="title">On the depost: <span>$568.00</span></span>
+                                            <span class="title">Deduced: <span>-</span></span>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="cabContent">
+                            <span class="firstCap cab">edit account</span>
+                            <div class="editAcc">
+                                <form action="#">
+                                    <div class="row">
+                                        <div class="item col4">
+                                            <span class="title">your personal information</span>
+                                            <div class="formWrap borderBlock">
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="editName">Fullname:</label>
+                                                    <div class="inputBlock">
+                                                        <input type="text" name="editName" id="editName" value="Alexander">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="editEmail">E-mail:</label>
+                                                    <div class="inputBlock">
+                                                        <input type="email" name="editEmail" id="editEmail">
+                                                    </div>
+                                                </div>
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="reEmail">Retype E-mail:</label>
+                                                    <div class="inputBlock">
+                                                        <input type="email" name="reEmail" id="reEmail">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="item col4">
+                                            <span class="title">change password</span>
+                                            <div class="formWrap borderBlock">
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="editPass">old password:</label>
+                                                    <div class="inputBlock">
+                                                        <input type="password" name="editPass" id="editPass">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="newPass">new Password:</label>
+                                                    <div class="inputBlock">
+                                                        <input type="password" name="newPass" id="newPass">
+                                                    </div>
+                                                </div>
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="rePass">Retype password:</label>
+                                                    <div class="inputBlock">
+                                                        <input type="password" name="rePass" id="rePass">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <div class="item col4">
+                                            <span class="title">payment information</span>
+                                            <div class="formWrap borderBlock">
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="paySys1">
+                                                        <img src="img/label_pay1.png" alt="">
+                                                    </label>
+                                                    <div class="inputBlock">
+                                                        <input type="text" name="paySys1" id="paySys1">
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="itemForm topTitle">
+                                                    <label for="paySys2">
+                                                        <img src="img/label_pay2.png" alt="">
+                                                    </label>
+                                                    <div class="inputBlock">
+                                                        <input type="text" name="paySys2" id="paySys2">
+                                                    </div>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <button type="submit" class="btnBorder center">save</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <div class="container">
+                <div class="table full">
+                    <div class="tCell middle left">
+                        <div class="logoSm invisLink">
+                            <img src="img/logo_sm.png" alt="logo">
+                            <span class="txt">Madoff.pro</span>
+                            <a href="#">main</a>
+                        </div>
+                    </div>
+                    <div class="tCell middle center">
+                        <p class="copyright"><span>madoff.pro</span> company, all rights reserved</p>
+                    </div>
+                    <div class="tCell middle center">
+                        <ul class="menu">
+                            <li><a href="#">home</a></li>
+                            <li><a href="#">contacts</a></li>
+                            <li><a href="#">f.A.Q</a></li>
+                            <li><a href="#">rules</a></li>
+                            <li><a href="#">log in</a></li>
+                            <li><a href="#">Sign Up</a></li>
+                        </ul>
+                    </div>
+                    <div class="tCell middle right">
+                        <ul class="payments">
+                            <li><img src="img/payment1.png" alt="paysystem"></li>
+                            <li><img src="img/payment2.png" alt="paysystem"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    </div>
 
     <a href='../index.html' style='position: absolute;
-                left: 0px;
-                top: 0px;
-                background-color: rgba(0,0,0,0.5);
-                padding: 3px 5px;
-                font-size: 16px;
-                line-height: 22px;
-                display: table;
-                color: #fff;
-                font-weight: bold;
-                text-decoration: none;
-                font-family: arial;'>back</a>
+                                            left: 0px;
+                                            top: 0px;
+                                            background-color: rgba(0,0,0,0.5);
+                                            padding: 3px 5px;
+                                            font-size: 16px;
+                                            line-height: 22px;
+                                            display: table;
+                                            color: #fff;
+                                            font-weight: bold;
+                                            text-decoration: none;
+                                            z-index: 5;
+                                            font-family: arial;'>back</a>
 
 </body>
 

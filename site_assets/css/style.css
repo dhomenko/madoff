@@ -86,7 +86,7 @@ button:hover {
 .container {
     width: 100%;
     margin: 0 auto;
-    padding: 0px 50px;
+    /* padding: 0px 50px; */
 }
 
 .cfix::after {
@@ -473,6 +473,12 @@ textarea {}
 
 [class^='btn'][class^='Border'][class^='Back']:hover {}
 
+[class^='btn'].center {
+    display: table;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
 .scrollBlock {
     padding: 20px 15px;
 }
@@ -542,6 +548,10 @@ textarea {}
     font-size: 42px;
 }
 
+.firstCap.cab {
+    font-size: 36px;
+}
+
 .firstCap::before,
 .firstCap::after {
     content: '';
@@ -604,6 +614,7 @@ textarea {}
 }
 
 .pageContent {
+    padding: 0px 50px;
     min-height: calc(100vh - 50px);
     background-position: center top;
     background-repeat: no-repeat;
@@ -612,7 +623,8 @@ textarea {}
 
 .homePage {
     position: relative;
-    padding: 35px 0px 55px;
+    padding-top: 35px;
+    padding-bottom: 55px;
 }
 
 .homePage .left {
@@ -963,7 +975,7 @@ textarea {}
 
 footer {
     position: relative;
-    padding-bottom: 10px;
+    padding: 0px 50px 10px;
     z-index: 1;
 }
 
@@ -1062,7 +1074,8 @@ footer::before {
 
 .inPage {
     position: relative;
-    padding: 50px 0px 65px;
+    padding-top: 50px;
+    padding-bottom: 65px;
 }
 
 .inPage .mainContent {
@@ -1355,7 +1368,7 @@ footer::before {
     padding-top: 30px;
 }
 
-.ruleList .ruleItem + .ruleItem {
+.ruleList .ruleItem+.ruleItem {
     margin-top: 28px;
 }
 
@@ -1371,7 +1384,7 @@ footer::before {
     text-align: center;
 }
 
-.ruleItem .num + .title {
+.ruleItem .num+.title {
     margin-top: 3px;
 }
 
@@ -1382,9 +1395,9 @@ footer::before {
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 0.01em;
-} 
+}
 
-.ruleItem .title + .textBlock {
+.ruleItem .title+.textBlock {
     margin-top: 15px;
 }
 
@@ -1394,9 +1407,9 @@ footer::before {
 
 /* INVESTORS */
 
-.inPage .pageHead + .investInfo {
+.inPage .pageHead+.investInfo {
     margin-top: 35px;
-} 
+}
 
 .investInfo .planInfo {
     float: left;
@@ -1406,7 +1419,7 @@ footer::before {
     display: none;
 }
 
-.investInfo .planInfo + .calculator {
+.investInfo .planInfo+.calculator {
     margin-left: 25px;
 }
 
@@ -1416,7 +1429,7 @@ footer::before {
     float: left;
 }
 
-.investInfo .calculator + .textBlock {
+.investInfo .calculator+.textBlock {
     margin-left: 35px;
 }
 
@@ -1426,7 +1439,7 @@ footer::before {
     width: 270px;
 }
 
-.investInfo + .affProgr {
+.investInfo+.affProgr {
     margin-top: 30px;
 }
 
@@ -1442,7 +1455,7 @@ footer::before {
     letter-spacing: 0.01em;
 }
 
-.affProgr .pct + span {
+.affProgr .pct+span {
     display: block;
     margin-top: 13px;
     font-size: 24px;
@@ -1458,4 +1471,370 @@ footer::before {
     padding-right: 70px;
 }
 
+/* CABINET */
 
+.cabPage {
+    padding-top:50px;
+    padding-bottom:65px;
+}
+
+.cabPage.main {
+    padding-bottom: 80px;
+}
+
+.leftSide {
+    float: left;
+    width: 320px;
+}
+.cabPage .logo {
+    position: relative;
+    left:80px;
+}
+ .logoWrap {}
+ .logoWrap + .userBl {margin-top: 85px;}
+ .leftSide .userBl {padding-right: 70px;}
+ .userBl .pic {
+     position: relative;
+     width: 105px; 
+     height: 105px; 
+     margin: 0px auto; 
+     background-size: cover; 
+     background-position: center;
+     background-repeat: no-repeat;
+     opacity: 1;
+     border: 9px solid rgba(62, 140, 153, 0.5);
+     -webkit-transition: opacity 0.3s;
+     -moz-transition: opacity 0.3s;
+     -ms-transition: opacity 0.3s;
+     -o-transition: opacity 0.3s;
+     transition: opacity 0.3s;
+}
+.userBl .pic:hover {
+    opacity: 0.7;
+}
+ .userBl .pic input {display: none;}
+ .userBl .pic label {
+     position: absolute;
+     width: 100%;
+     height: 100%;
+     top: 0px;
+     left: 0px;
+     z-index: 5;
+     cursor: pointer;
+}
+.userBl .pic + .name {
+    margin-top: 20px;
+}
+ .userBl .name {
+     display: table;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 24px;
+     color: #3e8c99;
+     
+}
+ .userBl .info {
+     margin-top:25px;
+     padding-left: 10px;
+}
+ .userBl .info li {
+     font-size: 14px;
+     font-weight: 300;
+}
+.userBl .info li + li {
+    margin-top: 10px;
+}
+.userBl + .cabMenu {
+    margin-top: 35px;
+} 
+.cabMenu {}
+ .cabMenu li {}
+ .cabMenu li + li {
+     margin-top: 20px
+}
+ .cabMenu li .iconLeft {
+     padding-left: 38px;
+}
+ .cabMenu li .iconLeft [class*="icon"] {
+     font-size: 26px;
+     margin-top: -13px;
+     color: #3f3f3f;
+     -webkit-transition: color 0.3s;
+     -moz-transition: color 0.3s;
+     -ms-transition: color 0.3s;
+     -o-transition: color 0.3s;
+     transition: color 0.3s;
+}
+.cabMenu li .iconLeft .icon-refs {
+    font-size: 20px;
+    margin-top: -10px;
+}
+ .cabMenu li .iconLeft .data {
+     font-size: 24px;
+     font-weight: 300;
+     text-transform: uppercase;
+     text-decoration: underline;
+     letter-spacing: 0.01em;
+     color: #3f3f3f;
+     -webkit-transition: color 0.3s;
+     -moz-transition: color 0.3s;
+     -ms-transition: color 0.3s;
+     -o-transition: color 0.3s;
+     transition: color 0.3s;
+}
+.cabMenu li a:hover {
+    opacity: 1;
+}
+.cabMenu li a:hover [class*="icon"],
+.cabMenu li a:hover .data,
+.cabMenu li.active [class*="icon"],
+.cabMenu li.active .data {
+    color: #3e8c99;
+    opacity: 1;
+}
+ .cabMenu + .cabBtns {margin-top: 40px;}
+ .cabBtns {padding-left: 35px;}
+ .cabBtns [class*="btn"] {
+     width: 170px;
+     padding: 0px;
+     display: table;
+}
+ .cabBtns [class*="btn"] + [class*="btn"] {margin-top: 15px;}
+.rightSide {
+    float: right;
+    width: calc(100% - 320px);
+}
+.cabHead {
+    padding-top: 25px;
+    padding-left: 190px;
+}
+.balList {
+    font-size: 0px;
+}
+.balList li {
+    display: inline-block;
+}
+.balList li + li {
+    margin-left:77px;
+}
+.balList li .iconLeft {
+    padding-left: 85px;
+}
+.balList li .iconLeft [class*="icon"] {
+    margin-top: -32px;
+}
+.balList li .iconLeft .data {}
+.balList li .title {
+    display: block;
+    font-size: 24px;
+    font-weight: 300;
+}
+.balList li .title + .title {
+    
+    margin-top: 10px;
+}
+.balList li .title span {
+    font-weight: normal;
+}
+.balList li .num {
+    display: block;
+    font-size: 30px;
+    color: #3e8c99;
+    margin-top: 5px;
+}
+.cabContent {
+    padding-top: 50px;
+}
+.cabContent .firstCap {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+}
+.accInfo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.accStat {
+    font-size: 0px;
+    max-width: 1000px;
+    margin: 0px auto;
+    margin-top:-55px;
+}
+.accStat li {
+    display: inline-block;
+    width: 33.3333%;
+    margin-top:55px;
+}
+.accStat li + li {}
+.accStat li .title {
+    display: block;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0.01em;
+}
+.accStat li .num {
+    display: block;
+    font-family: "Pointy";
+    font-size: 36px;
+    margin-top:10px;
+}
+.accInfo .accStat + .upline {
+    margin-top: 55px;
+}
+.upline {
+    text-align: center;
+}
+.upline .userBl {}
+.upline .userBl .pic {}
+.upline .userBl .pic:hover {
+    opacity: 1;
+}
+.upline .userBl + span {
+    display: block;
+    font-size: 18px;
+    margin-top:12px;
+}
+.upline a {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 24px;
+    color: #3e8c99;
+    margin-top: 7px;
+}
+.accInfo .upline + .refLink {
+    margin-top: 30px;
+}
+.refLink {
+    font-size: 0px;
+    text-align: center;
+}
+.refLink .itemForm {
+    display: inline-block;
+    text-align: left;
+    width: 670px;
+    padding-left: 70px;
+    position: relative;
+}
+.refLink .itemForm label {
+    
+    padding-left: 25px;
+}
+.refLink .itemForm input {
+    text-transform: uppercase;
+}
+.refLink .itemForm .icon {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+.refLink [class*="btn"] {
+    display: inline-block;
+    width: 170px;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+/* EDIT */
+
+.cabContent [class*="Cap"] + .editAcc {
+    margin-top: 35px;
+}
+
+.editAcc {
+    max-width: 1190px;
+    margin: 0px auto;
+}
+
+.editAcc .title {
+    display: block;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+}
+
+.editAcc .title + .formWrap {
+    margin-top: 15px;
+}
+
+.editAcc .formWrap {
+    padding: 30px 40px 30px 30px;
+    min-height: 395px;
+}
+
+.editAcc .itemForm + .itemForm {
+    margin-top: 8px;
+}
+
+.editAcc .itemForm label {
+    color: #9f977c;
+}
+
+.editAcc .row + [class*="btn"] {
+    margin-top: 40px;
+}
+
+/* BANNERS */
+
+.banTabs .tabList {
+    height: 80px;
+}
+
+.banTabs .tabList a {
+    font-family: "Pointy";
+    font-size: 30px;
+    color: #3f3f3f;
+    -webkit-transition: color 0.3s;
+    -moz-transition: color 0.3s;
+    -ms-transition: color 0.3s;
+    -o-transition: color 0.3s;
+    transition: color 0.3s;
+}
+
+.banTabs .tabList a:hover,
+.banTabs .tabList .ui-state-active a {
+    opacity: 1;
+    color: #3e8c99;
+}
+
+.banTabs .tabList .ui-state-active a {
+    text-decoration: underline;
+}
+
+.banTabs .tabContent {
+    padding-top: 55px;
+}
+
+.banTabs .tabContent .img {
+    margin: 0px auto;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.33);
+}
+
+.banTabs .tabContent .img + .link {
+    margin-top: 50px;
+}
+
+.banTabs .tabContent .link {
+    text-align: center;
+}
+
+.banTabs .tabContent .link .itemForm {
+    width: 600px;
+    display: inline-block;
+}
+
+.banTabs .tabContent .link input {
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.banTabs .tabContent [class*="btn"] {
+    display: inline-block;
+    width: 170px;
+    padding: 0px;
+    margin-left: 15px;
+}
