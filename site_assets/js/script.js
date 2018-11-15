@@ -3,6 +3,40 @@ tinc project builder
 jsFile create on 08.11.2018 16:50:47
 */
 $(document).ready(function () {
+
+    var overlay = $('#overlay');
+    var openMod = $('.openMod');
+    var close = $('.close');
+    var blockMod = $('.blockMod');
+
+    function modalEvent() {
+        overlay.fadeIn(500);
+        $(".blockMod#" + $(this).attr('data-modal')).addClass("open").fadeIn(500);
+        $("body").addClass("bodyModal");
+        $(".modalsScroll").addClass("open");
+    }
+
+    openMod.on("click", modalEvent);
+
+    close.click(function () {
+        overlay.fadeOut(500);
+        $(".blockMod.open").fadeOut(500, function () {
+            $(this).removeClass("open");
+            $("body").removeClass("bodyModal");
+            $(".modalsScroll").removeClass("open");
+        });
+    });
+    var onModalClose = function () {
+        $(this).fadeOut(500);
+        $(".blockMod.open").fadeOut(500, function () {
+            $(this).removeClass("open");
+            $("body").removeClass("bodyModal");
+            $(".modalsScroll").removeClass("open");
+        });
+    };
+
+    overlay.click(onModalClose);
+
     if ($("select").length > 0) {
         $("select").map(function () {
             $(this).selectric();
@@ -66,6 +100,33 @@ $(document).ready(function () {
                 el.find(faqHead).on('click', function () {
                     var el = $(this),
                         cont = el.siblings(faqContent);
+
+                    if (el.hasClass('active')) {
+                        cont.stop().slideUp(500, function () {
+                            el.removeClass('active');
+                        });
+
+                    } else {
+                        cont.stop().slideDown(500, function () {
+                            el.addClass('active');
+                        });
+                    }
+                })
+            }
+        })
+    }
+
+    var refHead = $('.refItem > .head'),
+        refContent = $('.refItem > .content');
+
+    if ($('.refItem').length > 0) {
+        $('.refItem').map(function () {
+            var el = $(this)
+            if (el.find(refHead).length > 0 && el.find(refContent).length > 0) {
+
+                el.find(refHead).on('click', function () {
+                    var el = $(this),
+                        cont = el.siblings(refContent);
 
                     if (el.hasClass('active')) {
                         cont.stop().slideUp(500, function () {

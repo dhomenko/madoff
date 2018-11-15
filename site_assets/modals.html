@@ -1,0 +1,210 @@
+<!--
+tinc project builder 
+htmlFile create on 08.11.2018 16:50:47 
+-->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width,user-scalable=no'>
+    <title>Модальные окна</title>
+
+    <link rel='shortcut icon' href='favicon.ico' type='image/x-icon'>
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+
+    <link rel='stylesheet' type='text/css' href='fonts/stylesheet.css'>
+    <link rel='stylesheet' type='text/css' href='fonts/icomoon/style.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery-ui.css'>
+    <link rel='stylesheet' type='text/css' href='css/ion.rangeSlider.css'>
+    <link rel='stylesheet' type='text/css' href='css/ion.rangeSlider.skinSimple.css'>
+    <link rel='stylesheet' type='text/css' href='css/selectric.css'>
+    <link rel='stylesheet' type='text/css' href='css/jquery.mCustomScrollbar.css'>
+    <link rel='stylesheet' type='text/css' href='css/style.css'>
+
+    <script type='text/javascript' src='js/jquery-1.11.1.js'></script>
+    <script type='text/javascript' src='js/jquery-ui.js'></script>
+    <script type='text/javascript' src='js/clipboard.js'></script>
+    <script type='text/javascript' src='js/detect.js'></script>
+    <script type='text/javascript' src='js/ion.rangeSlider.js'></script>
+    <script type='text/javascript' src='js/jquery.selectric.js'></script>
+    <script type='text/javascript' src='js/jquery.mCustomScrollbar.js'></script>
+    <script type='text/javascript' src='js/jquery.mousewheel.js'></script>
+    <script type='text/javascript' src='js/script.js'></script>
+
+</head>
+
+<body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <a href="#" class="openMod" data-modal="login">login</a>
+    <a href="#" class="openMod" data-modal="register">sign up</a>
+
+    <div class="modalsScroll">
+        <div class="modals table">
+            <div class="middle tCell">
+                <div class="register blockMod" id="register">
+                    <div class="in">
+                        <div class="regForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">Sign Up</span>
+                                <div class="row">
+                                    <div class="item col4">
+
+                                        <span class="title">Personal information</span>
+
+                                        <div class="formWrap borderBlock">
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regName">Fullname</label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="regName" id="regName" value="Alexander">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="reEmail">E-mail:</label>
+                                                <div class="inputBlock">
+                                                    <input type="email" name="reEmail" id="reEmail">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="reEmail2">Retype E-mail:</label>
+                                                <div class="inputBlock">
+                                                    <input type="email" name="reEmail2" id="reEmail2">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="item col4">
+
+                                        <span class="title">LOG IN INFORMATION</span>
+
+                                        <div class="formWrap borderBlock">
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regUsername">Username:</label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="regUsername" id="regUsername">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regPass">Password:</label>
+                                                <div class="inputBlock">
+                                                    <input type="password" name="regPass" id="regPass">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regPass2">Retype password:</label>
+                                                <div class="inputBlock">
+                                                    <input type="password" name="regPass2" id="regPass2">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="invBy">Invited by:</label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="invBy" id="invBy">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item col4">
+
+                                        <span class="title">E-CURRENCY ACCOUNT</span>
+
+                                        <div class="formWrap borderBlock">
+
+                                            <div class="itemForm topTitle">
+                                                <label for="payReg1">
+                                                    <img src="img/label_pay1.png" alt="">
+                                                </label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="payReg1" id="payReg1">
+                                                </div>
+                                            </div>
+
+
+                                            <div class="itemForm topTitle">
+                                                <label for="payReg2">
+                                                    <img src="img/label_pay2.png" alt="">
+                                                </label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="payReg2" id="payReg2">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btnBorder center">sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="login blockMod" id="login">
+                    <div class="in">
+                        <div class="regForm logForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">Log in</span>
+                                <div class="logWrap">
+                                    <span class="title">Please enter your login data</span>
+                                    <div class="formWrap">
+                                        <div class="itemForm topTitle">
+                                            <label for="logUsername">Username:</label>
+                                            <div class="inputBlock">
+                                                <input type="text" name="logUsername" id="logUsername">
+                                            </div>
+                                        </div>
+
+                                        <div class="itemForm topTitle">
+                                            <label for="logPass">Password:</label>
+                                            <div class="inputBlock">
+                                                <input type="password" name="logPass" id="logPass">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btnBorder center">log in</button>
+                                    <ul class="logLink">
+                                        <li><a href="#">Lost your password?</a></li>
+                                        <li><a href="#">Register</a></li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div id="overlay"></div>
+            </div>
+        </div>
+    </div>
+
+    <a href='../index.html' style='position: absolute;
+                                                        left: 0px;
+                                                        top: 0px;
+                                                        background-color: rgba(0,0,0,0.5);
+                                                        padding: 3px 5px;
+                                                        font-size: 16px;
+                                                        line-height: 22px;
+                                                        display: table;
+                                                        color: #fff;
+                                                        font-weight: bold;
+                                                        text-decoration: none;
+                                                        z-index: 5;
+                                                        font-family: arial;'>back</a>
+
+</body>
+
+</html>
