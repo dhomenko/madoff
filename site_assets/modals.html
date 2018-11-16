@@ -39,15 +39,28 @@ htmlFile create on 08.11.2018 16:50:47
     <br>
     <br>
     <br>
-    <a href="#" class="openMod" data-modal="login">login</a>
-    <a href="#" class="openMod" data-modal="register">sign up</a>
+    <ul>
+        <li>
+            <a href="#" class="openMod" data-modal="login">login</a>
+        </li>
+        <li>
+            <a href="#" class="openMod" data-modal="register">sign up</a>
+        </li>
+        <li>
+            <a href="#" class="openMod" data-modal="deposit">deposit</a>
+        </li>
+        <li>
+            <a href="#" class="openMod" data-modal="withdraw">withdraw</a>
+        </li>
+    </ul>
 
     <div class="modalsScroll">
         <div class="modals table">
             <div class="middle tCell">
+
                 <div class="register blockMod" id="register">
                     <div class="in">
-                        <div class="regForm">
+                        <div class="regForm modalForm">
                             <img src="img/modal_logo.png" alt="">
                             <span class="close"></span>
                             <form action="#">
@@ -152,9 +165,10 @@ htmlFile create on 08.11.2018 16:50:47
                         </div>
                     </div>
                 </div>
+
                 <div class="login blockMod" id="login">
                     <div class="in">
-                        <div class="regForm logForm">
+                        <div class="regForm logForm modalForm">
                             <img src="img/modal_logo.png" alt="">
                             <span class="close"></span>
                             <form action="#">
@@ -186,6 +200,127 @@ htmlFile create on 08.11.2018 16:50:47
                         </div>
                     </div>
                 </div>
+
+                <div class="newDep blockMod" id="deposit">
+                    <div class="in">
+                        <div class="depForm modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">New Deposit</span>
+
+                                <div class="wrap">
+                                    <div class="item">
+                                        <div class="itemForm leftTitle">
+                                            <label for="depAm">enter amount:</label>
+                                            <div class="inputBlock">
+                                                <input type="text" class="enterNum" id="depAm" value="100">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="itemForm leftTitle">
+                                            <label for="depDay">number of days: </label>
+                                            <div class="inputBlock">
+                                                <input type="text" class="enterNum" id="depDay" value="26">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="profitBlock">
+                                    <li>daily profit: <span>$140</span></li>
+                                    <li>total profit: <span>$2800</span></li>
+                                </ul>
+
+                                <div class="paySys">
+                                    <span class="title">Select payment system:</span>
+                                    <div class="payList">
+                                        <div class="item">
+                                            <input type="radio" name="paySystem" id="paySys1" checked>
+                                            <label for="paySys1"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay1.png" alt="">
+                                                    <span>free funds: $54001.50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <input type="radio" name="paySystem" id="paySys2">
+                                            <label for="paySys2"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay2.png" alt="">
+                                                    <span>free funds: $54001.50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btnBorderBack center">deposit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="withDep blockMod" id="withdraw">
+                    <div class="in">
+                        <div class="depForm withForm modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">Withdraw</span>
+
+                                <div class="wrap">
+
+                                    <div class="item">
+                                        <div class="itemForm leftTitle">
+                                            <label for="withAm">enter amount:</label>
+                                            <div class="inputBlock">
+                                                <input type="text" class="enterNum" id="withAm" value="100">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
+                                <div class="paySys">
+                                    <span class="title">Select payment system:</span>
+                                    <div class="payList">
+                                        <div class="item">
+                                            <input type="radio" name="paySystemWith" id="paySysWith1" checked>
+                                            <label for="paySysWith1"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay1.png" alt="">
+                                                    <span>0121-000-1234-098</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <input type="radio" name="paySystemWith" id="paySysWith2">
+                                            <label for="paySysWith2"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay2.png" alt="">
+                                                    <span>0121-000-1234-098</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="profitBlock">
+                                    <li>will be displayed: <span>$100.00</span></li>
+                                </ul>
+
+                                <button type="submit" class="btnBorder center">withdraw</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
                 <div id="overlay"></div>
             </div>
         </div>

@@ -1,0 +1,206 @@
+.cabPage{}
+.cabPage.main{}
+.leftSide{}
+.cabPage .logo{}
+.logoWrap+.userBl{}
+.leftSide .userBl{}
+.userBl .pic{}
+.userBl .pic:hover{}
+.userBl .pic input{}
+.userBl .pic label{}
+.userBl .pic+.name{}
+.userBl .name{}
+.userBl .info{}
+.userBl .info li{}
+.userBl .info li+li{}
+.userBl+.cabMenu{}
+.cabMenu li+li{}
+.cabMenu li .iconLeft{}
+.cabMenu li .iconLeft [class*="icon"]{}
+.cabMenu li .iconLeft .icon-refs{}
+.cabMenu li .iconLeft .data{}
+.cabMenu li a:hover{}
+.cabMenu li a:hover [class*="icon"],.cabMenu li a:hover .data,.cabMenu li.active [class*="icon"],.cabMenu li.active .data{}
+.cabMenu+.cabBtns{}
+.cabBtns{}
+.cabBtns [class*="btn"]{}
+.cabBtns [class*="btn"]+[class*="btn"]{}
+.rightSide{}
+.cabHead{}
+.balList{}
+.balList li{}
+.balList li+li{}
+.balList li .iconLeft{}
+.balList li .iconLeft [class*="icon"]{}
+.balList li .title{}
+.balList li .title+.title{}
+.balList li .title span{}
+.balList li .num{}
+.cabContent{}
+.cabContent .firstCap{}
+.accInfo{}
+.accStat{}
+.accStat li{}
+.accStat li .title{}
+.accStat li .num{}
+.accInfo .accStat+.upline{}
+.upline{}
+.upline .userBl .pic:hover{}
+.upline .userBl+span{}
+.upline a{}
+.accInfo .upline+.refLink{}
+.refLink{}
+.refLink .itemForm{}
+.refLink .itemForm label{}
+.refLink .itemForm input{}
+.refLink .itemForm .icon{}
+.refLink [class*="btn"]{}
+.cabContent [class*="Cap"]+.editAcc{}
+.editAcc{}
+.editAcc .title{}
+.editAcc .title+.formWrap{}
+.editAcc .formWrap{}
+.editAcc .itemForm+.itemForm{}
+.editAcc .itemForm label{}
+.editAcc .row+[class*="btn"]{}
+.banTabs .tabList{}
+.banTabs .tabList a{}
+.banTabs .tabList a:hover,.banTabs .tabList .ui-state-active a{}
+.banTabs .tabList .ui-state-active a{}
+.banTabs .tabContent{}
+.banTabs .tabContent .img{}
+.banTabs .tabContent .img+.link{}
+.banTabs .tabContent .link{}
+.banTabs .tabContent .link .itemForm{}
+.banTabs .tabContent .link input{}
+.banTabs .tabContent [class*="btn"]{}
+.depList{}
+.depList .mCSB_inside>.mCSB_container{}
+.depList .row{}
+.depList .row+.row{}
+.depList .row>.item{}
+.depItem .date{}
+.depItem .date span{}
+.depItem .in{}
+.depInfo{}
+.depInfo .col{}
+.depInfo .col:first-child{}
+.depInfo .col:nth-child(2),.depInfo .col:nth-child(3){}
+.depInfo .col:nth-child(2){}
+.depInfo .col:nth-child(3){}
+.depInfo .title{}
+.depInfo .tariff .title{}
+.depInfo .tariff .num{}
+.depInfo .tariff+.sum{}
+.depInfo .sum .num{}
+.depInfo .inv .pct{}
+.depInfo .inv .pct span{}
+.depInfo .inv+.sys{}
+.depInfo .sys img{}
+.depInfo .term+.term{}
+.depInfo .term .title+span{}
+.depItem .progress{}
+.depItem .progress .title{}
+.depItem .progress .line{}
+.depItem .progress .line .done{}
+.depItem .progress .title span{}
+.depItem.disabled .in{}
+.depItem.disabled .progress{}
+.depItem.disabled .progress>*{}
+.referrals{}
+.refInfo{}
+.refInfo li{}
+.refInfo li+li{}
+.refInfo li span{}
+.refInfo+.refList{}
+.refList{}
+.refList .mCSB_inside>.mCSB_container{}
+.refList .row{}
+.refList .row+.row{}
+.refItem+.refItem{}
+.refItem .head{}
+.refItem .head:hover{}
+.refItem .iconLeft{}
+.refItem .iconLeft [class*="icon"]{}
+.refItem .iconLeft .icon-plus{}
+.refItem .iconLeft .icon-minus{}
+.refItem .head.active .icon-minus{}
+.refItem .head.active .icon-plus{}
+.refItem .iconLeft .data li{}
+.refItem .iconLeft .data li+li{}
+.refItem .iconLeft .data li span{}
+.refItem .iconLeft .data li:first-child span{}
+.refItem .head .status{}
+.refItem .status .title{}
+.refItem .content{}
+.refItem .head:not(.active)+.content{}
+.history{}
+.filter{}
+.filter .date{}
+.filter .type{}
+.filter [class*="btn"]{}
+.filter .date .itemForm{}
+.filter .date .itemForm+.itemForm{}
+.filter .itemForm label{}
+.filter .itemForm .inputBlock{}
+.filter .date .inputBlock{}
+.filter .date .inputBlock .selectric-wrapper{}
+.filter .date .inputBlock .selectric-wrapper:first-child{}
+.filter .date .inputBlock .selectric-wrapper:nth-child(2){}
+.filter .date .inputBlock .selectric-wrapper:nth-child(3){}
+.inputBlock .selectric{}
+.filter .inputBlock .selectric .label{}
+.inputBlock .selectric .label{}
+.inputBlock .selectric-items{}
+.inputBlock .selectric-items li{}
+.inputBlock .selectric-items li:hover{}
+.inputBlock .selectric-items li.highlighted{}
+.inputBlock .selectric .button{}
+.inputBlock .selectric .button::after{}
+.filter .date+.type{}
+.filter+.histList{}
+.histList{}
+.histList .mCSB_inside>.mCSB_container{}
+.histItem{}
+.histItem+.histItem{}
+.histItem .col{}
+.histItem .col:first-child{}
+.histItem .col:nth-child(2){}
+.histItem .col:nth-child(3){}
+.histItem .col li{}
+.histItem .col li+li{}
+.histItem .col li span{}
+.histItem .col li .date{}
+.histItem .col li .type{}
+.histItem .col li img{}
+.bodyModal{}
+.modalsScroll{}
+.modalsScroll.open{}
+.modals{}
+.modals.table{}
+.modals .tCell{}
+#overlay{}
+.blockMod{}
+.blockMod .in{}
+.regForm{}
+.regForm [class*="Cap"]{}
+.regForm > img{}
+.regForm .close{}
+.regForm .close:hover{}
+.regForm [class*="Cap"] + .row{}
+.regForm .title{}
+.regForm .title + .formWrap{}
+.regForm .formWrap{}
+.regForm .formWrap .itemForm + .itemForm{}
+.regForm .formWrap label{}
+.regForm [class*="btn"]{}
+.logForm{}
+.logForm .formWrap{}
+.logForm [class*="Cap"] + .logWrap{}
+.logForm .logWrap{}
+.logForm .logWrap .title{}
+.logForm .logWrap .formWrap + [class*="btn"]{}
+.logForm [class*="btn"] + .logLink{}
+.logLink{}
+.logLink li + li{}
+.logLink li a{}

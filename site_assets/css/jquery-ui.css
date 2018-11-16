@@ -793,9 +793,9 @@ button.ui-button::-moz-focus-inner {
 	/*! white-space: nowrap; */
 }
 .ui-tabs .ui-tabs-nav .ui-tabs-anchor {
-	float: left;
-	padding: .5em 1em;
-	text-decoration: none;
+/* 	float: left; */
+/* 	padding: .5em 1em; */
+/* 	text-decoration: none; */
 }
 .ui-tabs .ui-tabs-nav li.ui-tabs-active {
 	margin-bottom: -1px;
