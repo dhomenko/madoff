@@ -1,3 +1,2176 @@
-.test{
-    color: default;
+@media (max-width: 1800px) {
+    .iconLeft {}
+    .iconLeft>[class*='icon'] {}
+    .styleGuide .block {}
+    .styleGuide .block+.block {}
+    .inputBlock {}
+    .inputBlock input,
+    .inputBlock textarea {}
+    .inputBlock textarea {}
+    .inputBlock .hStyles,
+    .inputBlock .vStyles {}
+    .inputBlock .hStyles:before,
+    .inputBlock .hStyles:after,
+    .inputBlock .vStyles:before,
+    .inputBlock .vStyles:after {}
+    .inputBlock .hStyles {}
+    .inputBlock {}
+    .inputBlock .selectric-wrapper {}
+    .inputBlock .selectric-wrapper .selectric .label {}
+    .inputBlock:before,
+    .inputBlock:after {}
+    .inputBlock:before {}
+    .inputBlock:after {}
+    .inputBlock.textarea .hStyles:before {}
+    .inputBlock.textarea .hStyles:after {}
+    .inputBlock .vStyles {}
+    .inputBlock.textarea {}
+    .inputBlock.textarea:before,
+    .inputBlock.textarea:after {}
+    .inputBlock.textarea:before {}
+    .inputBlock.textarea:after {}
+    .itemForm {}
+    .itemForm label {}
+    .itemForm.topTitle label {}
+    .itemForm.leftTitle {}
+    .itemForm.leftTitle label {}
+    .itemForm.leftTitle .inputBlock {}
+    [class^='btn'] {}
+    [class^='btn']::before {}
+    [class*='btn'][class*='Border'][class*='Back']::after {}
+    [class^='btn'].center {}
+    .scrollBlock {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerRail {}
+    .scrollBlock .mCSB_scrollTools {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerContainer {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {}
+    .testScroll {}
+    .borderBlock,
+    [class*="btnBorder"],
+    [class^='btn']::before {}
+    .testBorderBlock {}
+    [class*="Cap"] {}
+    .firstCap {font-size: 36px;text-align: left;}
+    .firstCap.cab {}
+    .firstCap::before,
+    .firstCap::after {display: none;}
+    .firstCap.simple::before,
+    .firstCap.simple::after {}
+    .firstCap::before {}
+    .firstCap::after {}
+    .secCap {}
+    .textBlock p {}
+    .textBlock p span {}
+    .textBlock p+p,
+    .textBlock img+p {}
+    .simpleLink {}
+    .simpleLink:hover {}
+    .pageContent {}
+    .homePage {}
+    .homePage .left {
+        width: 380px;
+    }
+    .homePage .right {}
+    .homePage .logo {}
+    .mainImg {}
+    .homePage .logReg {}
+    .logReg [class*="btn"] {}
+    .logReg [class*="btn"]+[class*="btn"] {}
+    .homePage .mainImg {}
+    .logo {}
+    .logo:hover {}
+    .logo img {}
+    .logo .txt {}
+    .homePage .logo+.mainInfo {}
+    .mainInfo [class*="Cap"]+.textBlock {}
+    .mainInfo .textBlock {}
+    .mainInfo .textBlock p {}
+    .homePage .mainInfo+.statistic {}
+    .statistic [class*="Cap"]+ul {}
+    .statistic ul {}
+    .statistic ul li {}
+    .statistic ul li:nth-child(odd) {}
+    .statistic ul li:nth-child(even) {}
+    .statistic ul li .num {}
+    .homePage .statistic+.mainMenu {}
+    .mainMenu {}
+    .mainMenu li {}
+    .mainMenu li+li {
+        margin-left: 10px;
+    }
+    .mainMenu li::before {}
+    .mainMenu li a {}
+    .mainMenu li a:hover {}
+    .planInfo .tariff .secCap {}
+    .planInfo .tariff .pct {}
+    .planInfo .tariff .pct::before {}
+    .planInfo ul li {}
+    .planInfo ul li span {}
+    .planInfo ul li:first-child span {}
+    .planInfo ul+[class*="btn"] {}
+    .homePage .planInfo+.calculator {}
+    .calculator .calc {}
+    .calculator .calc .range+.itemForm {}
+    .calculator .calc .itemForm+.itemForm {}
+    .calculator .itemForm+.profitBlock {}
+    .range .irs-line {}
+    .range .irs-min,
+    .range .irs-max {}
+    .range .irs-single {}
+    .range .irs-slider {}
+    .profitBlock {}
+    .profitBlock li {}
+    .profitBlock li+li {}
+    .profitBlock li::before {}
+    .profitBlock li span {}
+    .homePage .calculator+.programm {}
+    .programm [class*="Cap"]+.ref {}
+    .programm .ref span {}
+    .programm .ref .pct {}
+    footer {}
+    footer::before {}
+    .logoSm {}
+    .logoSm img {}
+    .logoSm .txt {}
+    .copyright {}
+    .copyright span {}
+    .menu {}
+    .menu li {}
+    .menu li+li {}
+    .menu li a {}
+    .menu li.active a,
+    .menu li a:hover {}
+    .payments {}
+    .payments li {}
+    .payments li+li {}
+    .inPage {padding-left: 30px;padding-right: 30px;}
+    .inPage .mainContent {max-width: 1020px;}
+    .inPage .mainImg {}
+    .inPage .mainImg .pageImg {}
+    .pageHead .logoWrap {}
+    .pageHead .titleWrap {text-align: left;}
+    .inPage .pageHead+.aboutUs {}
+    .aboutUs [class*="Cap"]+.textBlock {}
+    .aboutUs .item:nth-child(2) {}
+    .aboutUs .textBlock img {}
+    .inPage .aboutUs+.advantages {}
+    .advantages .wrap {}
+    .advantages .wrap>.item {}
+    
+    .advantages .wrap {padding: 10px 10px 30px 10px;}
+    .advantages .wrap>.item {padding-left: 0px;width: 50%;height: 90px;margin-top: 30px;}
+    .advantages .item .img {}
+    .advantages .item .title {}
+    .contacts {}
+    .contacts .pageHead+.contInfo {}
+    .contInfo {}
+    .contInfo .title {}
+    .contInfo .title+.textBlock {}
+    .contInfo .textBlock+.contList {}
+    .contList {}
+    .contList li+li {}
+    .contList .iconLeft {}
+    .contList .iconLeft .icon {}
+    .contList .iconLeft .icon::before {}
+    .contList .iconLeft span {}
+    .contList .iconLeft a {}
+    .inPage .contInfo+.contForm {}
+    .contForm [class*="Cap"]+.textBlock {}
+    .contForm .textBlock+form {}
+    .contForm .itemForm .captcha {}
+    .contForm .itemForm+.itemForm {}
+    .contForm .itemForm+[class*="btn"] {}
+    .contForm [class*="btn"] {}
+    .inPage .pageHead+.faqList {}
+    .faqList .scrollBlock {}
+    .faqList .faqItem+.faqItem {}
+    .faqItem .head {}
+    .faqItem .head:hover {}
+    .faqItem .head .iconLeft {}
+    .faqItem .head .iconLeft [class*="icon"] {}
+    .faqItem .head .iconLeft .icon-plus {}
+    .faqItem .head .iconLeft .icon-minus {}
+    .faqItem .head .iconLeft .data {}
+    .faqItem .head.active .iconLeft .icon-minus {}
+    .faqItem .head.active .iconLeft .icon-plus {}
+    .faqItem .head.active .iconLeft [class*="icon"],
+    .faqItem .head.active .iconLeft .data {}
+    .faqItem .content {}
+    .faqItem .head:not(.active)+.content {}
+    .inPage .pageHead+.ruleList {}
+    .ruleList .scrollBlock {}
+    .ruleList .ruleItem+.ruleItem {}
+    .ruleItem {}
+    .ruleItem .num {}
+    .ruleItem .num+.title {}
+    .ruleItem .title {}
+    .ruleItem .title+.textBlock {}
+    .ruleItem .textBlock span {}
+    .inPage .pageHead+.investInfo {}
+    .investInfo .planInfo {}
+    .investInfo .planInfo .tariff .pct::before {}
+    .investInfo .planInfo+.calculator {width: 570px;float: right;}
+    .investInfo .calculator {}
+    .investInfo .calculator+.textBlock {display: none;}
+    .investInfo .textBlock {}
+    .investInfo+.affProgr {}
+    .affProgr .wrap {}
+    .affProgr .pct {}
+    .affProgr .pct+span {}
+    .affProgr .table .tCell:first-child {}
+    .affProgr .wrap .textBlock {}
+    .cabPage {}
+    .cabPage.main {}
+    .leftSide {}
+    .cabPage .logo {}
+    .logoWrap+.userBl {}
+    .leftSide .userBl {}
+    .userBl .pic {}
+    .userBl .pic:hover {}
+    .userBl .pic input {}
+    .userBl .pic label {}
+    .userBl .pic+.name {}
+    .userBl .name {}
+    .userBl .info {}
+    .userBl .info li {}
+    .userBl .info li+li {}
+    .userBl+.cabMenu {}
+    .cabMenu li+li {}
+    .cabMenu li .iconLeft {}
+    .cabMenu li .iconLeft [class*="icon"] {}
+    .cabMenu li .iconLeft .icon-refs {}
+    .cabMenu li .iconLeft .data {}
+    .cabMenu li a:hover {}
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+    .cabMenu+.cabBtns {}
+    .cabBtns {}
+    .cabBtns [class*="btn"] {}
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+    .rightSide {}
+    .cabHead {}
+    .balList {}
+    .balList li {}
+    .balList li+li {}
+    .balList li .iconLeft {}
+    .balList li .iconLeft [class*="icon"] {}
+    .balList li .title {}
+    .balList li .title+.title {}
+    .balList li .title span {}
+    .balList li .num {}
+    .cabContent {}
+    .cabContent .firstCap {}
+    .accInfo {}
+    .accStat {}
+    .accStat li {}
+    .accStat li .title {}
+    .accStat li .num {}
+    .accInfo .accStat+.upline {}
+    .upline {}
+    .upline .userBl .pic:hover {}
+    .upline .userBl+span {}
+    .upline a {}
+    .accInfo .upline+.refLink {}
+    .refLink {}
+    .refLink .itemForm {}
+    .refLink .itemForm label {}
+    .refLink .itemForm input {}
+    .refLink .itemForm .icon {}
+    .refLink [class*="btn"] {}
+    .cabContent [class*="Cap"]+.editAcc {}
+    .editAcc {}
+    .editAcc .title {}
+    .editAcc .title+.formWrap {}
+    .editAcc .formWrap {}
+    .editAcc .itemForm+.itemForm {}
+    .editAcc .itemForm label {}
+    .editAcc .row+[class*="btn"] {}
+    .banTabs .tabList {}
+    .banTabs .tabList a {}
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabContent {}
+    .banTabs .tabContent .img {}
+    .banTabs .tabContent .img+.link {}
+    .banTabs .tabContent .link {}
+    .banTabs .tabContent .link .itemForm {}
+    .banTabs .tabContent .link input {}
+    .banTabs .tabContent [class*="btn"] {}
+}
+
+@media (max-width: 1600px) {
+    .container {
+        width: 965px;
+    }
+    .homePage .container {
+        position: relative;
+    }
+    .iconLeft {}
+    .iconLeft>[class*='icon'] {}
+    .styleGuide .block {}
+    .styleGuide .block+.block {}
+    .inputBlock {}
+    .inputBlock input,
+    .inputBlock textarea {}
+    .inputBlock textarea {}
+    .inputBlock .hStyles,
+    .inputBlock .vStyles {}
+    .inputBlock .hStyles:before,
+    .inputBlock .hStyles:after,
+    .inputBlock .vStyles:before,
+    .inputBlock .vStyles:after {}
+    .inputBlock .hStyles {}
+    .inputBlock {}
+    .inputBlock .selectric-wrapper {}
+    .inputBlock .selectric-wrapper .selectric .label {}
+    .inputBlock:before,
+    .inputBlock:after {}
+    .inputBlock:before {}
+    .inputBlock:after {}
+    .inputBlock.textarea .hStyles:before {}
+    .inputBlock.textarea .hStyles:after {}
+    .inputBlock .vStyles {}
+    .inputBlock.textarea {}
+    .inputBlock.textarea:before,
+    .inputBlock.textarea:after {}
+    .inputBlock.textarea:before {}
+    .inputBlock.textarea:after {}
+    .itemForm {}
+    .itemForm label {}
+    .itemForm.topTitle label {}
+    .itemForm.leftTitle {}
+    .itemForm.leftTitle label {}
+    .itemForm.leftTitle .inputBlock {}
+    [class^='btn'] {}
+    [class^='btn']::before {}
+    [class*='btn'][class*='Border'][class*='Back']::after {}
+    [class^='btn'].center {}
+    .scrollBlock {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerRail {}
+    .scrollBlock .mCSB_scrollTools {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerContainer {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {}
+    .testScroll {}
+    .borderBlock,
+    [class*="btnBorder"],
+    [class^='btn']::before {}
+    .testBorderBlock {}
+    [class*="Cap"] {}
+    .firstCap {}
+    .firstCap.cab {}
+    .firstCap::before,
+    .firstCap::after {}
+    .firstCap.simple::before,
+    .firstCap.simple::after {}
+    .firstCap::before {}
+    .firstCap::after {}
+    .secCap {}
+    .textBlock p {}
+    .textBlock p span {}
+    .textBlock p+p,
+    .textBlock img+p {}
+    .simpleLink {}
+    .simpleLink:hover {}
+    .pageContent {
+        padding-bottom: 70px;
+        background-color: #ebf7f5;
+    }
+    .homePage {
+        background-size: auto 923px;
+    }
+    .homePage .left {
+        width: 460px;
+        float: none;
+        min-height: 845px;
+    }
+    .homePage .right {
+        float: none;
+        margin-top: 75px;
+        width: 100%;
+    }
+    .homePage .right .planInfo {
+        position: absolute;
+        left: 0px;
+        top: 505px;
+    }
+    .homePage .logo {
+        /*! margin-left: 0px; */
+        /*! margin-top: 0px; */
+    }
+    .mainImg {}
+    .homePage .logReg {}
+    .logReg [class*="btn"] {}
+    .logReg [class*="btn"]+[class*="btn"] {}
+    .homePage .mainImg {
+        left: auto;
+        right: calc((100% - 965px) / 2 - 185px);
+    }
+    .logo {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .logo:hover {}
+    .logo img {}
+    .logo .txt {}
+    .homePage .logo+.mainInfo {
+        position: absolute;
+        top: calc(845px + 480px);
+        left: 0px;
+        margin-top: 0px;
+    }
+    .mainInfo [class*="Cap"]+.textBlock {
+        height: 225px;
+    }
+    .mainInfo .textBlock {}
+    .mainInfo .textBlock p {
+        line-height: 24px;
+    }
+    .homePage .mainInfo+.statistic {
+        margin-top: 165px;
+    }
+    .statistic [class*="Cap"]+ul {}
+    .statistic ul {}
+    .statistic ul li {}
+    .statistic ul li:nth-child(odd) {}
+    .statistic ul li:nth-child(even) {}
+    .statistic ul li .num {}
+    .homePage .statistic+.mainMenu {
+        position: absolute;
+        right: 75px;
+        top: calc(845px + 70px);
+        text-align: left;
+    }
+    .mainMenu {}
+    .mainMenu li {
+        display: block;
+        width: 100%;
+    }
+    .mainMenu li+li {
+        margin-left: 0px;
+        margin-top: 35px;
+    }
+    .mainMenu li::before {}
+    .mainMenu li a {}
+    .mainMenu li a:hover {}
+    .planInfo .tariff .secCap {}
+    .planInfo .tariff .pct {}
+    .planInfo .tariff .pct::before {}
+    .planInfo ul li {}
+    .planInfo ul li span {}
+    .planInfo ul li:first-child span {}
+    .planInfo ul+[class*="btn"] {}
+    .homePage .planInfo+.calculator {
+        margin-top: 0px;
+        margin-left: 110px;
+        width: 540px;
+    }
+    .calculator .calc {}
+    .calculator .calc .range+.itemForm {}
+    .calculator .calc .itemForm+.itemForm {}
+    .calculator .itemForm+.profitBlock {}
+    .range .irs-line {}
+    .range .irs-min,
+    .range .irs-max {}
+    .range .irs-single {}
+    .range .irs-slider {}
+    .profitBlock {}
+    .profitBlock li {}
+    .profitBlock li+li {}
+    .profitBlock li::before {}
+    .profitBlock li span {}
+    .homePage .calculator+.programm {
+        margin-top: 320px;
+    }
+    .programm [class*="Cap"]+.ref {}
+    .programm .ref span {}
+    .programm .ref .pct {}
+    footer {
+        padding-top: 80px;
+        background-color: #e3d5ae;
+        padding-bottom: 30px;
+    }
+    footer .left {
+        width: 115px;
+        vertical-align: bottom !important;
+    }
+    footer .center {
+        vertical-align: bottom !important;
+    }
+    footer::before {
+        bottom: auto;
+        top: -45px;
+    }
+    .logoSm {}
+    .logoSm img {}
+    .logoSm .txt {}
+    .copyright {
+        text-align: left;
+        padding-left: 110px;
+    }
+    .copyright span {}
+    .menu {
+        position: absolute;
+        top: 4px;
+        left: 0px;
+        width: 100%;
+        padding: 15px 0px 25px;
+        background-color: #e3d5ae;
+    }
+    .menu li {}
+    .menu li+li {}
+    .menu li a {}
+    .menu li.active a,
+    .menu li a:hover {}
+    .payments {}
+    .payments li {}
+    .payments li+li {}
+    .inPage {}
+    .inPage .mainContent {}
+    .inPage .mainImg {display: none;}
+    .inPage .mainImg .pageImg {}
+    .pageHead .logoWrap {}
+    .pageHead .titleWrap {}
+    .inPage .pageHead+.aboutUs {}
+    .inPage .pageHead+.aboutUs .item{
+        width: 100%;
+    }
+    .inPage .pageHead+.aboutUs .item + .item{
+        padding-left: 15px;
+        margin-top: 20px;
+    }
+    .aboutUs .item:nth-child(2) .textBlock {
+        position: relative;
+        
+        padding-right: 350px;
+        min-height: 200px;
+    }
+    .aboutUs .item:nth-child(2) .textBlock img{
+        position: absolute;
+        right: 60px;
+        top: -25px;
+    }
+    .aboutUs .item:nth-child(2) {}
+    .aboutUs .textBlock img {}
+    .inPage .aboutUs+.advantages {}
+    .advantages .wrap {}
+    .advantages .wrap>.item {}
+    
+    
+    .advantages .item .img {}
+    .advantages .item .title {}
+    .contacts {}
+    .contacts .pageHead+.contInfo {}
+    .contInfo {}
+    .contInfo .title {}
+    .contInfo .title+.textBlock {}
+    .contInfo .textBlock+.contList {}
+    .contList {}
+    .contList li+li {}
+    .contList .iconLeft {}
+    .contList .iconLeft .icon {}
+    .contList .iconLeft .icon::before {}
+    .contList .iconLeft span {}
+    .contList .iconLeft a {}
+    .inPage .contInfo+.contForm {}
+    .contForm [class*="Cap"]+.textBlock {}
+    .contForm .textBlock+form {}
+    .contForm .itemForm .captcha {}
+    .contForm .itemForm+.itemForm {}
+    .contForm .itemForm+[class*="btn"] {}
+    .contForm [class*="btn"] {}
+    .inPage .pageHead+.faqList {}
+    .faqList .scrollBlock {}
+    .faqList .faqItem+.faqItem {}
+    .faqItem .head {}
+    .faqItem .head:hover {}
+    .faqItem .head .iconLeft {}
+    .faqItem .head .iconLeft [class*="icon"] {}
+    .faqItem .head .iconLeft .icon-plus {}
+    .faqItem .head .iconLeft .icon-minus {}
+    .faqItem .head .iconLeft .data {}
+    .faqItem .head.active .iconLeft .icon-minus {}
+    .faqItem .head.active .iconLeft .icon-plus {}
+    .faqItem .head.active .iconLeft [class*="icon"],
+    .faqItem .head.active .iconLeft .data {}
+    .faqItem .content {}
+    .faqItem .head:not(.active)+.content {}
+    .inPage .pageHead+.ruleList {}
+    .ruleList .scrollBlock {}
+    .ruleList .ruleItem+.ruleItem {}
+    .ruleItem {}
+    .ruleItem .num {}
+    .ruleItem .num+.title {}
+    .ruleItem .title {}
+    .ruleItem .title+.textBlock {}
+    .ruleItem .textBlock span {}
+    .inPage .pageHead+.investInfo {}
+    .investInfo .planInfo {width: 410px;}
+    .investInfo .planInfo .tariff .pct::before {}
+    .investInfo .planInfo+.calculator {width: calc(100% - 410px);margin-left: 0px;padding-left: 25px;}
+    .investInfo .calculator {}
+    .investInfo .calculator+.textBlock {}
+    .investInfo .textBlock {}
+    .investInfo+.affProgr {}
+    .affProgr .wrap {}
+    .affProgr .pct {}
+    .affProgr .pct+span {}
+    .affProgr .table .tCell:first-child {}
+    .affProgr .wrap .textBlock {}
+    .cabPage {}
+    .cabPage.main {}
+    .leftSide {}
+    .cabPage .logo {}
+    .logoWrap+.userBl {}
+    .leftSide .userBl {}
+    .userBl .pic {}
+    .userBl .pic:hover {}
+    .userBl .pic input {}
+    .userBl .pic label {}
+    .userBl .pic+.name {}
+    .userBl .name {}
+    .userBl .info {}
+    .userBl .info li {}
+    .userBl .info li+li {}
+    .userBl+.cabMenu {}
+    .cabMenu li+li {}
+    .cabMenu li .iconLeft {}
+    .cabMenu li .iconLeft [class*="icon"] {}
+    .cabMenu li .iconLeft .icon-refs {}
+    .cabMenu li .iconLeft .data {}
+    .cabMenu li a:hover {}
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+    .cabMenu+.cabBtns {}
+    .cabBtns {}
+    .cabBtns [class*="btn"] {}
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+    .rightSide {}
+    .cabHead {}
+    .balList {}
+    .balList li {}
+    .balList li+li {}
+    .balList li .iconLeft {}
+    .balList li .iconLeft [class*="icon"] {}
+    .balList li .title {}
+    .balList li .title+.title {}
+    .balList li .title span {}
+    .balList li .num {}
+    .cabContent {}
+    .cabContent .firstCap {}
+    .accInfo {}
+    .accStat {}
+    .accStat li {}
+    .accStat li .title {}
+    .accStat li .num {}
+    .accInfo .accStat+.upline {}
+    .upline {}
+    .upline .userBl .pic:hover {}
+    .upline .userBl+span {}
+    .upline a {}
+    .accInfo .upline+.refLink {}
+    .refLink {}
+    .refLink .itemForm {}
+    .refLink .itemForm label {}
+    .refLink .itemForm input {}
+    .refLink .itemForm .icon {}
+    .refLink [class*="btn"] {}
+    .cabContent [class*="Cap"]+.editAcc {}
+    .editAcc {}
+    .editAcc .title {}
+    .editAcc .title+.formWrap {}
+    .editAcc .formWrap {}
+    .editAcc .itemForm+.itemForm {}
+    .editAcc .itemForm label {}
+    .editAcc .row+[class*="btn"] {}
+    .banTabs .tabList {}
+    .banTabs .tabList a {}
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabContent {}
+    .banTabs .tabContent .img {}
+    .banTabs .tabContent .img+.link {}
+    .banTabs .tabContent .link {}
+    .banTabs .tabContent .link .itemForm {}
+    .banTabs .tabContent .link input {}
+    .banTabs .tabContent [class*="btn"] {}
+}
+
+@media (max-width: 1199px) {
+    .iconLeft {}
+    .iconLeft>[class*='icon'] {}
+    .styleGuide .block {}
+    .styleGuide .block+.block {}
+    .inputBlock {}
+    .inputBlock input,
+    .inputBlock textarea {}
+    .inputBlock textarea {}
+    .inputBlock .hStyles,
+    .inputBlock .vStyles {}
+    .inputBlock .hStyles:before,
+    .inputBlock .hStyles:after,
+    .inputBlock .vStyles:before,
+    .inputBlock .vStyles:after {}
+    .inputBlock .hStyles {}
+    .inputBlock {}
+    .inputBlock .selectric-wrapper {}
+    .inputBlock .selectric-wrapper .selectric .label {}
+    .inputBlock:before,
+    .inputBlock:after {}
+    .inputBlock:before {}
+    .inputBlock:after {}
+    .inputBlock.textarea .hStyles:before {}
+    .inputBlock.textarea .hStyles:after {}
+    .inputBlock .vStyles {}
+    .inputBlock.textarea {}
+    .inputBlock.textarea:before,
+    .inputBlock.textarea:after {}
+    .inputBlock.textarea:before {}
+    .inputBlock.textarea:after {}
+    .itemForm {}
+    .contForm .item:nth-child(3) .itemForm{
+        width: 35%;
+        padding-right: 20px;
+        float: left;
+    }
+    
+    .contForm .item:nth-child(3) [class*='btn']{
+        float: right;
+        width: auto;
+        display: table;
+        margin-top: 25px;
+    }
+    .itemForm label {font-size: 18px;}
+    .itemForm.topTitle label {}
+    .itemForm.leftTitle {}
+    .itemForm.leftTitle label {}
+    .itemForm.leftTitle .inputBlock {}
+    [class^='btn'] {}
+    [class^='btn']::before {}
+    [class*='btn'][class*='Border'][class*='Back']::after {}
+    [class^='btn'].center {}
+    .scrollBlock {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerRail {}
+    .scrollBlock .mCSB_scrollTools {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerContainer {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {}
+    .testScroll {}
+    .borderBlock,
+    [class*="btnBorder"],
+    [class^='btn']::before {}
+    .testBorderBlock {}
+    [class*="Cap"] {}
+    .firstCap {}
+    .firstCap.cab {}
+    .firstCap::before,
+    .firstCap::after {}
+    .firstCap.simple::before,
+    .firstCap.simple::after {}
+    .firstCap::before {}
+    .firstCap::after {}
+    .secCap {}
+    .textBlock p {}
+    .textBlock p span {}
+    .textBlock p+p,
+    .textBlock img+p {}
+    .simpleLink {}
+    .simpleLink:hover {}
+    .pageContent {}
+    .homePage {}
+    .homePage .left {}
+    .homePage .right {}
+    .homePage .logo {}
+    .mainImg {}
+    .homePage .logReg {}
+    .logReg [class*="btn"] {}
+    .logReg [class*="btn"]+[class*="btn"] {}
+    .homePage .mainImg {}
+    .logo {}
+    .logo:hover {}
+    .logo img {}
+    .logo .txt {}
+    .homePage .logo+.mainInfo {}
+    .mainInfo [class*="Cap"]+.textBlock {}
+    .mainInfo .textBlock {}
+    .mainInfo .textBlock p {}
+    .homePage .mainInfo+.statistic {}
+    .statistic [class*="Cap"]+ul {}
+    .statistic ul {}
+    .statistic ul li {}
+    .statistic ul li:nth-child(odd) {}
+    .statistic ul li:nth-child(even) {}
+    .statistic ul li .num {}
+    .homePage .statistic+.mainMenu {}
+    .mainMenu {}
+    .mainMenu li {}
+    .mainMenu li+li {}
+    .mainMenu li::before {}
+    .mainMenu li a {}
+    .mainMenu li a:hover {}
+    .planInfo .tariff .secCap {}
+    .planInfo .tariff .pct {}
+    .planInfo .tariff .pct::before {}
+    .planInfo ul li {}
+    .planInfo ul li span {}
+    .planInfo ul li:first-child span {}
+    .planInfo ul+[class*="btn"] {}
+    .homePage .planInfo+.calculator {}
+    .calculator .calc {}
+    .calculator .calc .range+.itemForm {}
+    .calculator .calc .itemForm+.itemForm {}
+    .calculator .itemForm+.profitBlock {}
+    .range .irs-line {}
+    .range .irs-min,
+    .range .irs-max {}
+    .range .irs-single {}
+    .range .irs-slider {}
+    .profitBlock {}
+    .profitBlock li {}
+    .profitBlock li+li {}
+    .profitBlock li::before {}
+    .profitBlock li span {}
+    .homePage .calculator+.programm {}
+    .programm [class*="Cap"]+.ref {}
+    .programm .ref span {}
+    .programm .ref .pct {}
+    footer {}
+    footer::before {}
+    .logoSm {}
+    .logoSm img {}
+    .logoSm .txt {}
+    .copyright {}
+    .copyright span {}
+    .menu {}
+    .menu li {}
+    .menu li+li {}
+    .menu li a {}
+    .menu li.active a,
+    .menu li a:hover {}
+    .payments {}
+    .payments li {}
+    .payments li+li {}
+    .inPage {}
+    .inPage .mainContent {}
+    .inPage .mainImg {}
+    .inPage .mainImg .pageImg {}
+    .pageHead .logoWrap {}
+    .pageHead .titleWrap {}
+    .inPage .pageHead+.aboutUs {}
+    .aboutUs [class*="Cap"]+.textBlock {}
+    .aboutUs .item:nth-child(2) {}
+    .aboutUs .textBlock img {}
+    .inPage .aboutUs+.advantages {margin-top: 20px;}
+    
+    .advantages .item .img {}
+    .advantages .item .title {}
+    .contacts {}
+    .contacts .pageHead+.contInfo {}
+    .contInfo {}
+    .contInfo .title {}
+    .contInfo .title+.textBlock {}
+    .contInfo .textBlock+.contList {padding-left: 0px;}
+    .contList {}
+    .contList li+li {margin-left: 40px;}
+    .contList .iconLeft {}
+    .contList .iconLeft .icon {}
+    .contList .iconLeft .icon::before {}
+    .contList .iconLeft span {}
+    .contList .iconLeft a {}
+    .inPage .contInfo+.contForm {margin-top: 20px;}
+    .contForm [class*="Cap"]+.textBlock {}
+    .contForm .item:nth-child(1){
+        width: 35%;
+    }
+    .contForm .item:nth-child(2){
+        width: 65%;
+    }
+    .contForm .item:nth-child(3){
+        width: 100%;
+        margin-top: 10px;
+    }
+    .contForm .textBlock+form {}
+    .contForm .itemForm .captcha {background-size: contain;width: 70px;background-repeat: no-repeat;background-position: center bottom;}
+    .contForm .itemForm+.itemForm {}
+    .contForm .itemForm+[class*="btn"] {}
+    .contForm [class*="btn"] {}
+    .inPage .pageHead+.faqList {}
+    .faqList .scrollBlock {background: none;
+    padding: 0px;
+    padding-top: 40px;}
+    .faqList .faqItem+.faqItem {}
+    .faqItem .head {}
+    .faqItem .head:hover {}
+    .faqItem .head .iconLeft {}
+    .faqItem .head .iconLeft [class*="icon"] {}
+    .faqItem .head .iconLeft .icon-plus {}
+    .faqItem .head .iconLeft .icon-minus {}
+    .faqItem .head .iconLeft .data {}
+    .faqItem .head.active .iconLeft .icon-minus {}
+    .faqItem .head.active .iconLeft .icon-plus {}
+    .faqItem .head.active .iconLeft [class*="icon"],
+    .faqItem .head.active .iconLeft .data {}
+    .faqItem .content {}
+    .faqItem .head:not(.active)+.content {}
+    .inPage .pageHead+.ruleList {}
+    .ruleList .scrollBlock {background: none;padding: 0px;padding-top: 40px;}
+    .ruleList .ruleItem+.ruleItem {}
+    .ruleItem {padding-right: 0px;}
+    .ruleItem .num {}
+    .ruleItem .num+.title {}
+    .ruleItem .title {}
+    .ruleItem .title+.textBlock {}
+    .ruleItem .textBlock span {}
+    .inPage .pageHead+.investInfo {}
+    .investInfo .planInfo {}
+    .investInfo .planInfo .tariff .pct::before {}
+    .investInfo .planInfo+.calculator {}
+    .investInfo .calculator {}
+    .investInfo .calculator+.textBlock {}
+    .investInfo .textBlock {}
+    .investInfo+.affProgr {}
+    .affProgr .wrap {}
+    .affProgr .pct {}
+    .affProgr .pct+span {}
+    .affProgr .table .tCell:first-child {}
+    .affProgr .wrap .textBlock {}
+    .cabPage {}
+    .cabPage.main {}
+    .leftSide {}
+    .cabPage .logo {}
+    .logoWrap+.userBl {}
+    .leftSide .userBl {}
+    .userBl .pic {}
+    .userBl .pic:hover {}
+    .userBl .pic input {}
+    .userBl .pic label {}
+    .userBl .pic+.name {}
+    .userBl .name {}
+    .userBl .info {}
+    .userBl .info li {}
+    .userBl .info li+li {}
+    .userBl+.cabMenu {}
+    .cabMenu li+li {}
+    .cabMenu li .iconLeft {}
+    .cabMenu li .iconLeft [class*="icon"] {}
+    .cabMenu li .iconLeft .icon-refs {}
+    .cabMenu li .iconLeft .data {}
+    .cabMenu li a:hover {}
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+    .cabMenu+.cabBtns {}
+    .cabBtns {}
+    .cabBtns [class*="btn"] {}
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+    .rightSide {}
+    .cabHead {}
+    .balList {}
+    .balList li {}
+    .balList li+li {}
+    .balList li .iconLeft {}
+    .balList li .iconLeft [class*="icon"] {}
+    .balList li .title {}
+    .balList li .title+.title {}
+    .balList li .title span {}
+    .balList li .num {}
+    .cabContent {}
+    .cabContent .firstCap {}
+    .accInfo {}
+    .accStat {}
+    .accStat li {}
+    .accStat li .title {}
+    .accStat li .num {}
+    .accInfo .accStat+.upline {}
+    .upline {}
+    .upline .userBl .pic:hover {}
+    .upline .userBl+span {}
+    .upline a {}
+    .accInfo .upline+.refLink {}
+    .refLink {}
+    .refLink .itemForm {}
+    .refLink .itemForm label {}
+    .refLink .itemForm input {}
+    .refLink .itemForm .icon {}
+    .refLink [class*="btn"] {}
+    .cabContent [class*="Cap"]+.editAcc {}
+    .editAcc {}
+    .editAcc .title {}
+    .editAcc .title+.formWrap {}
+    .editAcc .formWrap {}
+    .editAcc .itemForm+.itemForm {}
+    .editAcc .itemForm label {}
+    .editAcc .row+[class*="btn"] {}
+    .banTabs .tabList {}
+    .banTabs .tabList a {}
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabContent {}
+    .banTabs .tabContent .img {}
+    .banTabs .tabContent .img+.link {}
+    .banTabs .tabContent .link {}
+    .banTabs .tabContent .link .itemForm {}
+    .banTabs .tabContent .link input {}
+    .banTabs .tabContent [class*="btn"] {}
+}
+
+@media (max-width: 991px) {
+    .container {
+        width: 738px;
+    }
+    .iconLeft {}
+    .iconLeft>[class*='icon'] {}
+    .styleGuide .block {}
+    .styleGuide .block+.block {}
+    .inputBlock {}
+    .inputBlock input,
+    .inputBlock textarea {}
+    .inputBlock textarea {}
+    .inputBlock .hStyles,
+    .inputBlock .vStyles {}
+    .inputBlock .hStyles:before,
+    .inputBlock .hStyles:after,
+    .inputBlock .vStyles:before,
+    .inputBlock .vStyles:after {}
+    .inputBlock .hStyles {}
+    .inputBlock {}
+    .inputBlock .selectric-wrapper {}
+    .inputBlock .selectric-wrapper .selectric .label {}
+    .inputBlock:before,
+    .inputBlock:after {}
+    .inputBlock:before {}
+    .inputBlock:after {}
+    .inputBlock.textarea .hStyles:before {}
+    .inputBlock.textarea .hStyles:after {}
+    .inputBlock .vStyles {}
+    .inputBlock.textarea {}
+    .inputBlock.textarea:before,
+    .inputBlock.textarea:after {}
+    .inputBlock.textarea:before {}
+    .inputBlock.textarea:after {}
+    .itemForm {}
+    .itemForm label {}
+    .itemForm.topTitle label {}
+    .itemForm.leftTitle {}
+    .itemForm.leftTitle label {}
+    .itemForm.leftTitle .inputBlock {}
+    [class^='btn'] {}
+    [class^='btn']::before {}
+    [class*='btn'][class*='Border'][class*='Back']::after {}
+    [class^='btn'].center {}
+    .scrollBlock {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerRail {}
+    .scrollBlock .mCSB_scrollTools {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerContainer {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {}
+    .testScroll {}
+    .borderBlock,
+    [class*="btnBorder"],
+    [class^='btn']::before {}
+    .testBorderBlock {}
+    [class*="Cap"] {}
+    .firstCap {}
+    .firstCap.cab {}
+    .firstCap::before,
+    .firstCap::after {}
+    .firstCap.simple::before,
+    .firstCap.simple::after {}
+    .firstCap::before {}
+    .firstCap::after {}
+    .secCap {}
+    .textBlock p {}
+    .textBlock p span {}
+    .textBlock p+p,
+    .textBlock img+p {}
+    .simpleLink {}
+    .simpleLink:hover {}
+    .pageContent {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 20px;
+    }
+    .homePage {
+        background-size: auto 900px;
+    }
+    .homePage .left {}
+    .homePage .right {}
+    .homePage .logo {}
+    .mainImg {}
+    .homePage .logReg {}
+    .logReg [class*="btn"] {}
+    .logReg [class*="btn"]+[class*="btn"] {}
+    .homePage .mainImg {
+        right: calc((100% - 738px) / 2 - 260px);
+    }
+    .logo {}
+    .logo:hover {}
+    .logo img {}
+    .logo .txt {}
+    .homePage .logo+.mainInfo {}
+    .mainInfo [class*="Cap"]+.textBlock {}
+    .mainInfo .textBlock {}
+    .mainInfo .textBlock p {}
+    .homePage .mainInfo+.statistic {}
+    .statistic [class*="Cap"]+ul {}
+    .statistic ul {}
+    .statistic ul li {}
+    .statistic ul li:nth-child(odd) {}
+    .statistic ul li:nth-child(even) {}
+    .statistic ul li .num {}
+    .homePage .statistic+.mainMenu {
+        right: calc((100% - 738px) / 2);
+    }
+    .mainMenu {}
+    .mainMenu li {}
+    .mainMenu li+li {}
+    .mainMenu li::before {}
+    .mainMenu li a {}
+    .mainMenu li a:hover {}
+    .planInfo .tariff .secCap {}
+    .planInfo .tariff .pct {}
+    .planInfo .tariff .pct::before {}
+    .planInfo ul li {}
+    .planInfo ul li span {}
+    .planInfo ul li:first-child span {}
+    .planInfo ul+[class*="btn"] {}
+    .homePage .planInfo+.calculator {
+        margin-left: 0px;
+    }
+    .calculator .calc {}
+    .calculator .calc .range+.itemForm {}
+    .calculator .calc .itemForm+.itemForm {}
+    .calculator .itemForm+.profitBlock {}
+    .range .irs-line {}
+    .range .irs-min,
+    .range .irs-max {}
+    .range .irs-single {}
+    .range .irs-slider {}
+    .profitBlock {}
+    .profitBlock li {}
+    .profitBlock li+li {}
+    .profitBlock li::before {}
+    .profitBlock li span {}
+    .homePage .calculator+.programm {}
+    .programm [class*="Cap"]+.ref {}
+    .programm .ref span {}
+    .programm .ref .pct {}
+    footer {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    footer::before {}
+    .logoSm {}
+    .logoSm img {}
+    .logoSm .txt {}
+    .copyright {
+        display: none;
+    }
+    .copyright span {}
+    .menu {}
+    .menu li {}
+    .menu li+li {}
+    .menu li a {}
+    .menu li.active a,
+    .menu li a:hover {}
+    .payments {}
+    .payments li {}
+    .payments li+li {}
+    .inPage {}
+    .inPage .mainContent {}
+    .inPage .mainImg {}
+    .inPage .mainImg .pageImg {}
+    .pageHead .logoWrap {}
+    .pageHead .titleWrap {}
+    .inPage .pageHead+.aboutUs {}
+    .aboutUs [class*="Cap"]+.textBlock {}
+    .aboutUs .item:nth-child(2) .textBlock{
+        
+    padding-right: 260px;
+    }
+    .aboutUs .item:nth-child(2) {}
+    .aboutUs .textBlock img {}
+    .aboutUs .item:nth-child(2) .textBlock img{
+        
+    right: 0px;
+    }
+    .inPage .aboutUs+.advantages {}
+    .advantages .wrap {padding: 0px;background: none;margin-top: -10px;}
+    .advantages .wrap>.item {padding-right: 10px;}
+    .advantages .item .img {}
+    .advantages .item .title {}
+    .contacts {}
+    .contacts .pageHead+.contInfo {}
+    .contInfo {}
+    .contInfo .title {}
+    .contInfo .title+.textBlock {}
+    .contInfo .textBlock+.contList {}
+    .contList {}
+    .contList li+li {}
+    .contList .iconLeft {}
+    .contList .iconLeft .icon {}
+    .contList .iconLeft .icon::before {}
+    .contList .iconLeft span {}
+    .contList .iconLeft a {}
+    .inPage .contInfo+.contForm {}
+    .inPage .contInfo+.contForm  form{
+        max-width: 640px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .contForm .item{
+        width: 100% !important;
+    }
+    .contForm .item + .item{
+        margin-top: 15px;
+    }
+    .contForm .item:nth-child(1){
+        margin-left: -15px;
+        margin-right: -15px;
+        width:  calc(100% + 30px) !important;
+    }
+    .contForm .item:nth-child(1) .itemForm{
+        padding: 0px 15px;
+        width: 50%;
+        float: left;
+        margin-top: 0px;
+    }
+    .contForm .item:nth-child(3) .itemForm{
+        width: 50%;
+        padding-right: 15px;
+    }
+    .contForm [class*="Cap"]+.textBlock {}
+    .contForm .textBlock+form {}
+    .contForm .itemForm .captcha {right: 15px;}
+    .contForm .itemForm+.itemForm {}
+    .contForm .itemForm+[class*="btn"] {}
+    .contForm [class*="btn"] {}
+    .inPage .pageHead+.faqList {}
+    .faqList .scrollBlock {}
+    .faqList .faqItem+.faqItem {}
+    .faqItem .head {}
+    .faqItem .head:hover {}
+    .faqItem .head .iconLeft {}
+    .faqItem .head .iconLeft [class*="icon"] {}
+    .faqItem .head .iconLeft .icon-plus {}
+    .faqItem .head .iconLeft .icon-minus {}
+    .faqItem .head .iconLeft .data {}
+    .faqItem .head.active .iconLeft .icon-minus {}
+    .faqItem .head.active .iconLeft .icon-plus {}
+    .faqItem .head.active .iconLeft [class*="icon"],
+    .faqItem .head.active .iconLeft .data {}
+    .faqItem .content {}
+    .faqItem .head:not(.active)+.content {}
+    .inPage .pageHead+.ruleList {}
+    .ruleList .scrollBlock {}
+    .ruleList .ruleItem+.ruleItem {}
+    .ruleItem {}
+    .ruleItem .num {}
+    .ruleItem .num+.title {}
+    .ruleItem .title {}
+    .ruleItem .title+.textBlock {}
+    .ruleItem .textBlock span {}
+    .inPage .pageHead+.investInfo {}
+    .investInfo .planInfo {float: none;margin: 0 auto;}
+    .investInfo .planInfo .tariff .pct::before {}
+    .investInfo .planInfo+.calculator {display: block;width: 530px;float: none;margin: 40px auto 0px;padding: 0px;}
+    .investInfo .calculator {}
+    .investInfo .calculator+.textBlock {}
+    .investInfo .textBlock {}
+    .investInfo+.affProgr {}
+    .affProgr .wrap {background: none;}
+    .affProgr .wrap .tCell{
+        display: block;        
+    }
+    .affProgr .wrap .tCell:first-child{
+        padding-bottom: 45px;
+        padding-top: 20px;
+        width: auto;
+        padding-right: 30px;
+    }
+    .affProgr .pct {text-align: left;padding-left: 30px;}
+    .affProgr .pct+span {text-align: left;}
+    .affProgr .table .tCell:first-child {}
+    .affProgr .wrap .textBlock {}
+    .cabPage {}
+    .cabPage.main {}
+    .leftSide {}
+    .cabPage .logo {}
+    .logoWrap+.userBl {}
+    .leftSide .userBl {}
+    .userBl .pic {}
+    .userBl .pic:hover {}
+    .userBl .pic input {}
+    .userBl .pic label {}
+    .userBl .pic+.name {}
+    .userBl .name {}
+    .userBl .info {}
+    .userBl .info li {}
+    .userBl .info li+li {}
+    .userBl+.cabMenu {}
+    .cabMenu li+li {}
+    .cabMenu li .iconLeft {}
+    .cabMenu li .iconLeft [class*="icon"] {}
+    .cabMenu li .iconLeft .icon-refs {}
+    .cabMenu li .iconLeft .data {}
+    .cabMenu li a:hover {}
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+    .cabMenu+.cabBtns {}
+    .cabBtns {}
+    .cabBtns [class*="btn"] {}
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+    .rightSide {}
+    .cabHead {}
+    .balList {}
+    .balList li {}
+    .balList li+li {}
+    .balList li .iconLeft {}
+    .balList li .iconLeft [class*="icon"] {}
+    .balList li .title {}
+    .balList li .title+.title {}
+    .balList li .title span {}
+    .balList li .num {}
+    .cabContent {}
+    .cabContent .firstCap {}
+    .accInfo {}
+    .accStat {}
+    .accStat li {}
+    .accStat li .title {}
+    .accStat li .num {}
+    .accInfo .accStat+.upline {}
+    .upline {}
+    .upline .userBl .pic:hover {}
+    .upline .userBl+span {}
+    .upline a {}
+    .accInfo .upline+.refLink {}
+    .refLink {}
+    .refLink .itemForm {}
+    .refLink .itemForm label {}
+    .refLink .itemForm input {}
+    .refLink .itemForm .icon {}
+    .refLink [class*="btn"] {}
+    .cabContent [class*="Cap"]+.editAcc {}
+    .editAcc {}
+    .editAcc .title {}
+    .editAcc .title+.formWrap {}
+    .editAcc .formWrap {}
+    .editAcc .itemForm+.itemForm {}
+    .editAcc .itemForm label {}
+    .editAcc .row+[class*="btn"] {}
+    .banTabs .tabList {}
+    .banTabs .tabList a {}
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabContent {}
+    .banTabs .tabContent .img {}
+    .banTabs .tabContent .img+.link {}
+    .banTabs .tabContent .link {}
+    .banTabs .tabContent .link .itemForm {}
+    .banTabs .tabContent .link input {}
+    .banTabs .tabContent [class*="btn"] {}
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        max-width: 460px;
+    }
+    .iconLeft {}
+    .iconLeft>[class*='icon'] {}
+    .styleGuide .block {}
+    .styleGuide .block+.block {}
+    .inputBlock {}
+    .inputBlock input,
+    .inputBlock textarea {}
+    .inputBlock textarea {}
+    .inputBlock .hStyles,
+    .inputBlock .vStyles {}
+    .inputBlock .hStyles:before,
+    .inputBlock .hStyles:after,
+    .inputBlock .vStyles:before,
+    .inputBlock .vStyles:after {}
+    .inputBlock .hStyles {}
+    .inputBlock {}
+    .inputBlock .selectric-wrapper {}
+    .inputBlock .selectric-wrapper .selectric .label {}
+    .inputBlock:before,
+    .inputBlock:after {}
+    .inputBlock:before {}
+    .inputBlock:after {}
+    .inputBlock.textarea .hStyles:before {}
+    .inputBlock.textarea .hStyles:after {}
+    .inputBlock .vStyles {}
+    .inputBlock.textarea {}
+    .inputBlock.textarea:before,
+    .inputBlock.textarea:after {}
+    .inputBlock.textarea:before {}
+    .inputBlock.textarea:after {}
+    .itemForm {}
+    .contForm .item:nth-child(1) .itemForm{
+        width: 100%;
+    }
+    .contForm .item:nth-child(3) .itemForm{
+        width: 100%;
+        padding-right: 0px;
+    }
+    .contForm .item:nth-child(1) .itemForm + .itemForm{
+        margin-top: 10px;
+    }
+    .itemForm label {}
+    .itemForm.topTitle label {}
+    .itemForm.leftTitle {}
+    .itemForm.leftTitle label {
+        display: block;
+    }
+    .itemForm.leftTitle .inputBlock {
+        display: block;
+    }
+    [class^='btn'] {}
+    [class^='btn']::before {}
+    [class*='btn'][class*='Border'][class*='Back']::after {}
+    [class^='btn'].center {}
+    .scrollBlock {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerRail {}
+    .scrollBlock .mCSB_scrollTools {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerContainer {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {}
+    .testScroll {}
+    .borderBlock,
+    [class*="btnBorder"],
+    [class^='btn']::before {}
+    .testBorderBlock {}
+    [class*="Cap"] {}
+    .firstCap {}
+    .firstCap.cab {}
+    .firstCap::before,
+    .firstCap::after {}
+    .firstCap.simple::before,
+    .firstCap.simple::after {}
+    .firstCap::before {}
+    .firstCap::after {}
+    .secCap {
+        font-size: 24px;
+    }
+    .textBlock p {}
+    .textBlock p span {}
+    .textBlock p+p,
+    .textBlock img+p {}
+    .simpleLink {}
+    .simpleLink:hover {}
+    .pageContent {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+    .homePage {}
+    .homePage .left {
+        width: 100%;
+    }
+    .homePage .right {}
+    .homePage .right .planInfo {
+        top: 580px;
+    }
+    .homePage .logo {
+        margin-left: 18px;
+    }
+    .mainImg {}
+    .homePage .logReg {}
+    .logReg [class*="btn"] {}
+    .logReg [class*="btn"]+[class*="btn"] {}
+    .homePage .mainImg {
+        right: calc(50% - 645px);
+        top: 15px;
+        background-image: url(../img/main_img-sh.png) !important;
+        background-position: left top;
+    }
+    .logo {
+        margin-left: 18px;
+    }
+    .logo:hover {}
+    .logo img {}
+    .logo .txt {}
+    .homePage .logo+.mainInfo {
+        top: calc(845px + 460px);
+    }
+    .homePage .logo+.mainInfo .secCap {
+        font-size: 30px;
+    }
+    .mainInfo [class*="Cap"]+.textBlock {}
+    .mainInfo .textBlock {}
+    .mainInfo .textBlock p {}
+    .homePage .mainInfo+.statistic {}
+    .homePage .mainInfo+.statistic .secCap {
+        display: none;
+    }
+    .statistic [class*="Cap"]+ul {}
+    .statistic ul {
+        background: none;
+    }
+    .statistic ul li {
+        display: block;
+        padding-left: 0px !important;
+        padding-top: 0px !important;
+        width: 100%;
+    }
+    .statistic ul li:nth-child(odd) {}
+    .statistic ul li:nth-child(even) {}
+    .statistic ul li .num {}
+    .statistic ul li+li {
+        margin-top: 10px;
+    }
+    .homePage .statistic+.mainMenu {
+        display: none;
+    }
+    .mainMenu {}
+    .mainMenu li {}
+    .mainMenu li+li {}
+    .mainMenu li::before {}
+    .mainMenu li a {}
+    .mainMenu li a:hover {}
+    .planInfo .tariff .secCap {
+        font-size: 24px;
+    }
+    .planInfo .tariff .pct {
+        font-size: 72px;
+        line-height: 72px;
+        vertical-align: top;
+        position: relative;
+        top: -10px;
+        margin-left: 20px;
+    }
+    .investors .planInfo .tariff .pct:before{
+        content:"";
+        display: block;
+        position: absolute;
+        background-image: url(../img/inv-percent.png);
+        
+        width: 135px;
+        height: 105px;
+        background-position: center;
+        background-size: contain;
+    }
+    .planInfo .tariff .pct::before {
+        width: 153px;
+        height: 105px;
+        background-size: contain;
+        left: -27px;
+        top: -17px;
+    }
+    .planInfo ul li {
+        font-size: 16px;
+    }
+    .planInfo ul li span {}
+    .planInfo ul li:first-child span {}
+    .planInfo ul+[class*="btn"] {}
+    .homePage .planInfo+.calculator {
+        width: 100%;
+        max-width: 360px;
+    }
+    .calculator .calc {
+        padding: 0px;
+        background: none;
+        margin-top: 20px;
+    }
+    .calculator .calc .range {
+        display: none;
+    }
+    .calculator .calc .range+.itemForm {}
+    .calculator .calc .itemForm+.itemForm {}
+    .calculator .itemForm+.profitBlock {
+        padding-left: 10px;
+        position: relative;
+        z-index: 1;
+    }
+    .calculator .itemForm+.profitBlock:before {
+        content: '';
+        display: block;
+        position: absolute;
+        top: -30px;
+        left: -10px;
+        width: 312px;
+        height: 126px;
+        background-image: url(../img/num_back3.png);
+        background-repeat: no-repeat;
+        z-index: -1;
+        background-size: contain;
+    }
+    .range .irs-line {}
+    .range .irs-min,
+    .range .irs-max {}
+    .range .irs-single {}
+    .range .irs-slider {}
+    .profitBlock {}
+    .profitBlock li {
+        font-size: 16px;
+    }
+    .profitBlock li+li {
+        margin-left: 30px;
+    }
+    .profitBlock li::before {
+        display: none;
+    }
+    .profitBlock li span {}
+    .homePage .calculator+.programm {
+        margin-top: 370px;
+    }
+    .programm [class*="Cap"]+.ref {
+        margin-top: 15px;
+    }
+    .programm .ref span {
+        line-height: 30px;
+        margin-top: -5px;
+    }
+    .programm .ref .pct {}
+    footer {
+        padding: 110px 10px 10px;
+    }
+    footer::before {}
+    .logoSm {
+        display: none;
+    }
+    footer .left {
+        width: 0px;
+    }
+    .logoSm img {}
+    .logoSm .txt {}
+    .copyright {
+        display: none;
+    }
+    .copyright span {}
+    .menu {
+        max-width: 260px;
+        left: 50%;
+        margin-left: -130px;
+        padding: 0px;
+        box-shadow: 260px 0px 0px 0px #e3d5ae, -260px 0px 0px 0px #e3d5ae;
+    }
+    .menu li {
+        margin: 15px 10px 0px !important;
+    }
+    .menu li+li {}
+    .menu li a {}
+    .menu li.active a,
+    .menu li a:hover {}
+    .payments {margin-left: -10px;margin-right: -10px;text-align: center;height: 30px;}
+    .payments li {}
+    .payments li+li {margin-left: 30px;}
+    .payments li img{
+        height: 25px;
+    }
+    .inPage {}
+    .inPage .mainContent {}
+    .inPage .mainImg {}
+    .inPage .mainImg .pageImg {}
+    .pageHead .logoWrap {}
+    .pageHead .titleWrap {/*! display: block; */}
+    .pageHead .titleWrap {display: block;padding-left: 0px;margin-top: 30px;}
+    .pageHead .titleWrap [class*='Cap']{font-size: 30px;line-height: 1.25;text-align: center;display: block;}
+    .pageHead .logoWrap
+    {display: block;}
+    .inPage .pageHead+.aboutUs {margin-top: 10px;}
+    .inPage .pageHead+.aboutUs [class*='Cap']{
+        text-align: center;display: block;
+        font-family: "Roboto Slab";
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+    .aboutUs [class*="Cap"]+.textBlock {}
+    .aboutUs .item:nth-child(2) .textBlock{
+        padding-right: 0px;
+    }
+    .aboutUs .item:nth-child(2) {}
+    .aboutUs .textBlock img {}
+    .aboutUs .item:nth-child(2) .textBlock img{
+        display: none;
+    }
+    .inPage .aboutUs+.advantages [class*='Cap']
+    {text-align: center;
+
+display: block;
+
+font-family: "Roboto Slab";
+
+font-size: 18px;
+
+font-weight: bold;
+
+    }
+    .advantages .wrap {margin-top: 10px;}
+    .advantages .wrap>.item {width: 100%;height: auto;margin-top: 0px;padding-right: 0px;}
+    .advantages .wrap>.item img{
+    }
+    .advantages .wrap>.item + .item{
+        margin-top: 20px;
+    }
+    .advantages .item .img {width: 90px;}
+    .advantages .item .title {font-size: 14px;}
+    .contacts {}
+    .contacts .pageHead+.contInfo {background: none;padding: 0px;}
+    .contInfo {}
+    .contInfo .title {font-size: 18px;}
+    .contInfo .title+.textBlock {}
+    .contInfo .textBlock+.contList {text-align: center;}
+    .contList {}
+    .contList li+li {margin-top: 30px;}
+    .contList .iconLeft {padding-left: 0px;margin-left: 0px;}
+    .contList .iconLeft .icon {display: block;position: relative;margin: 0px;}
+    .contList .iconLeft .icon::before {left: 50%;margin-left: -60px;}
+    .contList .iconLeft .data{
+        margin-top: 10px;
+    }
+    .contList .iconLeft span {}
+    .contList .iconLeft a {}
+    .inPage .contInfo+.contForm {margin-top: 40px;}
+    .inPage .contInfo+.contForm [class*='Cap']{
+        font-size: 28px;
+        display: block;
+        text-align: center;
+    }
+    .contForm [class*="Cap"]+.textBlock {padding-right: 0px;}
+    .contForm .textBlock+form {}
+    .inPage .contInfo + .contForm form{
+        max-width: 400px;
+    }
+    .contForm .itemForm .captcha {}
+    .contForm .itemForm+.itemForm {}
+    .contForm .itemForm+[class*="btn"] {}
+    .contForm [class*="btn"] {}
+    .inPage .pageHead+.faqList {}
+    .faqList .scrollBlock {padding-top:10px;height: auto;}
+    .faqList .mCustomScrollBox{overflow: visible;}
+    .faqList .mCustomScrollBox.mCSB_inside > .mCSB_container{
+        margin-right: 0px;
+    }
+    .faqList .scrollBlock .mCSB_scrollTools{
+        display: none !important;
+    }
+    .faqList .faqItem+.faqItem {}
+    .faqItem .head {}
+    .faqItem .head:hover {}
+    .faqItem .head .iconLeft {}
+    .faqItem .head .iconLeft [class*="icon"] {}
+    .faqItem .head .iconLeft .icon-plus {}
+    .faqItem .head .iconLeft .icon-minus {}
+    .faqItem .head .iconLeft .data {line-height: 24px;
+    padding-right: 40px;
+    display: block;}
+    .faqItem .head.active .iconLeft .icon-minus {}
+    .faqItem .head.active .iconLeft .icon-plus {}
+    .faqItem .head.active .iconLeft [class*="icon"],
+    .faqItem .head.active .iconLeft .data {}
+    .faqItem .content {padding-left: 20px;padding-right: 0px;}
+    .faqItem .head:not(.active)+.content {}
+    .inPage .pageHead+.ruleList {}
+    .ruleList .scrollBlock {padding-top: 10px;height: 300px;}
+    .ruleList .ruleItem+.ruleItem {}
+    .ruleItem {}
+    .ruleItem .num {}
+    .ruleItem .num+.title {}
+    .ruleItem .title {}
+    .ruleItem .title+.textBlock {}
+    .ruleItem .textBlock span {}
+    .inPage .pageHead+.investInfo {}
+    .investInfo .planInfo {width: 100%;max-width: 410px;}
+    .investInfo .planInfo .tariff .pct::before {}
+    .investInfo .planInfo+.calculator {width: 100%;max-width: 530px;}
+    .investInfo .calculator {}
+    .investInfo .calculator+.textBlock {}
+    .investInfo .textBlock {}
+    .investInfo+.affProgr {margin-top: 70px;}
+    .affProgr .wrap {padding-top: 0px;}
+    .affProgr .pct {padding-left: 0px;font-size: 60px;line-height: 1;}
+    .affProgr .pct+span {margin-top: 0px;}
+    .affProgr .table .tCell:first-child {padding-top: 10px;padding-right: 0px;padding-bottom: 20px;}
+    .affProgr .wrap .textBlock {padding-right: 0px;}
+    .cabPage {}
+    .cabPage.main {}
+    .leftSide {}
+    .cabPage .logo {}
+    .logoWrap+.userBl {}
+    .leftSide .userBl {}
+    .userBl .pic {}
+    .userBl .pic:hover {}
+    .userBl .pic input {}
+    .userBl .pic label {}
+    .userBl .pic+.name {}
+    .userBl .name {}
+    .userBl .info {}
+    .userBl .info li {}
+    .userBl .info li+li {}
+    .userBl+.cabMenu {}
+    .cabMenu li+li {}
+    .cabMenu li .iconLeft {}
+    .cabMenu li .iconLeft [class*="icon"] {}
+    .cabMenu li .iconLeft .icon-refs {}
+    .cabMenu li .iconLeft .data {}
+    .cabMenu li a:hover {}
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+    .cabMenu+.cabBtns {}
+    .cabBtns {}
+    .cabBtns [class*="btn"] {}
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+    .rightSide {}
+    .cabHead {}
+    .balList {}
+    .balList li {}
+    .balList li+li {}
+    .balList li .iconLeft {}
+    .balList li .iconLeft [class*="icon"] {}
+    .balList li .title {}
+    .balList li .title+.title {}
+    .balList li .title span {}
+    .balList li .num {}
+    .cabContent {}
+    .cabContent .firstCap {}
+    .accInfo {}
+    .accStat {}
+    .accStat li {}
+    .accStat li .title {}
+    .accStat li .num {}
+    .accInfo .accStat+.upline {}
+    .upline {}
+    .upline .userBl .pic:hover {}
+    .upline .userBl+span {}
+    .upline a {}
+    .accInfo .upline+.refLink {}
+    .refLink {}
+    .refLink .itemForm {}
+    .refLink .itemForm label {}
+    .refLink .itemForm input {}
+    .refLink .itemForm .icon {}
+    .refLink [class*="btn"] {}
+    .cabContent [class*="Cap"]+.editAcc {}
+    .editAcc {}
+    .editAcc .title {}
+    .editAcc .title+.formWrap {}
+    .editAcc .formWrap {}
+    .editAcc .itemForm+.itemForm {}
+    .editAcc .itemForm label {}
+    .editAcc .row+[class*="btn"] {}
+    .banTabs .tabList {}
+    .banTabs .tabList a {}
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabContent {}
+    .banTabs .tabContent .img {}
+    .banTabs .tabContent .img+.link {}
+    .banTabs .tabContent .link {}
+    .banTabs .tabContent .link .itemForm {}
+    .banTabs .tabContent .link input {}
+    .banTabs .tabContent [class*="btn"] {}
+}
+
+@media (max-width: 479px) {
+    .iconLeft {}
+    .iconLeft>[class*='icon'] {}
+    .styleGuide .block {}
+    .styleGuide .block+.block {}
+    .inputBlock {}
+    .inputBlock input,
+    .inputBlock textarea {}
+    .inputBlock textarea {}
+    .inputBlock .hStyles,
+    .inputBlock .vStyles {}
+    .inputBlock .hStyles:before,
+    .inputBlock .hStyles:after,
+    .inputBlock .vStyles:before,
+    .inputBlock .vStyles:after {}
+    .inputBlock .hStyles {}
+    .inputBlock {}
+    .inputBlock .selectric-wrapper {}
+    .inputBlock .selectric-wrapper .selectric .label {}
+    .inputBlock:before,
+    .inputBlock:after {}
+    .inputBlock:before {}
+    .inputBlock:after {}
+    .inputBlock.textarea .hStyles:before {}
+    .inputBlock.textarea .hStyles:after {}
+    .inputBlock .vStyles {}
+    .inputBlock.textarea {}
+    .inputBlock.textarea:before,
+    .inputBlock.textarea:after {}
+    .inputBlock.textarea:before {}
+    .inputBlock.textarea:after {}
+    .itemForm {}
+    .itemForm label {}
+    .itemForm.topTitle label {}
+    .itemForm.leftTitle {}
+    .itemForm.leftTitle label {}
+    .itemForm.leftTitle .inputBlock {}
+    [class^='btn'] {}
+    [class^='btn']::before {}
+    [class*='btn'][class*='Border'][class*='Back']::after {}
+    [class^='btn'].center {}
+    .scrollBlock {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerRail {}
+    .scrollBlock .mCSB_scrollTools {}
+    .scrollBlock .mCSB_scrollTools .mCSB_draggerContainer {}
+    .scrollBlock .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {}
+    .testScroll {}
+    .borderBlock,
+    [class*="btnBorder"],
+    [class^='btn']::before {}
+    .testBorderBlock {}
+    [class*="Cap"] {}
+    .firstCap {}
+    .firstCap.cab {}
+    .firstCap::before,
+    .firstCap::after {}
+    .firstCap.simple::before,
+    .firstCap.simple::after {}
+    .firstCap::before {}
+    .firstCap::after {}
+    .secCap {}
+    .textBlock p {}
+    .textBlock p span {}
+    .textBlock p+p,
+    .textBlock img+p {}
+    .simpleLink {}
+    .simpleLink:hover {}
+    .pageContent {}
+    .homePage {}
+    .homePage .left {}
+    .homePage .right {}
+    .homePage .logo {}
+    .mainImg {}
+    .homePage .logReg {}
+    .logReg [class*="btn"] {}
+    .logReg [class*="btn"]+[class*="btn"] {}
+    .homePage .mainImg {}
+    .logo {}
+    .logo:hover {}
+    .logo img {}
+    .logo .txt {}
+    .homePage .logo+.mainInfo {}
+    .mainInfo [class*="Cap"]+.textBlock {}
+    .mainInfo .textBlock {}
+    .mainInfo .textBlock p {}
+    .homePage .mainInfo+.statistic {}
+    .statistic [class*="Cap"]+ul {}
+    .statistic ul {}
+    .statistic ul li {}
+    .statistic ul li:nth-child(odd) {}
+    .statistic ul li:nth-child(even) {}
+    .statistic ul li .num {}
+    .homePage .statistic+.mainMenu {}
+    .mainMenu {}
+    .mainMenu li {}
+    .mainMenu li+li {}
+    .mainMenu li::before {}
+    .mainMenu li a {}
+    .mainMenu li a:hover {}
+    .planInfo .tariff .secCap {}
+    .planInfo .tariff .pct {}
+    .planInfo .tariff .pct::before {}
+    .planInfo ul li {}
+    .planInfo ul li span {}
+    .planInfo ul li:first-child span {}
+    .planInfo ul+[class*="btn"] {}
+    .homePage .planInfo+.calculator {}
+    .calculator .calc {}
+    .calculator .calc .range+.itemForm {}
+    .calculator .calc .itemForm+.itemForm {}
+    .calculator .itemForm+.profitBlock {}
+    .range .irs-line {}
+    .range .irs-min,
+    .range .irs-max {}
+    .range .irs-single {}
+    .range .irs-slider {}
+    .profitBlock {}
+    .profitBlock li {}
+    .profitBlock li+li {}
+    .profitBlock li::before {}
+    .profitBlock li span {}
+    .homePage .calculator+.programm {}
+    .programm [class*="Cap"]+.ref {}
+    .programm .ref span {}
+    .programm .ref .pct {}
+    footer {}
+    footer::before {}
+    .logoSm {}
+    .logoSm img {}
+    .logoSm .txt {}
+    .copyright {}
+    .copyright span {}
+    .menu {}
+    .menu li {}
+    .menu li+li {}
+    .menu li a {}
+    .menu li.active a,
+    .menu li a:hover {}
+    .payments {}
+    .payments li {}
+    .payments li+li {}
+    .inPage {}
+    .inPage .mainContent {}
+    .inPage .mainImg {}
+    .inPage .mainImg .pageImg {}
+    .pageHead .logoWrap {}
+    .pageHead .titleWrap {}
+    .inPage .pageHead+.aboutUs {}
+    .aboutUs [class*="Cap"]+.textBlock {}
+    .aboutUs .item:nth-child(2) {}
+    .aboutUs .textBlock img {}
+    .inPage .aboutUs+.advantages {}
+    .advantages .wrap {}
+    .advantages .wrap>.item {}
+    .advantages .item .img {}
+    .advantages .item .title {}
+    .contacts {}
+    .contacts .pageHead+.contInfo {}
+    .contInfo {}
+    .contInfo .title {}
+    .contInfo .title+.textBlock {}
+    .contInfo .textBlock+.contList {}
+    .contList {}
+    .contList li+li {}
+    .contList .iconLeft {}
+    .contList .iconLeft .icon {}
+    .contList .iconLeft .icon::before {}
+    .contList .iconLeft span {}
+    .contList .iconLeft a {}
+    .inPage .contInfo+.contForm {}
+    .contForm [class*="Cap"]+.textBlock {}
+    .contForm .textBlock+form {}
+    .contForm .itemForm .captcha {}
+    .contForm .itemForm+.itemForm {}
+    .contForm .itemForm+[class*="btn"] {}
+    .contForm [class*="btn"] {}
+    .inPage .pageHead+.faqList {}
+    .faqList .scrollBlock {}
+    .faqList .faqItem+.faqItem {}
+    .faqItem .head {}
+    .faqItem .head:hover {}
+    .faqItem .head .iconLeft {}
+    .faqItem .head .iconLeft [class*="icon"] {}
+    .faqItem .head .iconLeft .icon-plus {}
+    .faqItem .head .iconLeft .icon-minus {}
+    .faqItem .head .iconLeft .data {}
+    .faqItem .head.active .iconLeft .icon-minus {}
+    .faqItem .head.active .iconLeft .icon-plus {}
+    .faqItem .head.active .iconLeft [class*="icon"],
+    .faqItem .head.active .iconLeft .data {}
+    .faqItem .content {}
+    .faqItem .head:not(.active)+.content {}
+    .inPage .pageHead+.ruleList {}
+    .ruleList .scrollBlock {}
+    .ruleList .ruleItem+.ruleItem {}
+    .ruleItem {}
+    .ruleItem .num {}
+    .ruleItem .num+.title {}
+    .ruleItem .title {}
+    .ruleItem .title+.textBlock {}
+    .ruleItem .textBlock span {}
+    .inPage .pageHead+.investInfo {}
+    .investInfo .planInfo {}
+    .investInfo .planInfo .tariff .pct::before {}
+    .investInfo .planInfo+.calculator {}
+    .investInfo .calculator {}
+    .investInfo .calculator+.textBlock {}
+    .investInfo .textBlock {}
+    .investInfo+.affProgr {}
+    .affProgr .wrap {}
+    .affProgr .pct {}
+    .affProgr .pct+span {}
+    .affProgr .table .tCell:first-child {}
+    .affProgr .wrap .textBlock {}
+    .cabPage {}
+    .cabPage.main {}
+    .leftSide {}
+    .cabPage .logo {}
+    .logoWrap+.userBl {}
+    .leftSide .userBl {}
+    .userBl .pic {}
+    .userBl .pic:hover {}
+    .userBl .pic input {}
+    .userBl .pic label {}
+    .userBl .pic+.name {}
+    .userBl .name {}
+    .userBl .info {}
+    .userBl .info li {}
+    .userBl .info li+li {}
+    .userBl+.cabMenu {}
+    .cabMenu li+li {}
+    .cabMenu li .iconLeft {}
+    .cabMenu li .iconLeft [class*="icon"] {}
+    .cabMenu li .iconLeft .icon-refs {}
+    .cabMenu li .iconLeft .data {}
+    .cabMenu li a:hover {}
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+    .cabMenu+.cabBtns {}
+    .cabBtns {}
+    .cabBtns [class*="btn"] {}
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+    .rightSide {}
+    .cabHead {}
+    .balList {}
+    .balList li {}
+    .balList li+li {}
+    .balList li .iconLeft {}
+    .balList li .iconLeft [class*="icon"] {}
+    .balList li .title {}
+    .balList li .title+.title {}
+    .balList li .title span {}
+    .balList li .num {}
+    .cabContent {}
+    .cabContent .firstCap {}
+    .accInfo {}
+    .accStat {}
+    .accStat li {}
+    .accStat li .title {}
+    .accStat li .num {}
+    .accInfo .accStat+.upline {}
+    .upline {}
+    .upline .userBl .pic:hover {}
+    .upline .userBl+span {}
+    .upline a {}
+    .accInfo .upline+.refLink {}
+    .refLink {}
+    .refLink .itemForm {}
+    .refLink .itemForm label {}
+    .refLink .itemForm input {}
+    .refLink .itemForm .icon {}
+    .refLink [class*="btn"] {}
+    .cabContent [class*="Cap"]+.editAcc {}
+    .editAcc {}
+    .editAcc .title {}
+    .editAcc .title+.formWrap {}
+    .editAcc .formWrap {}
+    .editAcc .itemForm+.itemForm {}
+    .editAcc .itemForm label {}
+    .editAcc .row+[class*="btn"] {}
+    .banTabs .tabList {}
+    .banTabs .tabList a {}
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabList .ui-state-active a {}
+    .banTabs .tabContent {}
+    .banTabs .tabContent .img {}
+    .banTabs .tabContent .img+.link {}
+    .banTabs .tabContent .link {}
+    .banTabs .tabContent .link .itemForm {}
+    .banTabs .tabContent .link input {}
+    .banTabs .tabContent [class*="btn"] {}
 }

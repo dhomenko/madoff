@@ -12,7 +12,7 @@ styleFile create on 08.11.2018 16:50:47 ---
 body {
     margin: 0 auto;
     max-width: 1920px;
-    min-width: 1200px;
+/*     min-width: 1200px; */
     font-family: "Roboto Slab";
     line-height: 1;
     color: #3f3f3f;
