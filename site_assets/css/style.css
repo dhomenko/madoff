@@ -2,6 +2,7 @@
 tinc project builder
 styleFile create on 08.11.2018 16:50:47 ---
 */
+
 *,
 *::before,
 *::after {
@@ -21,7 +22,6 @@ body {
 .bodyWrap {
     overflow: hidden;
     /* min-height: 100vh; */
-
 }
 
 h1,
@@ -378,7 +378,6 @@ textarea:focus:-ms-input-placeholder {
 .inputBlock.textarea:after {
     background-image: url(../img/input-line_bott.png);
     background-position: left calc(100% - 3px);
-
 }
 
 input,
@@ -435,7 +434,6 @@ textarea {}
     line-height: 50px;
     letter-spacing: 0.01em;
     color: #3f3f3f;
-
 }
 
 [class^='btn']::before {
@@ -569,7 +567,6 @@ textarea {}
 .firstCap.simple::after {
     display: none;
 }
-
 
 .firstCap::before {
     right: calc(100% + 20px);
@@ -1555,7 +1552,6 @@ footer::before {
     margin-right: auto;
     font-size: 24px;
     color: #3e8c99;
-
 }
 
 .userBl .info {
@@ -1687,7 +1683,6 @@ footer::before {
 }
 
 .balList li .title+.title {
-
     margin-top: 10px;
 }
 
@@ -1795,7 +1790,6 @@ footer::before {
 }
 
 .refLink .itemForm label {
-
     padding-left: 25px;
 }
 
@@ -2696,7 +2690,7 @@ footer::before {
     text-align: center
 }
 
-.depForm [class*="Cap"] + .wrap {
+.depForm [class*="Cap"]+.wrap {
     margin-top: 50px;
 }
 
@@ -2704,7 +2698,7 @@ footer::before {
     display: inline-block;
 }
 
-.depForm form>.wrap .item + .item {
+.depForm form>.wrap .item+.item {
     margin-left: 40px;
 }
 
@@ -2721,15 +2715,15 @@ footer::before {
     text-align: left;
 }
 
-.depForm .wrap + .profitBlock {
+.depForm .wrap+.profitBlock {
     margin-top: 65px;
 }
 
-.depForm .profitBlock + .paySys {
+.depForm .profitBlock+.paySys {
     margin-top: 60px;
 }
 
-.paySys .title + .payList {
+.paySys .title+.payList {
     margin-top: 15px;
 }
 
@@ -2750,7 +2744,7 @@ footer::before {
     display: inline-block;
 }
 
-.payList .item + .item {
+.payList .item+.item {
     margin-left: 55px;
 }
 
@@ -2775,10 +2769,9 @@ footer::before {
     -ms-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     transition: opacity 0.3s;
-
 }
 
-.payList input:checked ~ .in::before {
+.payList input:checked~.in::before {
     opacity: 1;
 }
 
@@ -2791,12 +2784,12 @@ footer::before {
     width: 100%;
     height: 100%;
     z-index: 5;
-    top:0px;
+    top: 0px;
     left: 0px;
     cursor: pointer;
 }
 
-.payList .item label:hover ~ .in::before {
+.payList .item label:hover~.in::before {
     opacity: 1;
 }
 
@@ -2816,11 +2809,11 @@ footer::before {
 
 /* WITHDRAW */
 
-.withForm form>.wrap +.paySys {
+.withForm form>.wrap+.paySys {
     margin-top: 45px;
 }
 
-.withForm .paySys + .profitBlock {
+.withForm .paySys+.profitBlock {
     margin-top: 70px;
 }
 
@@ -2832,6 +2825,6 @@ footer::before {
     left: 0px;
 }
 
-.withForm .profitBlock + [class*="btn"] {
+.withForm .profitBlock+[class*="btn"] {
     margin-top: 70px;
 }
