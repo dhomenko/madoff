@@ -3,6 +3,41 @@ tinc project builder
 styleFile create on 08.11.2018 16:50:47 ---
 */
 
+.homePage .menuBtn {
+    right: -10px;
+    top: -15px;
+}
+
+.menuBtn {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    z-index: 2;
+}
+
+.menuBtn span {
+    display: block;
+    width: 40px;
+    height: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #adaa94;
+}
+
+.menuBtn span+span {
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    .menuBtn {
+        display: none;
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -645,6 +680,12 @@ textarea {}
     background-position: center;
     background-repeat: no-repeat;
 }
+.mainImg [src*='anime']{
+    display: block;
+    position: absolute;
+    left: 325px;
+    top: 450px;
+}
 
 .homePage .logReg {
     position: absolute;
@@ -681,6 +722,7 @@ textarea {}
     -ms-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     transition: opacity 0.3s;
+    z-index: 0;
 }
 
 .logo:hover {
@@ -2549,6 +2591,19 @@ footer::before {
     margin: 0px auto;
 }
 
+.blockMod .menu {
+    position: static;
+    margin: 0px auto 0px;
+    text-align: center;
+    background: none;
+    box-shadow: none;
+    max-width: 290px;
+}
+
+.blockMod .menu li {
+    margin: 15px 15px 0px !important;
+}
+
 .modalForm {
     position: relative;
     margin: 0px auto;
@@ -2564,7 +2619,8 @@ footer::before {
 }
 
 .regForm {
-    width: 1275px;
+    max-width: 1275px;
+    width: 100%;
 }
 
 .modalForm [class*="Cap"] {
@@ -2638,8 +2694,9 @@ footer::before {
 }
 
 .logForm {
-    width: 975px;
-    margin: 0px auto
+    max-width: 975px;
+    margin: 0px auto;
+    width: 100%;
 }
 
 .logForm .formWrap {
@@ -2653,7 +2710,8 @@ footer::before {
 .logForm .logWrap {
     margin-left: auto;
     margin-right: auto;
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
 }
 
 .logForm .logWrap .title {

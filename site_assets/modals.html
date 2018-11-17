@@ -21,6 +21,7 @@ htmlFile create on 08.11.2018 16:50:47
     <link rel='stylesheet' type='text/css' href='css/selectric.css'>
     <link rel='stylesheet' type='text/css' href='css/jquery.mCustomScrollbar.css'>
     <link rel='stylesheet' type='text/css' href='css/style.css'>
+    <link rel='stylesheet' type='text/css' href='css/responsive.css'>
 
     <script type='text/javascript' src='js/jquery-1.11.1.js'></script>
     <script type='text/javascript' src='js/jquery-ui.js'></script>
@@ -41,16 +42,19 @@ htmlFile create on 08.11.2018 16:50:47
     <br>
     <ul>
         <li>
-            <a href="#" class="openMod" data-modal="login">login</a>
+            <button class="btnBorder openMod" data-modal="login">login</button>
         </li>
         <li>
-            <a href="#" class="openMod" data-modal="register">sign up</a>
+            <button class="btnBorder openMod" data-modal="register">sign up</button>
         </li>
         <li>
-            <a href="#" class="openMod" data-modal="deposit">deposit</a>
+            <button class="btnBorder openMod" data-modal="deposit">deposit</button>
         </li>
         <li>
-            <a href="#" class="openMod" data-modal="withdraw">withdraw</a>
+            <button class="btnBorder openMod" data-modal="withdraw">withdraw</button>
+        </li>
+        <li>
+            <button class="btnBorder openMod" data-modal="menu">menu</button>
         </li>
     </ul>
 
@@ -192,8 +196,12 @@ htmlFile create on 08.11.2018 16:50:47
                                     </div>
                                     <button type="submit" class="btnBorder center">log in</button>
                                     <ul class="logLink">
-                                        <li><a href="#">Lost your password?</a></li>
-                                        <li><a href="#">Register</a></li>
+                                        <li>
+                                            <a href="#">Lost your password?</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Register</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </form>
@@ -229,8 +237,12 @@ htmlFile create on 08.11.2018 16:50:47
                                     </div>
                                 </div>
                                 <ul class="profitBlock">
-                                    <li>daily profit: <span>$140</span></li>
-                                    <li>total profit: <span>$2800</span></li>
+                                    <li>daily profit:
+                                        <span>$140</span>
+                                    </li>
+                                    <li>total profit:
+                                        <span>$2800</span>
+                                    </li>
                                 </ul>
 
                                 <div class="paySys">
@@ -282,7 +294,7 @@ htmlFile create on 08.11.2018 16:50:47
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                 </div>
 
                                 <div class="paySys">
@@ -312,11 +324,44 @@ htmlFile create on 08.11.2018 16:50:47
                                 </div>
 
                                 <ul class="profitBlock">
-                                    <li>will be displayed: <span>$100.00</span></li>
+                                    <li>will be displayed:
+                                        <span>$100.00</span>
+                                    </li>
                                 </ul>
 
                                 <button type="submit" class="btnBorder center">withdraw</button>
                             </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="blockMod" id="menu">
+                    <div class="in">
+                        <div class="modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+
+                            <ul class="menu">
+                                <li class="active">
+                                    <a href="#">home</a>
+                                </li>
+                                <li>
+                                    <a href="#">contacts</a>
+                                </li>
+                                <li>
+                                    <a href="#">f.A.Q</a>
+                                </li>
+                                <li>
+                                    <a href="#">rules</a>
+                                </li>
+                                <li>
+                                    <a href="#">log in</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sign Up</a>
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>

@@ -40,6 +40,11 @@ htmlFile create on 08.11.2018 16:50:47
     <div class="bodyWrap">
 
         <div class="cabPage pageContent" style="background-image: url(img/in_back.jpg)">
+            <button class="menuBtn openMod" data-modal="menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
             <div class="cabBtn">
                 <div class="pic" style="background-image: url(img/user.jpg)"></div>
@@ -570,6 +575,318 @@ htmlFile create on 08.11.2018 16:50:47
 
     </div>
 
+    <div class="modalsScroll">
+        <div class="modals table">
+            <div class="middle tCell">
+
+                <div class="register blockMod" id="register">
+                    <div class="in">
+                        <div class="regForm modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">Sign Up</span>
+                                <div class="row">
+                                    <div class="item col4">
+
+                                        <span class="title">Personal information</span>
+
+                                        <div class="formWrap borderBlock">
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regName">Fullname</label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="regName" id="regName" value="Alexander">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="reEmail">E-mail:</label>
+                                                <div class="inputBlock">
+                                                    <input type="email" name="reEmail" id="reEmail">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="reEmail2">Retype E-mail:</label>
+                                                <div class="inputBlock">
+                                                    <input type="email" name="reEmail2" id="reEmail2">
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                    <div class="item col4">
+
+                                        <span class="title">LOG IN INFORMATION</span>
+
+                                        <div class="formWrap borderBlock">
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regUsername">Username:</label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="regUsername" id="regUsername">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regPass">Password:</label>
+                                                <div class="inputBlock">
+                                                    <input type="password" name="regPass" id="regPass">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="regPass2">Retype password:</label>
+                                                <div class="inputBlock">
+                                                    <input type="password" name="regPass2" id="regPass2">
+                                                </div>
+                                            </div>
+
+                                            <div class="itemForm topTitle">
+                                                <label for="invBy">Invited by:</label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="invBy" id="invBy">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <div class="item col4">
+
+                                        <span class="title">E-CURRENCY ACCOUNT</span>
+
+                                        <div class="formWrap borderBlock">
+
+                                            <div class="itemForm topTitle">
+                                                <label for="payReg1">
+                                                    <img src="img/label_pay1.png" alt="">
+                                                </label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="payReg1" id="payReg1">
+                                                </div>
+                                            </div>
+
+
+                                            <div class="itemForm topTitle">
+                                                <label for="payReg2">
+                                                    <img src="img/label_pay2.png" alt="">
+                                                </label>
+                                                <div class="inputBlock">
+                                                    <input type="text" name="payReg2" id="payReg2">
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btnBorder center">sign up</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="login blockMod" id="login">
+                    <div class="in">
+                        <div class="regForm logForm modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">Log in</span>
+                                <div class="logWrap">
+                                    <span class="title">Please enter your login data</span>
+                                    <div class="formWrap">
+                                        <div class="itemForm topTitle">
+                                            <label for="logUsername">Username:</label>
+                                            <div class="inputBlock">
+                                                <input type="text" name="logUsername" id="logUsername">
+                                            </div>
+                                        </div>
+
+                                        <div class="itemForm topTitle">
+                                            <label for="logPass">Password:</label>
+                                            <div class="inputBlock">
+                                                <input type="password" name="logPass" id="logPass">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="btnBorder center">log in</button>
+                                    <ul class="logLink">
+                                        <li>
+                                            <a href="#">Lost your password?</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Register</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="newDep blockMod" id="deposit">
+                    <div class="in">
+                        <div class="depForm modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">New Deposit</span>
+
+                                <div class="wrap">
+                                    <div class="item">
+                                        <div class="itemForm leftTitle">
+                                            <label for="depAm">enter amount:</label>
+                                            <div class="inputBlock">
+                                                <input type="text" class="enterNum" id="depAm" value="100">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="item">
+                                        <div class="itemForm leftTitle">
+                                            <label for="depDay">number of days: </label>
+                                            <div class="inputBlock">
+                                                <input type="text" class="enterNum" id="depDay" value="26">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <ul class="profitBlock">
+                                    <li>daily profit:
+                                        <span>$140</span>
+                                    </li>
+                                    <li>total profit:
+                                        <span>$2800</span>
+                                    </li>
+                                </ul>
+
+                                <div class="paySys">
+                                    <span class="title">Select payment system:</span>
+                                    <div class="payList">
+                                        <div class="item">
+                                            <input type="radio" name="paySystem" id="paySys1" checked>
+                                            <label for="paySys1"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay1.png" alt="">
+                                                    <span>free funds: $54001.50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <input type="radio" name="paySystem" id="paySys2">
+                                            <label for="paySys2"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay2.png" alt="">
+                                                    <span>free funds: $54001.50</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <button type="submit" class="btnBorderBack center">deposit</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="withDep blockMod" id="withdraw">
+                    <div class="in">
+                        <div class="depForm withForm modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+                            <form action="#">
+                                <span class="firstCap">Withdraw</span>
+
+                                <div class="wrap">
+
+                                    <div class="item">
+                                        <div class="itemForm leftTitle">
+                                            <label for="withAm">enter amount:</label>
+                                            <div class="inputBlock">
+                                                <input type="text" class="enterNum" id="withAm" value="100">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="paySys">
+                                    <span class="title">Select payment system:</span>
+                                    <div class="payList">
+                                        <div class="item">
+                                            <input type="radio" name="paySystemWith" id="paySysWith1" checked>
+                                            <label for="paySysWith1"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay1.png" alt="">
+                                                    <span>0121-000-1234-098</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="item">
+                                            <input type="radio" name="paySystemWith" id="paySysWith2">
+                                            <label for="paySysWith2"></label>
+                                            <div class="in table">
+                                                <div class="tCell middle center">
+                                                    <img src="img/label_pay2.png" alt="">
+                                                    <span>0121-000-1234-098</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <ul class="profitBlock">
+                                    <li>will be displayed:
+                                        <span>$100.00</span>
+                                    </li>
+                                </ul>
+
+                                <button type="submit" class="btnBorder center">withdraw</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="blockMod" id="menu">
+                    <div class="in">
+                        <div class="modalForm">
+                            <img src="img/modal_logo.png" alt="">
+                            <span class="close"></span>
+
+                            <ul class="menu">
+                                <li class="active">
+                                    <a href="#">home</a>
+                                </li>
+                                <li>
+                                    <a href="#">contacts</a>
+                                </li>
+                                <li>
+                                    <a href="#">f.A.Q</a>
+                                </li>
+                                <li>
+                                    <a href="#">rules</a>
+                                </li>
+                                <li>
+                                    <a href="#">log in</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="overlay"></div>
+            </div>
+        </div>
+    </div>
     <a href='../index.html' style='position: absolute;
                                                 left: 0px;
                                                 top: 0px;
