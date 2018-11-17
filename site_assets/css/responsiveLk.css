@@ -1,0 +1,2843 @@
+@media (max-width: 1860px) {
+    .cabPage {}
+
+    .cabPage.main {}
+    
+    
+
+    .leftSide {}
+
+    .cabPage .logo {}
+
+    .logoWrap+.userBl {}
+
+    .leftSide .userBl {}
+
+    .userBl .pic {}
+
+    .userBl .pic:hover {}
+
+    .userBl .pic input {}
+
+    .userBl .pic label {}
+
+    .userBl .pic+.name {}
+
+    .userBl .name {}
+
+    .userBl .info {}
+
+    .userBl .info li {}
+
+    .userBl .info li+li {}
+
+    .userBl+.cabMenu {}
+
+    .cabMenu li+li {}
+
+    .cabMenu li .iconLeft {}
+
+    .cabMenu li .iconLeft [class*="icon"] {}
+
+    .cabMenu li .iconLeft .icon-refs {}
+
+    .cabMenu li .iconLeft .data {}
+
+    .cabMenu li a:hover {}
+
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+
+    .cabMenu+.cabBtns {}
+
+    .cabBtns {}
+
+    .cabBtns [class*="btn"] {}
+
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+
+    .rightSide {}
+
+    .cabHead {}
+
+    .balList {}
+
+    .balList li {}
+
+    .balList li+li {}
+
+    .balList li .iconLeft {}
+
+    .balList li .iconLeft [class*="icon"] {}
+
+    .balList li .title {}
+
+    .balList li .title+.title {}
+
+    .balList li .title span {}
+
+    .balList li .num {}
+
+    .cabContent {}
+
+    .cabContent .firstCap {}
+
+    .accInfo {}
+
+    .accStat {}
+
+    .accStat li {}
+
+    .accStat li .title {}
+
+    .accStat li .num {}
+
+    .accInfo .accStat+.upline {}
+
+    .upline {}
+
+    .upline .userBl .pic:hover {}
+
+    .upline .userBl+span {}
+
+    .upline a {}
+
+    .accInfo .upline+.refLink {}
+
+    .refLink {}
+
+    .refLink .itemForm {}
+
+    .refLink .itemForm label {}
+
+    .refLink .itemForm input {}
+
+    .refLink .itemForm .icon {}
+
+    .refLink [class*="btn"] {}
+
+    .cabContent [class*="Cap"]+.editAcc {}
+
+    .editAcc {}
+
+    .editAcc .title {}
+
+    .editAcc .title+.formWrap {}
+
+    .editAcc .formWrap {}
+
+    .editAcc .itemForm+.itemForm {}
+
+    .editAcc .itemForm label {}
+
+    .editAcc .row+[class*="btn"] {}
+
+    .banTabs .tabList {}
+
+    .banTabs .tabList a {}
+
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabContent {}
+
+    .banTabs .tabContent .img {}
+
+    .banTabs .tabContent .img+.link {}
+
+    .banTabs .tabContent .link {}
+
+    .banTabs .tabContent .link .itemForm {}
+
+    .banTabs .tabContent .link input {}
+
+    .banTabs .tabContent [class*="btn"] {}
+
+    .depList {}
+
+    .depList .mCSB_inside>.mCSB_container {}
+
+    .depList .row {}
+
+    .depList .row+.row {}
+
+    .depList .row>.item {
+        width: 705px;
+        float:none;
+        margin: 0px auto;
+    }
+    
+    .depList .row>.item + .item {
+        margin-top: 20px;
+    }
+
+    .depItem .date {}
+
+    .depItem .date span {}
+
+    .depItem .in {}
+
+    .depInfo {}
+
+    .depInfo .col {}
+
+    .depInfo .col:first-child {}
+
+    .depInfo .col:nth-child(2),
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .col:nth-child(2) {}
+
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .title {}
+
+    .depInfo .tariff .title {}
+
+    .depInfo .tariff .num {}
+
+    .depInfo .tariff+.sum {}
+
+    .depInfo .sum .num {}
+
+    .depInfo .inv .pct {}
+
+    .depInfo .inv .pct span {}
+
+    .depInfo .inv+.sys {}
+
+    .depInfo .sys img {}
+
+    .depInfo .term+.term {}
+
+    .depInfo .term .title+span {}
+
+    .depItem .progress {}
+
+    .depItem .progress .title {}
+
+    .depItem .progress .line {}
+
+    .depItem .progress .line .done {}
+
+    .depItem .progress .title span {}
+
+    .depItem.disabled .in {}
+
+    .depItem.disabled .progress {}
+
+    .depItem.disabled .progress>* {}
+
+    .referrals {}
+
+    .refInfo {}
+
+    .refInfo li {}
+
+    .refInfo li+li {}
+
+    .refInfo li span {}
+
+    .refInfo+.refList {}
+
+    .refList .row>.item {
+        width: 705px;
+        float: none;
+        margin: 0px auto;
+    }
+    
+    .refList .row>.item + .item {
+        margin-top: 30px;
+    }
+
+    .refList .mCSB_inside>.mCSB_container {}
+
+    .refList .row {}
+
+    .refList .row+.row {}
+
+    .refItem+.refItem {}
+
+    .refItem .head {}
+
+    .refItem .head:hover {}
+
+    .refItem .iconLeft {}
+
+    .refItem .iconLeft [class*="icon"] {}
+
+    .refItem .iconLeft .icon-plus {}
+
+    .refItem .iconLeft .icon-minus {}
+
+    .refItem .head.active .icon-minus {}
+
+    .refItem .head.active .icon-plus {}
+
+    .refItem .iconLeft .data li {}
+
+    .refItem .iconLeft .data li+li {}
+
+    .refItem .iconLeft .data li span {}
+
+    .refItem .iconLeft .data li:first-child span {}
+
+    .refItem .head .status {}
+
+    .refItem .status .title {}
+
+    .refItem .content {}
+
+    .refItem .head:not(.active)+.content {}
+
+    .history {}
+
+    .filter {padding-left: 0px;}
+
+    .filter .date {}
+
+    .filter .type {}
+
+    .filter [class*="btn"] {}
+
+    .filter .date .itemForm {}
+
+    .filter .date .itemForm+.itemForm {}
+
+    .filter .itemForm label {}
+
+    .filter .itemForm .inputBlock {}
+
+    .filter .date .inputBlock {}
+
+    .filter .date .inputBlock .selectric-wrapper {}
+
+    .filter .date .inputBlock .selectric-wrapper:first-child {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(2) {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(3) {}
+
+    .inputBlock .selectric {}
+
+    .filter .inputBlock .selectric .label {}
+
+    .inputBlock .selectric .label {}
+
+    .inputBlock .selectric-items {}
+
+    .inputBlock .selectric-items li {}
+
+    .inputBlock .selectric-items li:hover {}
+
+    .inputBlock .selectric-items li.highlighted {}
+
+    .inputBlock .selectric .button {}
+
+    .inputBlock .selectric .button::after {}
+
+    .filter .date+.type {margin-left: 30px;}
+
+    .filter+.histList {}
+
+    .histList {}
+    .histList .row>.item {
+        width:705px;
+        margin: 0px auto;
+        float:none;
+    }
+    
+    .histList .row>.item + .item {
+        margin-top: 35px;
+    }
+
+    .histList .mCSB_inside>.mCSB_container {}
+
+    .histItem {}
+
+    .histItem+.histItem {}
+
+    .histItem .col {}
+
+    .histItem .col:first-child {}
+
+    .histItem .col:nth-child(2) {}
+
+    .histItem .col:nth-child(3) {}
+
+    .histItem .col li {}
+
+    .histItem .col li+li {}
+
+    .histItem .col li span {}
+
+    .histItem .col li .date {}
+
+    .histItem .col li .type {}
+
+    .histItem .col li img {}
+
+    .bodyModal {}
+
+    .modalsScroll {}
+
+    .modalsScroll.open {}
+
+    .modals {}
+
+    .modals.table {}
+
+    .modals .tCell {}
+
+    #overlay {}
+
+    .blockMod {}
+
+    .blockMod .in {}
+
+    .regForm {}
+
+    .regForm [class*="Cap"] {}
+
+    .regForm>img {}
+
+    .regForm .close {}
+
+    .regForm .close:hover {}
+
+    .regForm [class*="Cap"]+.row {}
+
+    .regForm .title {}
+
+    .regForm .title+.formWrap {}
+
+    .regForm .formWrap {}
+
+    .regForm .formWrap .itemForm+.itemForm {}
+
+    .regForm .formWrap label {}
+
+    .regForm [class*="btn"] {}
+
+    .logForm {}
+
+    .logForm .formWrap {}
+
+    .logForm [class*="Cap"]+.logWrap {}
+
+    .logForm .logWrap {}
+
+    .logForm .logWrap .title {}
+
+    .logForm .logWrap .formWrap+[class*="btn"] {}
+
+    .logForm [class*="btn"]+.logLink {}
+
+    .logLink {}
+
+    .logLink li+li {}
+
+    .logLink li a {}
+}
+
+@media (max-width: 1700px) {
+    .cabPage {}
+
+    .cabPage.main {}
+
+    .leftSide {}
+
+    .cabPage .logo {
+        left: 0px;
+    }
+
+    .logoWrap+.userBl {}
+
+    .leftSide .userBl {}
+
+    .userBl .pic {}
+
+    .userBl .pic:hover {}
+
+    .userBl .pic input {}
+
+    .userBl .pic label {}
+
+    .userBl .pic+.name {}
+
+    .userBl .name {}
+
+    .userBl .info {}
+
+    .userBl .info li {}
+
+    .userBl .info li+li {}
+
+    .userBl+.cabMenu {}
+
+    .cabMenu li+li {}
+
+    .cabMenu li .iconLeft {}
+
+    .cabMenu li .iconLeft [class*="icon"] {}
+
+    .cabMenu li .iconLeft .icon-refs {}
+
+    .cabMenu li .iconLeft .data {}
+
+    .cabMenu li a:hover {}
+
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+
+    .cabMenu+.cabBtns {}
+
+    .cabBtns {}
+
+    .cabBtns [class*="btn"] {}
+
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+
+    .rightSide {}
+
+    .cabHead {
+        padding-left: 0px;
+    }
+
+    .balList {}
+
+    .balList li {}
+
+    .balList li+li {}
+
+    .balList li .iconLeft {}
+
+    .balList li .iconLeft [class*="icon"] {}
+
+    .balList li .title {}
+
+    .balList li .title+.title {}
+
+    .balList li .title span {}
+
+    .balList li .num {}
+
+    .cabContent {}
+
+    .cabContent .firstCap {}
+
+    .accInfo {}
+
+    .accStat {}
+
+    .accStat li {}
+
+    .accStat li .title {}
+
+    .accStat li .num {}
+
+    .accInfo .accStat+.upline {}
+
+    .upline {}
+
+    .upline .userBl .pic:hover {}
+
+    .upline .userBl+span {}
+
+    .upline a {}
+
+    .accInfo .upline+.refLink {}
+
+    .refLink {}
+
+    .refLink .itemForm {}
+
+    .refLink .itemForm label {}
+
+    .refLink .itemForm input {}
+
+    .refLink .itemForm .icon {}
+
+    .refLink [class*="btn"] {}
+
+    .cabContent [class*="Cap"]+.editAcc {}
+
+    .editAcc {}
+
+    .editAcc .title {}
+
+    .editAcc .title+.formWrap {}
+
+    .editAcc .formWrap {}
+
+    .editAcc .itemForm+.itemForm {}
+
+    .editAcc .itemForm label {}
+
+    .editAcc .row+[class*="btn"] {}
+
+    .banTabs .tabList {}
+
+    .banTabs .tabList a {}
+
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabContent {}
+
+    .banTabs .tabContent .img {}
+
+    .banTabs .tabContent .img+.link {}
+
+    .banTabs .tabContent .link {}
+
+    .banTabs .tabContent .link .itemForm {}
+
+    .banTabs .tabContent .link input {}
+
+    .banTabs .tabContent [class*="btn"] {}
+
+    .depList {}
+
+    .depList .mCSB_inside>.mCSB_container {}
+
+    .depList .row {}
+
+    .depList .row+.row {}
+
+    .depList .row>.item {}
+
+    .depItem .date {}
+
+    .depItem .date span {}
+
+    .depItem .in {}
+
+    .depInfo {}
+
+    .depInfo .col {}
+
+    .depInfo .col:first-child {}
+
+    .depInfo .col:nth-child(2),
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .col:nth-child(2) {}
+
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .title {}
+
+    .depInfo .tariff .title {}
+
+    .depInfo .tariff .num {}
+
+    .depInfo .tariff+.sum {}
+
+    .depInfo .sum .num {}
+
+    .depInfo .inv .pct {}
+
+    .depInfo .inv .pct span {}
+
+    .depInfo .inv+.sys {}
+
+    .depInfo .sys img {}
+
+    .depInfo .term+.term {}
+
+    .depInfo .term .title+span {}
+
+    .depItem .progress {}
+
+    .depItem .progress .title {}
+
+    .depItem .progress .line {}
+
+    .depItem .progress .line .done {}
+
+    .depItem .progress .title span {}
+
+    .depItem.disabled .in {}
+
+    .depItem.disabled .progress {}
+
+    .depItem.disabled .progress>* {}
+
+    .referrals {}
+
+    .refInfo {}
+
+    .refInfo li {}
+
+    .refInfo li+li {}
+
+    .refInfo li span {}
+
+    .refInfo+.refList {}
+
+    .refList {}
+
+    .refList .mCSB_inside>.mCSB_container {}
+
+    .refList .row {}
+
+    .refList .row+.row {}
+
+    .refItem+.refItem {}
+
+    .refItem .head {}
+
+    .refItem .head:hover {}
+
+    .refItem .iconLeft {}
+
+    .refItem .iconLeft [class*="icon"] {}
+
+    .refItem .iconLeft .icon-plus {}
+
+    .refItem .iconLeft .icon-minus {}
+
+    .refItem .head.active .icon-minus {}
+
+    .refItem .head.active .icon-plus {}
+
+    .refItem .iconLeft .data li {}
+
+    .refItem .iconLeft .data li+li {}
+
+    .refItem .iconLeft .data li span {}
+
+    .refItem .iconLeft .data li:first-child span {}
+
+    .refItem .head .status {}
+
+    .refItem .status .title {}
+
+    .refItem .content {}
+
+    .refItem .head:not(.active)+.content {}
+
+    .history {}
+
+    .filter {}
+
+    .filter .date {float: none;}
+
+    .filter .type {}
+
+    .filter [class*="btn"] {margin-top: 20px;}
+
+    .filter .date .itemForm {}
+
+    .filter .date .itemForm+.itemForm {}
+
+    .filter .itemForm label {}
+
+    .filter .itemForm .inputBlock {}
+
+    .filter .date .inputBlock {}
+
+    .filter .date .inputBlock .selectric-wrapper {}
+
+    .filter .date .inputBlock .selectric-wrapper:first-child {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(2) {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(3) {}
+
+    .inputBlock .selectric {}
+
+    .filter .inputBlock .selectric .label {}
+
+    .inputBlock .selectric .label {}
+
+    .inputBlock .selectric-items {}
+
+    .inputBlock .selectric-items li {}
+
+    .inputBlock .selectric-items li:hover {}
+
+    .inputBlock .selectric-items li.highlighted {}
+
+    .inputBlock .selectric .button {}
+
+    .inputBlock .selectric .button::after {}
+
+    .filter .date+.type {margin-left: 0px;margin-top: 20px;}
+
+    .filter+.histList {}
+
+    .histList {}
+
+    .histList .mCSB_inside>.mCSB_container {}
+
+    .histItem {}
+
+    .histItem+.histItem {}
+
+    .histItem .col {}
+
+    .histItem .col:first-child {}
+
+    .histItem .col:nth-child(2) {}
+
+    .histItem .col:nth-child(3) {}
+
+    .histItem .col li {}
+
+    .histItem .col li+li {}
+
+    .histItem .col li span {}
+
+    .histItem .col li .date {}
+
+    .histItem .col li .type {}
+
+    .histItem .col li img {}
+
+    .bodyModal {}
+
+    .modalsScroll {}
+
+    .modalsScroll.open {}
+
+    .modals {}
+
+    .modals.table {}
+
+    .modals .tCell {}
+
+    #overlay {}
+
+    .blockMod {}
+
+    .blockMod .in {}
+
+    .regForm {}
+
+    .regForm [class*="Cap"] {}
+
+    .regForm>img {}
+
+    .regForm .close {}
+
+    .regForm .close:hover {}
+
+    .regForm [class*="Cap"]+.row {}
+
+    .regForm .title {}
+
+    .regForm .title+.formWrap {}
+
+    .regForm .formWrap {}
+
+    .regForm .formWrap .itemForm+.itemForm {}
+
+    .regForm .formWrap label {}
+
+    .regForm [class*="btn"] {}
+
+    .logForm {}
+
+    .logForm .formWrap {}
+
+    .logForm [class*="Cap"]+.logWrap {}
+
+    .logForm .logWrap {}
+
+    .logForm .logWrap .title {}
+
+    .logForm .logWrap .formWrap+[class*="btn"] {}
+
+    .logForm [class*="btn"]+.logLink {}
+
+    .logLink {}
+
+    .logLink li+li {}
+
+    .logLink li a {}
+}
+
+@media (max-width: 1500px) {
+    .cabPage {
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-top: 30px;
+    }
+
+    .cabPage .container {
+        width: 1000px;
+        padding: 0px 15px;
+    }
+
+    .cabPage.main {}
+
+    .leftSide {
+        float: none;
+        width: 100%;
+        position: relative;
+    }
+
+    .cabPage .logo {}
+
+    .logoWrap {
+        float: left;
+    }
+
+    .logoWrap+.userBl {
+        margin-top: 0px;
+    }
+
+    .leftSide .userBl {
+        width: 335px;
+        float: right;
+        text-align: right;
+        position: relative;
+        padding-right: 126px;
+        padding-top: 5px;
+    }
+
+    .leftSide .userBl .pic {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+    }
+
+    .userBl .pic:hover {}
+
+    .userBl .pic input {}
+
+    .userBl .pic label {}
+
+    .userBl .pic+.name {
+        margin-top: 0px;
+    }
+
+    .userBl .name {
+        margin-right: 0px;
+    }
+
+    .userBl .info {}
+
+    .userBl .info li {}
+
+    .userBl .info li+li {}
+
+    .cabMenu {
+        position: relative;
+        padding-top: 115px;
+        font-size: 0px;
+    }
+
+    .userBl+.cabMenu {
+        margin-top: 0px;
+    }
+
+    .cabMenu::before {
+        content: '';
+        display: block;
+        position: absolute;
+        width: 1920px;
+        height: 56px;
+        bottom: 0px;
+        left: 50%;
+        margin-left: -960px;
+        background-color: #3e8c99;
+        opacity: 0.2;
+    }
+
+    .cabMenu li {
+        display: inline-block;
+    }
+
+    .cabMenu li+li {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .cabMenu li .iconLeft {}
+
+    .cabMenu li .iconLeft [class*="icon"] {}
+
+    .cabMenu li .iconLeft .icon-refs {}
+
+    .cabMenu li .iconLeft .data {
+        font-size: 18px;
+        line-height: 56px;
+    }
+
+    .cabMenu li a:hover {}
+
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+
+    .cabMenu+.cabBtns {
+        margin-top: 0px;
+    }
+
+    .cabBtns {
+        position: absolute;
+        right: 0px;
+        top: calc(100% + 25px);
+    }
+
+    .cabBtns [class*="btn"] {}
+
+    .cabBtns [class*="btn"]+[class*="btn"] {}
+
+    .rightSide {
+        float: none;
+        width: 100%;
+    }
+
+    .cabHead {}
+
+    .balList {}
+
+    .balList li {}
+
+    .balList li+li {
+        margin-left: 35px;
+    }
+
+    .balList li .iconLeft {
+        padding-left: 58px;
+    }
+
+    .balList li .iconLeft [class*="icon"] {
+        width: 48px;
+        margin-top: -24px;
+    }
+
+    .balList li .title {
+        font-size: 18px;
+    }
+
+    .balList li .title+.title {}
+
+    .balList li .title span {}
+
+    .balList li .num {
+        font-size: 24px;
+    }
+
+    .cabContent {
+        padding-top: 30px;
+    }
+
+    .cabContent .firstCap {}
+    .cabContent .firstCap::before, .cabContent .firstCap::after {
+        display: none;
+    }
+
+    .accInfo {
+        margin-top: 20px;
+        background: none;
+        padding-top: 30px;
+    }
+
+    .accStat {
+        padding-left: 50px;
+    }
+
+    .accStat li:nth-child(3),
+    .accStat li:nth-child(6) {
+        padding-left: 50px
+    }
+
+    .accStat li .title {}
+
+    .accStat li .num {}
+
+    .accInfo .accStat+.upline {}
+
+    .upline {}
+
+    .upline .userBl .pic:hover {}
+
+    .upline .userBl+span {}
+
+    .upline a {}
+
+    .accInfo .upline+.refLink {}
+
+    .refLink {}
+
+    .refLink .itemForm {}
+
+    .refLink .itemForm label {}
+
+    .refLink .itemForm input {}
+
+    .refLink .itemForm .icon {}
+
+    .refLink [class*="btn"] {}
+
+    .cabContent [class*="Cap"]+.editAcc {}
+
+    .editAcc {}
+
+    .editAcc .item:nth-child(1) {
+        width: 50%;
+    }
+
+    .editAcc .item:nth-child(2) {
+        width: 50%;
+    }
+
+    .editAcc .item:nth-child(3) {
+        width: 100%;
+        text-align: center;
+    }
+
+    .editAcc .title {}
+
+    .editAcc .item:nth-child(1) .title {
+        padding-left: 120px
+    }
+
+    .editAcc .item:nth-child(2) .title {
+        padding-left: 30px
+    }
+
+    .editAcc .title+.formWrap {
+        margin-top: 0px;
+    }
+
+    .editAcc .formWrap {
+        background: none;
+        min-height: auto;
+        padding-top: 20px;
+    }
+
+    .editAcc .item:nth-child(1) .formWrap {
+        padding-left: 120px;
+        padding-right: 30px;
+    }
+
+    .editAcc .item:nth-child(2) .formWrap {
+        padding-left: 30px;
+        padding-right: 120px;
+    }
+
+    .editAcc .item:nth-child(3) .itemForm {
+        width: 320px;
+        display: inline-block;
+        text-align: left'
+
+    }
+
+    .editAcc .item:nth-child(3) .itemForm+.itemForm {
+        margin-left: 30px;
+    }
+
+    .editAcc .itemForm+.itemForm {}
+
+    .editAcc .itemForm label {
+        text-align: left;
+    }
+
+    .editAcc .row+[class*="btn"] {
+        margin-top: 10px;
+    }
+
+    .banTabs .tabList {
+        background: none;
+    }
+
+    .banTabs .tabList a {}
+
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabContent {
+        min-height: 400px;
+    }
+
+    .banTabs .tabContent .img {}
+
+    .banTabs .tabContent .img+.link {}
+
+    .banTabs .tabContent .link {}
+
+    .banTabs .tabContent .link .itemForm {}
+
+    .banTabs .tabContent .link input {}
+
+    .banTabs .tabContent [class*="btn"] {}
+
+    .depList {background: none;padding-top: 30px;height: auto;padding-left: 0px;padding-right: 0px;}
+
+    .depList .mCSB_inside>.mCSB_container {}
+
+    .depList .row {}
+
+    .depList .row+.row {}
+
+    .depList .row>.item {}
+
+    .depItem .date {}
+
+    .depItem .date span {}
+
+    .depItem .in {}
+
+    .depInfo {}
+
+    .depInfo .col {}
+
+    .depInfo .col:first-child {}
+
+    .depInfo .col:nth-child(2),
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .col:nth-child(2) {}
+
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .title {}
+
+    .depInfo .tariff .title {}
+
+    .depInfo .tariff .num {}
+
+    .depInfo .tariff+.sum {}
+
+    .depInfo .sum .num {}
+
+    .depInfo .inv .pct {}
+
+    .depInfo .inv .pct span {}
+
+    .depInfo .inv+.sys {}
+
+    .depInfo .sys img {}
+
+    .depInfo .term+.term {}
+
+    .depInfo .term .title+span {}
+
+    .depItem .progress {}
+
+    .depItem .progress .title {}
+
+    .depItem .progress .line {}
+
+    .depItem .progress .line .done {}
+
+    .depItem .progress .title span {}
+
+    .depItem.disabled .in {}
+
+    .depItem.disabled .progress {}
+
+    .depItem.disabled .progress>* {}
+
+    .referrals {}
+
+    .refInfo {}
+
+    .refInfo li {}
+
+    .refInfo li+li {}
+
+    .refInfo li span {}
+
+    .refInfo+.refList {}
+
+    .refList {background: none;padding: 0px;height: auto;}
+
+    .refList .mCSB_inside>.mCSB_container {}
+
+    .refList .row {}
+
+    .refList .row+.row {}
+
+    .refItem+.refItem {}
+
+    .refItem .head {}
+
+    .refItem .head:hover {}
+
+    .refItem .iconLeft {}
+
+    .refItem .iconLeft [class*="icon"] {}
+
+    .refItem .iconLeft .icon-plus {}
+
+    .refItem .iconLeft .icon-minus {}
+
+    .refItem .head.active .icon-minus {}
+
+    .refItem .head.active .icon-plus {}
+
+    .refItem .iconLeft .data li {}
+
+    .refItem .iconLeft .data li+li {}
+
+    .refItem .iconLeft .data li span {}
+
+    .refItem .iconLeft .data li:first-child span {}
+
+    .refItem .head .status {}
+
+    .refItem .status .title {}
+
+    .refItem .content {}
+
+    .refItem .head:not(.active)+.content {}
+
+    .history {}
+
+    .filter {width: 695px;margin: 0px auto;}
+
+    .filter .date {}
+
+    .filter .type {}
+
+    .filter [class*="btn"] {}
+
+    .filter .date .itemForm {}
+
+    .filter .date .itemForm+.itemForm {}
+
+    .filter .itemForm label {}
+
+    .filter .itemForm .inputBlock {}
+
+    .filter .date .inputBlock {}
+
+    .filter .date .inputBlock .selectric-wrapper {}
+
+    .filter .date .inputBlock .selectric-wrapper:first-child {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(2) {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(3) {}
+
+    .inputBlock .selectric {}
+
+    .filter .inputBlock .selectric .label {}
+
+    .inputBlock .selectric .label {}
+
+    .inputBlock .selectric-items {}
+
+    .inputBlock .selectric-items li {}
+
+    .inputBlock .selectric-items li:hover {}
+
+    .inputBlock .selectric-items li.highlighted {}
+
+    .inputBlock .selectric .button {}
+
+    .inputBlock .selectric .button::after {}
+
+    .filter .date+.type {}
+
+    .filter+.histList {}
+
+    .histList {background: none;padding: 0px;padding-top: 15px;height: auto;}
+
+    .histList .mCSB_inside>.mCSB_container {}
+
+    .histItem {}
+
+    .histItem+.histItem {}
+
+    .histItem .col {}
+
+    .histItem .col:first-child {}
+
+    .histItem .col:nth-child(2) {}
+
+    .histItem .col:nth-child(3) {}
+
+    .histItem .col li {}
+
+    .histItem .col li+li {}
+
+    .histItem .col li span {}
+
+    .histItem .col li .date {}
+
+    .histItem .col li .type {}
+
+    .histItem .col li img {}
+
+    .bodyModal {}
+
+    .modalsScroll {}
+
+    .modalsScroll.open {}
+
+    .modals {}
+
+    .modals.table {}
+
+    .modals .tCell {}
+
+    #overlay {}
+
+    .blockMod {}
+
+    .blockMod .in {}
+
+    .regForm {}
+
+    .regForm [class*="Cap"] {}
+
+    .regForm>img {}
+
+    .regForm .close {}
+
+    .regForm .close:hover {}
+
+    .regForm [class*="Cap"]+.row {}
+
+    .regForm .title {}
+
+    .regForm .title+.formWrap {}
+
+    .regForm .formWrap {}
+
+    .regForm .formWrap .itemForm+.itemForm {}
+
+    .regForm .formWrap label {}
+
+    .regForm [class*="btn"] {}
+
+    .logForm {}
+
+    .logForm .formWrap {}
+
+    .logForm [class*="Cap"]+.logWrap {}
+
+    .logForm .logWrap {}
+
+    .logForm .logWrap .title {}
+
+    .logForm .logWrap .formWrap+[class*="btn"] {}
+
+    .logForm [class*="btn"]+.logLink {}
+
+    .logLink {}
+
+    .logLink li+li {}
+
+    .logLink li a {}
+}
+
+@media (max-width: 1000px) {
+    .cabPage {}
+
+    .cabPage .container {
+        width: 750px;
+    }
+
+    .cabPage.main {}
+
+    .leftSide {}
+
+    .cabPage .logo {}
+
+    .logoWrap+.userBl {}
+
+    .leftSide .userBl {}
+
+    .userBl .pic {}
+
+    .userBl .pic:hover {}
+
+    .userBl .pic input {}
+
+    .userBl .pic label {}
+
+    .userBl .pic+.name {}
+
+    .userBl .name {}
+
+    .userBl .info {}
+
+    .userBl .info li {}
+
+    .userBl .info li+li {}
+
+    .userBl+.cabMenu {}
+
+    .cabMenu li+li {
+        margin-left: 43px;
+    }
+
+    .cabMenu li .iconLeft {
+        padding: 0px;
+    }
+
+    .cabMenu li .iconLeft [class*="icon"] {
+        display: none;
+    }
+
+    .cabMenu li .iconLeft .icon-refs {}
+
+    .cabMenu li .iconLeft .data {
+        font-size: 16px;
+    }
+
+    .cabMenu li a:hover {}
+
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+
+    .cabMenu+.cabBtns {}
+
+    .cabBtns {
+        top: calc(100% + 95px);
+        left: 0px;
+        padding-left: 0px;
+        text-align: center;
+    }
+
+    .cabBtns [class*="btn"] {
+        display: inline-block;
+    }
+
+    .cabBtns [class*="btn"]+[class*="btn"] {
+        margin-top: 0px;
+        margin-left: 40px;
+    }
+
+    .rightSide {}
+
+    .cabHead {}
+
+    .balList {}
+
+    .balList li {}
+
+    .balList li+li {}
+
+    .balList li .iconLeft {}
+
+    .balList li .iconLeft [class*="icon"] {}
+
+    .balList li .title {
+        font-size: 16px;
+    }
+
+    .balList li .title+.title {}
+
+    .balList li .title span {}
+
+    .balList li .num {}
+
+    .cabContent {
+        padding-top: 100px;
+    }
+
+    .cabContent .firstCap {
+        font-size: 30px;
+    }
+
+    .accInfo {
+        margin-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .accStat {
+        padding-left: 0px;
+        margin-top: -35px;
+    }
+
+    .accStat li {
+        margin-top: 35px;
+    }
+
+    .accStat li:nth-child(3) {
+        padding-left: 0px;
+    }
+
+    .accStat li:nth-child(6) {
+        padding-left: 0px;
+    }
+
+    .accStat li .title {
+        font-size: 18px;
+    }
+
+    .accStat li .num {
+        font-size: 30px;
+    }
+
+    .accInfo .accStat+.upline {
+        margin-top: 30px;
+    }
+
+    .upline {}
+
+    .upline .userBl .pic:hover {}
+
+    .upline .userBl+span {}
+
+    .upline a {}
+
+    .accInfo .upline+.refLink {}
+
+    .refLink {}
+
+    .refLink .itemForm {}
+
+    .refLink .itemForm label {}
+
+    .refLink .itemForm input {}
+
+    .refLink .itemForm .icon {}
+
+    .refLink [class*="btn"] {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .cabContent [class*="Cap"]+.editAcc {}
+
+    .editAcc {}
+
+    .editAcc .title {}
+
+    .editAcc .item:nth-child(1) .title {
+        padding-left: 20px;
+    }
+
+    .editAcc .item:nth-child(2) .title {
+        padding-left: 10px;
+    }
+
+    .editAcc .title+.formWrap {}
+
+    .editAcc .formWrap {}
+
+    .editAcc .item:nth-child(1) .formWrap {
+        padding-left: 20px;
+        padding-right: 10px;
+    }
+
+    .editAcc .item:nth-child(2) .formWrap {
+        padding-left: 10px;
+        padding-right: 20px;
+    }
+
+    .editAcc .item:nth-child(3) .formWrap .itemForm {
+        width: 305px;
+    }
+
+    .editAcc .itemForm+.itemForm {}
+
+    .editAcc .itemForm label {}
+
+    .editAcc .row+[class*="btn"] {}
+
+    .banTabs {
+        margin-top: 10px
+    }
+
+    .banTabs .tabList {
+        font-size: 0px;
+        height: auto;
+    }
+
+    .banTabs .tabList li {
+        width: 33.3333%;
+        display: inline-block;
+    }
+
+    .banTabs .tabList a {
+        line-height: 55px;
+    }
+
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabContent {}
+
+    .banTabs .tabContent .img {}
+
+    .banTabs .tabContent .img+.link {}
+
+    .banTabs .tabContent .link {}
+
+    .banTabs .tabContent .link .itemForm {}
+
+    .banTabs .tabContent .link input {}
+
+    .banTabs .tabContent [class*="btn"] {
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+
+    .depList {padding-right: 0px;padding-left: 0px;}
+
+    .depList .mCSB_inside>.mCSB_container {}
+
+    .depList .row {}
+
+    .depList .row+.row {}
+
+    .depList .row>.item {}
+
+    .depItem .date {}
+
+    .depItem .date span {}
+
+    .depItem .in {}
+
+    .depInfo {}
+
+    .depInfo .col {}
+
+    .depInfo .col:first-child {}
+
+    .depInfo .col:nth-child(2),
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .col:nth-child(2) {}
+
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .title {}
+
+    .depInfo .tariff .title {}
+
+    .depInfo .tariff .num {}
+
+    .depInfo .tariff+.sum {}
+
+    .depInfo .sum .num {}
+
+    .depInfo .inv .pct {}
+
+    .depInfo .inv .pct span {}
+
+    .depInfo .inv+.sys {}
+
+    .depInfo .sys img {}
+
+    .depInfo .term+.term {}
+
+    .depInfo .term .title+span {}
+
+    .depItem .progress {}
+
+    .depItem .progress .title {}
+
+    .depItem .progress .line {}
+
+    .depItem .progress .line .done {}
+
+    .depItem .progress .title span {}
+
+    .depItem.disabled .in {}
+
+    .depItem.disabled .progress {}
+
+    .depItem.disabled .progress>* {}
+
+    .referrals {}
+
+    .refInfo {}
+
+    .refInfo li {}
+
+    .refInfo li+li {}
+
+    .refInfo li span {}
+
+    .refInfo+.refList {}
+
+    .refList {}
+
+    .refList .mCSB_inside>.mCSB_container {}
+
+    .refList .row {}
+
+    .refList .row+.row {}
+
+    .refItem+.refItem {}
+
+    .refItem .head {}
+
+    .refItem .head:hover {}
+
+    .refItem .iconLeft {}
+
+    .refItem .iconLeft [class*="icon"] {}
+
+    .refItem .iconLeft .icon-plus {}
+
+    .refItem .iconLeft .icon-minus {}
+
+    .refItem .head.active .icon-minus {}
+
+    .refItem .head.active .icon-plus {}
+
+    .refItem .iconLeft .data li {}
+
+    .refItem .iconLeft .data li+li {}
+
+    .refItem .iconLeft .data li span {}
+
+    .refItem .iconLeft .data li:first-child span {}
+
+    .refItem .head .status {}
+
+    .refItem .status .title {}
+
+    .refItem .content {}
+
+    .refItem .head:not(.active)+.content {}
+
+    .history {}
+
+    .filter {}
+
+    .filter .date {}
+
+    .filter .type {}
+
+    .filter [class*="btn"] {}
+
+    .filter .date .itemForm {}
+
+    .filter .date .itemForm+.itemForm {}
+
+    .filter .itemForm label {}
+
+    .filter .itemForm .inputBlock {}
+
+    .filter .date .inputBlock {}
+
+    .filter .date .inputBlock .selectric-wrapper {}
+
+    .filter .date .inputBlock .selectric-wrapper:first-child {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(2) {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(3) {}
+
+    .inputBlock .selectric {}
+
+    .filter .inputBlock .selectric .label {}
+
+    .inputBlock .selectric .label {}
+
+    .inputBlock .selectric-items {}
+
+    .inputBlock .selectric-items li {}
+
+    .inputBlock .selectric-items li:hover {}
+
+    .inputBlock .selectric-items li.highlighted {}
+
+    .inputBlock .selectric .button {}
+
+    .inputBlock .selectric .button::after {}
+
+    .filter .date+.type {}
+
+    .filter+.histList {}
+
+    .histList {}
+
+    .histList .mCSB_inside>.mCSB_container {}
+
+    .histItem {}
+
+    .histItem+.histItem {}
+
+    .histItem .col {}
+
+    .histItem .col:first-child {}
+
+    .histItem .col:nth-child(2) {}
+
+    .histItem .col:nth-child(3) {}
+
+    .histItem .col li {}
+
+    .histItem .col li+li {}
+
+    .histItem .col li span {}
+
+    .histItem .col li .date {}
+
+    .histItem .col li .type {}
+
+    .histItem .col li img {}
+
+    .bodyModal {}
+
+    .modalsScroll {}
+
+    .modalsScroll.open {}
+
+    .modals {}
+
+    .modals.table {}
+
+    .modals .tCell {}
+
+    #overlay {}
+
+    .blockMod {}
+
+    .blockMod .in {}
+
+    .regForm {}
+
+    .regForm [class*="Cap"] {}
+
+    .regForm>img {}
+
+    .regForm .close {}
+
+    .regForm .close:hover {}
+
+    .regForm [class*="Cap"]+.row {}
+
+    .regForm .title {}
+
+    .regForm .title+.formWrap {}
+
+    .regForm .formWrap {}
+
+    .regForm .formWrap .itemForm+.itemForm {}
+
+    .regForm .formWrap label {}
+
+    .regForm [class*="btn"] {}
+
+    .logForm {}
+
+    .logForm .formWrap {}
+
+    .logForm [class*="Cap"]+.logWrap {}
+
+    .logForm .logWrap {}
+
+    .logForm .logWrap .title {}
+
+    .logForm .logWrap .formWrap+[class*="btn"] {}
+
+    .logForm [class*="btn"]+.logLink {}
+
+    .logLink {}
+
+    .logLink li+li {}
+
+    .logLink li a {}
+}
+
+@media (min-width: 768px) {
+    .leftSide .userBl {
+        display: block !important;
+    }
+    
+    .cabMenu {
+        display: block !important;
+    }
+    
+    .cabHead {
+        display: block !important;
+    }
+    
+    .cabPage .cabBtn {
+        display: none !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .cabPage {
+        padding-bottom: 40px;
+        padding-top: 20px;
+    }
+    .cabPage .cabBtn {
+        display: block;
+        padding-top:10px;
+        position: absolute;
+        top:135px;
+        left: 0px;
+        width: 44px;
+        height: 108px;
+        background-color: #f1f0e0;
+        -webkit-box-shadow: 2px 2px 6px rgba(0,0,0,0.58);
+        -moz-box-shadow: 2px 2px 6px rgba(0,0,0,0.58);
+        box-shadow: 2px 2px 6px rgba(0,0,0,0.58);
+        -webkit-border-top-right-radius: 7px;
+        -moz-border-top-right-radius: 7px;
+        -ms-border-top-right-radius: 7px;
+        -o-border-top-right-radius: 7px;
+        border-top-right-radius: 7px;
+        -webkit-border-bottom-right-radius: 7px;
+        -moz-border-bottom-right-radius: 7px;
+        -ms-border-bottom-right-radius: 7px;
+        -o-border-bottom-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        opacity: 1;
+/*         -webkit-transition: opacity 0.3s;
+        -moz-transition: opacity 0.3s;
+        -ms-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        transition: opacity 0.3s; */
+        cursor: pointer;
+        z-index: 5;
+    }
+    
+    .cabPage .cabBtn:hover {
+        opacity: 0.7;
+    }
+    
+    .cabPage .cabBtn .pic {
+        width: 37px;
+        height: 37px;
+        margin: 0px auto;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        border: 3px solid #3e8c99;
+    }
+    .cabPage .cabBtn .pic + span {
+        display: block;
+        text-align: center;
+        font-size:12px;
+        color: #ada994;
+        margin-top: 5px;
+        
+    }
+    
+    .cabPage .cabBtn .arr {
+        display: block;
+        width: 25px;
+        height: 27px;
+        margin: 0px auto;
+        background-position: center;
+        background-repeat; no-repeat;
+        margin-top: 5px;
+        
+    }
+    
+    .cabPage .cabBtnClose {
+/*         display: block; */
+        position:absolute;
+        top:24px;
+        right: 12px;
+        width: 46px;
+        height: 37px;
+        z-index: 6;
+        opacity: 1;
+/*         -webkit-transition: opacity 0.3s;
+        -moz-transition: opacity 0.3s;
+        -ms-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        transition: opacity 0.3s; */
+        cursor: pointer;
+    }
+    
+    .cabPage .cabBtnClose:hover {
+        opacity: 0.7;
+    }
+
+    .cabPage .container {
+        width: 320px;
+        padding: 0px 15px;
+    }
+
+    .cabPage.main {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+
+    .leftSide {}
+
+    .cabPage .logo {}
+
+    .logoWrap+.userBl {}
+
+    .leftSide .userBl {
+display: none;
+        position: absolute;
+        z-index: 1;
+        padding-right: 0px;
+        text-align: center;
+        width:100%; 
+padding-top: 20px;
+top: -20px;
+padding-bottom: 10px;
+    }
+    .leftSide .userBl::before {
+        content:'';
+        display: block;
+        position: absolute;
+        width: 1920px;
+        height: 100%;
+        top: 0px;
+        left: 50%;
+        margin-left: -960px;
+        background-color: #f1f0e0;
+        z-index: -1;
+    }
+    
+    .leftSide .userBl .pic {
+        position: relative;
+        margin: 0px auto;
+    }
+
+    .userBl .pic {}
+
+    .userBl .pic:hover {}
+
+    .userBl .pic input {}
+
+    .userBl .pic label {}
+
+    .userBl .pic+.name {
+        margin-right: auto;
+        margin-top:15px;
+    }
+
+    .userBl .name {}
+
+    .userBl .info {
+        margin-top:5px;
+    }
+
+    .userBl .info li {}
+
+    .userBl .info li+li {}
+
+    .userBl+.cabMenu {}
+
+    .cabMenu {
+        display: none;
+        position: absolute;
+        width: 100%;
+        top: 197px;
+        padding-top: 0px;
+        z-index: 5;
+        padding-top: 5px;
+        padding-bottom: 10px;
+    }
+    
+    .cabMenu::before {
+        height: 100%;
+        background-color: #dfe6d9;
+        opacity: 1
+    }
+    
+    .cabMenu li {
+        display: block;
+        text-align: center;
+    }
+
+    .cabMenu li+li {
+        margin-left: 0px;
+    }
+
+    .cabMenu li .iconLeft {}
+
+    .cabMenu li .iconLeft [class*="icon"] {}
+
+    .cabMenu li .iconLeft .icon-refs {}
+
+    .cabMenu li .iconLeft .data {line-height: 36px;}
+
+    .cabMenu li a:hover {}
+
+    .cabMenu li a:hover [class*="icon"],
+    .cabMenu li a:hover .data,
+    .cabMenu li.active [class*="icon"],
+    .cabMenu li.active .data {}
+
+    .cabMenu+.cabBtns {}
+
+    .cabBtns {
+        top: calc(100% + 25px);
+    }
+
+    .cabBtns [class*="btn"] {}
+
+    .cabBtns [class*="btn"]+[class*="btn"] {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .rightSide {position: relative;}
+
+    .cabHead {
+        display: none;
+        position: absolute;
+        top:297px;
+        padding-top: 0px;
+        z-index: 5;
+        width: 100%;
+    }
+    
+    .cabHead::before {
+        content:'';
+        display: block;
+        position: absolute;
+        width: 1920px;
+        height: 100%;
+        top: 0px;
+        left: 50%;
+        margin-left: -960px;
+        background-color: #f1f0e0;
+    }
+
+    .balList {
+        padding-left: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .balList li {
+        display: block;
+    }
+
+    .balList li+li {
+        margin-left: 0px;
+        margin-top:30px;
+    }
+
+    .balList li .iconLeft {}
+
+    .balList li .iconLeft [class*="icon"] {}
+
+    .balList li .title {}
+
+    .balList li .title+.title {}
+
+    .balList li .title span {}
+
+    .balList li .num {}
+
+    .cabContent {
+        padding-top: 165px;
+    }
+
+    .cabContent .firstCap {
+        font-size: 24px;
+    }
+
+    .cabContent .firstCap::before,
+    .cabContent .firstCap::after {
+        display: none;
+    }
+
+    .accInfo {}
+
+    .accStat {}
+
+    .accStat li {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .accStat li+li {
+        margin-top: 20px;
+    }
+
+    .accStat li .title {}
+
+    .accStat li .num {
+        margin-top: 5px;
+    }
+
+    .accInfo .accStat+.upline {}
+
+    .upline {}
+
+    .upline .userBl .pic:hover {}
+
+    .upline .userBl+span {}
+
+    .upline a {}
+
+    .accInfo .upline+.refLink {}
+
+    .refLink {}
+
+    .refLink .itemForm {
+        padding-left: 0px;
+        width: 100%;
+    }
+
+    .refLink .itemForm label {
+        padding-left: 0px;
+    }
+
+    .refLink .itemForm input {}
+
+    .refLink .itemForm .icon {
+        display: none;
+    }
+
+    .refLink [class*="btn"] {}
+
+    .cabContent [class*="Cap"]+.editAcc {}
+
+    .editAcc {}
+
+    .editAcc .item {
+        float: none;
+        width: 100% !important;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .editAcc .title {}
+
+    .editAcc .item:nth-child(1) .title {
+        padding-left: 10px;
+    }
+
+
+    .editAcc .title+.formWrap {}
+
+    .editAcc .formWrap {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .editAcc .item:nth-child(3) {
+        text-align: left;
+    }
+
+    .editAcc .item:nth-child(3) .title {
+        padding-left: 15px;
+    }
+
+    .editAcc .item:nth-child(3) .formWrap .itemForm {
+        display: block;
+        width: 100%;
+    }
+
+    .editAcc .item:nth-child(3) .formWrap .itemForm+.itemForm {
+        margin-left: 0px;
+    }
+
+    .editAcc .itemForm+.itemForm {}
+
+    .editAcc .itemForm label {}
+
+    .editAcc .row+[class*="btn"] {}
+
+    .banTabs .tabList {}
+
+    .banTabs .tabList li {
+        width: 50%;
+    }
+
+    .banTabs .tabList a {}
+
+    .banTabs .tabList a:hover,
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabList .ui-state-active a {}
+
+    .banTabs .tabContent {
+        padding-top: 20px;
+    }
+
+    .banTabs .tabContent .img {}
+
+    .banTabs .tabContent .img+.link {
+        margin-top: 40px;
+    }
+
+    .banTabs .tabContent .link {
+        width: 100%;
+    }
+
+    .banTabs .tabContent .link .itemForm {
+        width: 100%;
+    }
+
+    .banTabs .tabContent .link input {}
+
+    .banTabs .tabContent [class*="btn"] {}
+
+    .depList {}
+
+    .depList .mCSB_inside>.mCSB_container {}
+
+    .depList .row {}
+
+    .depList .row+.row {}
+
+    .depList .row>.item {width: 100%;}
+    
+    .depItem .depBtn {
+        display: block;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        height: 26px;
+/*         background-color: rgba(62, 140, 153, 0.27); */
+        z-index: 1;
+        cursotr: pointer;
+        opacity: 1;
+        -webkit-transition: opacity 0.3s;
+        -moz-transition: opacity 0.3s;
+        -ms-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+    }
+    
+    .depItem::before {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 26px;
+        left: 0px;
+        bottom: 0px;
+        background-color: rgba(62, 140, 153, 0.07);
+        position: absolute;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+    
+    .depItem.active::before {
+        height: 270px;
+        background-color: rgba(62, 140, 153, 0.07);
+    }
+    
+    .depItem .depBtn span {
+        width: 100%;
+        margin: 0px auto;
+        height: 100%;
+        background-image: url(../img/dep_btn.png);
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-transition: transform 0.3s;
+        -moz-transition: transform 0.3s;
+        -ms-transition: transform 0.3s;
+        -o-transition: transform 0.3s;
+        transition: transform 0.3s;
+        cursor: pointer;
+    }
+    
+    .depItem .depBtn:hover {
+        opacity: 0.7;
+    }
+    
+    .depItem .depBtn.active span {
+        -webkit-transform: scale(-1);
+        -moz-transform: scale(-1);
+        -ms-transform: scale(-1);
+        -o-transform: scale(-1);
+        transform: scale(-1);
+    }
+
+    .depItem .date {}
+
+    .depItem .date span {}
+
+    .depItem .in {
+        height: 130px; 
+        overflow:hidden;
+        -webkit-transition: height 0.3s;
+        -moz-transition: height 0.3s;
+        -ms-transition: height 0.3s;
+        -o-transition: height 0.3s;
+        transition: height 0.3s;
+    }
+    .depItem.active .in {height: 390px;}
+
+    .depInfo {position: relative;}
+
+    .depInfo .col {}
+
+    .depInfo .col:first-child {padding-left: 20px;width: 50%;}
+
+    .depInfo .col:nth-child(2),
+    .depInfo .col:nth-child(3) {}
+
+    .depInfo .col:nth-child(2) {width: 50%;padding-left: 20px;}
+
+    .depInfo .col:nth-child(3) {width: 100%;padding-left: 0px;position: relative;top: 185px;text-align: center;padding-top: 0px;/*! display: none; */}
+
+    .depInfo .title {}
+    
+    .depInfo .tariff {
+        position: absolute;
+        top:130px;
+        width: 100%;
+        left: 0px;
+        text-align: center;
+        /*! display: none; */
+    }
+
+    .depInfo .tariff .title {}
+
+    .depInfo .tariff .num {}
+
+    .depInfo .tariff+.sum {margin-top: 0px;}
+
+    .depInfo .sum {
+        position: relative;
+        bottom:-5px;
+    }
+    
+    .depInfo .sum .num {}
+    
+    .depInfo .inv {
+        position: absolute;
+        top:190px;
+        left: 0px;
+        width: 100%;
+        text-align: center;
+        /*! display: none; */
+    }
+
+    .depInfo .inv .pct {}
+
+    .depInfo .inv .pct span {}
+
+    .depInfo .sys {
+        position: relative;
+        bottom: 0px;
+    }
+    
+    .depInfo .inv+.sys {
+        margin-top: 0px;
+    }
+
+    .depInfo .sys img {}
+
+    .depInfo .term+.term {margin-top: 20px;}
+
+    .depInfo .term .title+span {}
+
+    .depItem .progress {padding-left: 0px;background-color: transparent;position: absolute;top: 80px;text-align: center;width: 100%;}
+
+    .depItem .progress .title {}
+
+    .depItem .progress .line {display: none;}
+
+    .depItem .progress .line .done {}
+
+    .depItem .progress .title span {}
+
+    .depItem.disabled .in {}
+    
+    .depItem.disabled::before {
+        background-color: rgba(63, 63, 63, 0.1);
+    }
+
+    .depItem.disabled .progress {background: none;}
+
+    .depItem.disabled .progress>* {}
+
+    .referrals {padding-top: 15px;}
+
+    .refInfo {padding-left: 0px;text-align: center;}
+
+    .refInfo li {}
+
+    .refInfo li+li {margin-left: 0px;}
+
+    .refInfo li span {}
+
+    .refInfo+.refList {}
+
+    .refList {}
+    .refList .row>.item {
+        width: 100%;
+    }
+
+    .refList .mCSB_inside>.mCSB_container {}
+
+    .refList .row {}
+
+    .refList .row+.row {}
+
+    .refItem+.refItem {}
+    
+    .refItem {
+        background-color: rgba(62, 140, 153, 0.2);
+        padding-bottom:26px;
+        position: relative;
+    }
+    .refItem .refBtn {
+        display: block !important;
+        position: absolute;
+        width: 100%;
+        left: 0px;
+        bottom: 0px;
+        height: 26px !important;;
+        background-color: rgba(62, 140, 153, 0.07);
+        z-index: 1;
+        cursotr: pointer;
+        opacity: 1;
+        -webkit-transition: opacity 0.3s;
+        -moz-transition: opacity 0.3s;
+        -ms-transition: opacity 0.3s;
+        -o-transition: opacity 0.3s;
+        transition: opacity 0.3s;
+    }
+    
+    .refItem .refBtn span {
+        width: 100%;
+        margin: 0px auto;
+        height: 100%;
+        background-image: url(../img/dep_btn.png);
+        display: block;
+        background-position: center;
+        background-repeat: no-repeat;
+        -webkit-transition: transform 0.3s;
+        -moz-transition: transform 0.3s;
+        -ms-transition: transform 0.3s;
+        -o-transition: transform 0.3s;
+        transition: transform 0.3s;
+        cursor: pointer;
+    }
+    
+    .refItem .refBtn:hover span {
+        opacity: 0.7;
+    }
+    
+    .refItem .refBtn.active span {
+        -webkit-transform: scale(-1);
+        -moz-transform: scale(-1);
+        -ms-transform: scale(-1);
+        -o-transform: scale(-1);
+        transform: scale(-1);
+    }
+
+    .refItem .head {
+        text-align: center; 
+        background-color: transparent;
+        padding-left: 0px;
+        padding-top: 15px;
+        padding-bottom: 20px;
+        /*! display: block !important; */
+}
+
+    .refItem .head:hover {}
+
+    .refItem .iconLeft {padding: 0px;}
+
+    .refItem .iconLeft [class*="icon"] {display: none;}
+
+    .refItem .iconLeft .icon-plus {}
+
+    .refItem .iconLeft .icon-minus {}
+
+    .refItem .head.active .icon-minus {}
+
+    .refItem .head.active .icon-plus {}
+
+    .refItem .iconLeft .data li {font-size: 14px;}
+
+    .refItem .iconLeft .data li+li {}
+
+    .refItem .iconLeft .data li span {display: block;font-size: 16px;}
+
+    .refItem .iconLeft .data li:first-child span {display: block;font-size: 18px;}
+
+    .refItem .head .status {
+        position: static;
+        background: none;
+        width: 100%;
+        margin-top: 15px;
+        height: auto;
+    }
+    
+    .refItem .head:hover {
+        opacity: 1;
+    }
+
+    .refItem .status .title {font-size: 14px;}
+    .refItem .status .title + span {font-size: 16px; display: block;}
+
+    .refItem .content {
+        background-color: rgba(62, 140, 153, 0.07);
+        padding: 15px 15px 10px 20px;
+    }
+    .refItem .content .textBlock p {font-size: 14px;}
+
+    .refItem .head:not(.active)+.content {}
+
+    .history {}
+
+    .filter {width: 100%;}
+
+    .filter .date {width: 100%;}
+
+    .filter .type {}
+
+    .filter [class*="btn"] {float: none;margin-left: auto;margin-right: auto;display: table;}
+
+    .filter .date .itemForm {display: block;width: 100%;}
+
+    .filter .date .itemForm+.itemForm {margin-left: 0px;margin-top: 15px;}
+
+    .filter .itemForm label {display: block;}
+
+    .filter .itemForm .inputBlock {width: 285px;}
+
+    .filter .date .inputBlock {}
+
+    .filter .date .inputBlock .selectric-wrapper {}
+
+    .filter .date .inputBlock .selectric-wrapper:first-child {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(2) {}
+
+    .filter .date .inputBlock .selectric-wrapper:nth-child(3) {}
+
+    .inputBlock .selectric {}
+
+    .filter .inputBlock .selectric .label {}
+
+    .inputBlock .selectric .label {}
+
+    .inputBlock .selectric-items {}
+
+    .inputBlock .selectric-items li {}
+
+    .inputBlock .selectric-items li:hover {}
+
+    .inputBlock .selectric-items li.highlighted {}
+
+    .inputBlock .selectric .button {}
+
+    .inputBlock .selectric .button::after {}
+
+    .filter .date+.type {margin-top: 15px;margin-bottom: 15px;}
+
+    .filter+.histList {}
+
+    .histList {}
+    .histList .row>.item{
+        width: 100%;
+    }
+
+    .histList .mCSB_inside>.mCSB_container {}
+
+    .histItem {padding-left: 0px;text-align: center;}
+
+    .histItem+.histItem {}
+
+    .histItem .col {
+        width: 100% !important;;
+        float: none;
+    }
+    
+    .histItem .col + .col {
+        margin-top: 15px;
+    }
+
+    .histItem .col:first-child {}
+
+    .histItem .col:nth-child(2) {}
+
+    .histItem .col:nth-child(3) {}
+
+    .histItem .col li {}
+
+    .histItem .col li+li {
+        margin-top: 15px;
+    }
+
+    .histItem .col li span {}
+
+    .histItem .col li .date {}
+
+    .histItem .col li .type {}
+
+    .histItem .col li img {}
+
+    .bodyModal {}
+
+    .modalsScroll {}
+
+    .modalsScroll.open {}
+
+    .modals {}
+
+    .modals.table {}
+
+    .modals .tCell {}
+
+    #overlay {}
+
+    .blockMod {}
+
+    .blockMod .in {}
+
+    .regForm {}
+
+    .regForm [class*="Cap"] {}
+
+    .regForm>img {}
+
+    .regForm .close {}
+
+    .regForm .close:hover {}
+
+    .regForm [class*="Cap"]+.row {}
+
+    .regForm .title {}
+
+    .regForm .title+.formWrap {}
+
+    .regForm .formWrap {}
+
+    .regForm .formWrap .itemForm+.itemForm {}
+
+    .regForm .formWrap label {}
+
+    .regForm [class*="btn"] {}
+
+    .logForm {}
+
+    .logForm .formWrap {}
+
+    .logForm [class*="Cap"]+.logWrap {}
+
+    .logForm .logWrap {}
+
+    .logForm .logWrap .title {}
+
+    .logForm .logWrap .formWrap+[class*="btn"] {}
+
+    .logForm [class*="btn"]+.logLink {}
+
+    .logLink {}
+
+    .logLink li+li {}
+
+    .logLink li a {}
+}
