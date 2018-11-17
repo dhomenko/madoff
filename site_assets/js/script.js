@@ -46,37 +46,18 @@ $(document).ready(function () {
     if ($(".scrollBlock").length > 0) {
 
         $(".scrollBlock").map(function () {
-            $(this).mCustomScrollbar({
-                axis: "y"
-            });
+            if ($(window).width() >= 1500) {
+                $(this).mCustomScrollbar({
+                    axis: "y"
+                });
+            } else {
+                if (!$(this).hasClass('depList') && !$(this).hasClass('refList') && !$(this).hasClass('histList')) {
+                    $(this).mCustomScrollbar({
+                        axis: "y"
+                    });
+                }
+            }
         })
-
-        if ($(window).width() < 1500) {
-
-            $(".depList.scrollBlock").mCustomScrollbar("destroy")
-            $(".refList.scrollBlock").mCustomScrollbar("destroy")
-            $(".histList.scrollBlock").mCustomScrollbar("destroy")
-
-        }
-
-        // $(window).resize(function () {
-
-        //     if ($(window).width() < 1500) {
-
-        //         $(".depList.scrollBlock").mCustomScrollbar("destroy")
-        //         $(".refList.scrollBlock").mCustomScrollbar("destroy")
-        //         $(".histList.scrollBlock").mCustomScrollbar("destroy")
-
-        //     } else {
-        //         $(".scrollBlock").map(function () {
-        //             $(this).mCustomScrollbar({
-        //                 axis: "y"
-        //             });
-        //         })
-
-        //     }
-
-        // })
     }
 
     $('.enterNum').bind("change keyup input click", function () {

@@ -2,6 +2,42 @@
 tinc project builder
 styleFile create on 08.11.2018 16:50:47 ---
 */
+
+.homePage .menuBtn {
+    right: -10px;
+    top: -15px;
+}
+
+.menuBtn {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 25px;
+    z-index: 2;
+}
+
+.menuBtn span {
+    display: block;
+    width: 40px;
+    height: 7px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #adaa94;
+}
+
+.menuBtn span+span {
+    margin-top: 5px;
+}
+
+@media (min-width: 768px) {
+    .menuBtn {
+        display: none;
+    }
+}
+
 *,
 *::before,
 *::after {
@@ -21,7 +57,6 @@ body {
 .bodyWrap {
     overflow: hidden;
     /* min-height: 100vh; */
-
 }
 
 h1,
@@ -378,7 +413,6 @@ textarea:focus:-ms-input-placeholder {
 .inputBlock.textarea:after {
     background-image: url(../img/input-line_bott.png);
     background-position: left calc(100% - 3px);
-
 }
 
 input,
@@ -435,7 +469,6 @@ textarea {}
     line-height: 50px;
     letter-spacing: 0.01em;
     color: #3f3f3f;
-
 }
 
 [class^='btn']::before {
@@ -570,7 +603,6 @@ textarea {}
     display: none;
 }
 
-
 .firstCap::before {
     right: calc(100% + 20px);
     background-image: url(../img/title_left.png);
@@ -648,6 +680,12 @@ textarea {}
     background-position: center;
     background-repeat: no-repeat;
 }
+.mainImg [src*='anime']{
+    display: block;
+    position: absolute;
+    left: 325px;
+    top: 450px;
+}
 
 .homePage .logReg {
     position: absolute;
@@ -684,6 +722,7 @@ textarea {}
     -ms-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     transition: opacity 0.3s;
+    z-index: 0;
 }
 
 .logo:hover {
@@ -1555,7 +1594,6 @@ footer::before {
     margin-right: auto;
     font-size: 24px;
     color: #3e8c99;
-
 }
 
 .userBl .info {
@@ -1687,7 +1725,6 @@ footer::before {
 }
 
 .balList li .title+.title {
-
     margin-top: 10px;
 }
 
@@ -1795,7 +1832,6 @@ footer::before {
 }
 
 .refLink .itemForm label {
-
     padding-left: 25px;
 }
 
@@ -2555,6 +2591,19 @@ footer::before {
     margin: 0px auto;
 }
 
+.blockMod .menu {
+    position: static;
+    margin: 0px auto 0px;
+    text-align: center;
+    background: none;
+    box-shadow: none;
+    max-width: 290px;
+}
+
+.blockMod .menu li {
+    margin: 15px 15px 0px !important;
+}
+
 .modalForm {
     position: relative;
     margin: 0px auto;
@@ -2570,7 +2619,8 @@ footer::before {
 }
 
 .regForm {
-    width: 1275px;
+    max-width: 1275px;
+    width: 100%;
 }
 
 .modalForm [class*="Cap"] {
@@ -2644,8 +2694,9 @@ footer::before {
 }
 
 .logForm {
-    width: 975px;
-    margin: 0px auto
+    max-width: 975px;
+    margin: 0px auto;
+    width: 100%;
 }
 
 .logForm .formWrap {
@@ -2659,7 +2710,8 @@ footer::before {
 .logForm .logWrap {
     margin-left: auto;
     margin-right: auto;
-    width: 360px;
+    max-width: 360px;
+    width: 100%;
 }
 
 .logForm .logWrap .title {
@@ -2696,7 +2748,7 @@ footer::before {
     text-align: center
 }
 
-.depForm [class*="Cap"] + .wrap {
+.depForm [class*="Cap"]+.wrap {
     margin-top: 50px;
 }
 
@@ -2704,7 +2756,7 @@ footer::before {
     display: inline-block;
 }
 
-.depForm form>.wrap .item + .item {
+.depForm form>.wrap .item+.item {
     margin-left: 40px;
 }
 
@@ -2721,15 +2773,15 @@ footer::before {
     text-align: left;
 }
 
-.depForm .wrap + .profitBlock {
+.depForm .wrap+.profitBlock {
     margin-top: 65px;
 }
 
-.depForm .profitBlock + .paySys {
+.depForm .profitBlock+.paySys {
     margin-top: 60px;
 }
 
-.paySys .title + .payList {
+.paySys .title+.payList {
     margin-top: 15px;
 }
 
@@ -2750,7 +2802,7 @@ footer::before {
     display: inline-block;
 }
 
-.payList .item + .item {
+.payList .item+.item {
     margin-left: 55px;
 }
 
@@ -2775,10 +2827,9 @@ footer::before {
     -ms-transition: opacity 0.3s;
     -o-transition: opacity 0.3s;
     transition: opacity 0.3s;
-
 }
 
-.payList input:checked ~ .in::before {
+.payList input:checked~.in::before {
     opacity: 1;
 }
 
@@ -2791,12 +2842,12 @@ footer::before {
     width: 100%;
     height: 100%;
     z-index: 5;
-    top:0px;
+    top: 0px;
     left: 0px;
     cursor: pointer;
 }
 
-.payList .item label:hover ~ .in::before {
+.payList .item label:hover~.in::before {
     opacity: 1;
 }
 
@@ -2816,11 +2867,11 @@ footer::before {
 
 /* WITHDRAW */
 
-.withForm form>.wrap +.paySys {
+.withForm form>.wrap+.paySys {
     margin-top: 45px;
 }
 
-.withForm .paySys + .profitBlock {
+.withForm .paySys+.profitBlock {
     margin-top: 70px;
 }
 
@@ -2832,6 +2883,6 @@ footer::before {
     left: 0px;
 }
 
-.withForm .profitBlock + [class*="btn"] {
+.withForm .profitBlock+[class*="btn"] {
     margin-top: 70px;
 }
